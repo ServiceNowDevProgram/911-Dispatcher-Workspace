@@ -12,13 +12,5 @@ Other resources you should check out:
 
 And lastly, this repository is part of a larger coordinated effort by the ServiceNow Developer Advocate to provide lots of fun ServiceNow projects for Hacktoberfest. Be sure to check out the [main repository README](https://github.com/ServiceNowDevProgram/Hacktoberfest) to see what else you can participate in!
  
-# Content
-- [What is this even for?](#what-is-this-even-for)
-- [What do i need to know?](#what-do-i-need-to-know)
-- [File descriptions](#file-descriptions)
-- [Information on Portal Experience menus](#some-information-on-portal-experience-menus)
-# What is this even for?
-
-
 # What do I need to know?
 - We've created issues to list out contribution ideas you might want to pick up! Or if you think of new stuff to contribute, make a new issue and let us know what you're going to work on.
