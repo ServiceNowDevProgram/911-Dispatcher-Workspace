@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="911 Operators Workspace">b2fc8e0ff9653d10d5cfeca63546b8ed</dashboard>
+        <group/>
+        <role display_value="x_snc_911_operat_0.admin" name="x_snc_911_operat_0.admin">87c87f9547a9b510dca24587746d434a</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 15:48:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4c0d024f47653d10dca24587746d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b2fc8e0ff9653d10d5cfeca63546b8ed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>par_dashboard_permission_4c0d024f47653d10dca24587746d4343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 15:48:31</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

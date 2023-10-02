@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8f893bd547a9b510dca24587746d43e5" extends="task" label="Emergency" max_length="40" name="x_snc_911_operat_0_emergency" type="collection">
+        <element choice="1" label="Response dispatched" max_length="40" name="response_dispatched" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fire" sequence="0" value="fire"/>
+                <element inactive_on_update="false" label="Police" sequence="1" value="police"/>
+                <element inactive_on_update="false" label="EMS" sequence="2" value="ems"/>
+                <element inactive_on_update="false" label="Utilities" sequence="3" value="utilities"/>
+            </choice>
+        </element>
+    </element>
+</database>

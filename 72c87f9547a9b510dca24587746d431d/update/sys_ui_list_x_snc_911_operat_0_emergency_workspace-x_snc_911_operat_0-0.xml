@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_911_operat_0_emergency" version="2" view="workspace-911-operators-workspace-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_911_operat_0_emergency" element="NULL" name="x_snc_911_operat_0_emergency" parent="NULL" relationship="NULL" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f00d424f47653d10dca24587746d4337</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+            <sys_id>340d424f47653d10dca24587746d4338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_snc_911_operat_0_emergency" element="NULL" name="x_snc_911_operat_0_emergency" parent="NULL" relationship="NULL" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f00d424f47653d10dca24587746d4337</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+            <sys_id>3c0d424f47653d10dca24587746d4338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_snc_911_operat_0_emergency" element="NULL" name="x_snc_911_operat_0_emergency" parent="NULL" relationship="NULL" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f00d424f47653d10dca24587746d4337</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+            <sys_id>300d424f47653d10dca24587746d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_snc_911_operat_0_emergency" element="NULL" name="x_snc_911_operat_0_emergency" parent="NULL" relationship="NULL" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f00d424f47653d10dca24587746d4337</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+            <sys_id>340d424f47653d10dca24587746d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_snc_911_operat_0_emergency" element="NULL" name="x_snc_911_operat_0_emergency" parent="NULL" relationship="NULL" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f00d424f47653d10dca24587746d4337</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+            <sys_id>380d424f47653d10dca24587746d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="x_snc_911_operat_0_emergency" element="NULL" name="x_snc_911_operat_0_emergency" parent="NULL" relationship="NULL" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f00d424f47653d10dca24587746d4337</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+            <sys_id>3c0d424f47653d10dca24587746d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>response_dispatched</element>
+            <list_id display_value="x_snc_911_operat_0_emergency" element="NULL" name="x_snc_911_operat_0_emergency" parent="NULL" relationship="NULL" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f00d424f47653d10dca24587746d4337</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+            <sys_id>300d424f47653d10dca24587746d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_911_operat_0_emergency</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f00d424f47653d10dca24587746d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_911_operat_0_emergency</sys_name>
+            <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_911_operat_0_emergency_Workspace-x_snc_911_operat_0-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace 911 Operators Workspace 0" name="workspace-911-operators-workspace-0">7afc8e0f5b653d109d6c9065e86105ea</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

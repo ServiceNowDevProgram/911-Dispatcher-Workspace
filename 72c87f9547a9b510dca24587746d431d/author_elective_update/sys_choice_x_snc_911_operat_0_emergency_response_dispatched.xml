@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="response_dispatched" table="x_snc_911_operat_0_emergency" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>response_dispatched</element>
+            <name>x_snc_911_operat_0_emergency</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 16:19:50</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>response_dispatched</sys_name>
+            <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_911_operat_0_emergency_response_dispatched</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 16:19:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>response_dispatched</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fire</label>
+            <language>en</language>
+            <name>x_snc_911_operat_0_emergency</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 16:19:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 16:19:50</sys_updated_on>
+            <value>fire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>response_dispatched</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Police</label>
+            <language>en</language>
+            <name>x_snc_911_operat_0_emergency</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 16:19:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 16:19:50</sys_updated_on>
+            <value>police</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>response_dispatched</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EMS</label>
+            <language>en</language>
+            <name>x_snc_911_operat_0_emergency</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 16:19:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 16:19:50</sys_updated_on>
+            <value>ems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>response_dispatched</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utilities</label>
+            <language>en</language>
+            <name>x_snc_911_operat_0_emergency</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 16:19:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 16:19:50</sys_updated_on>
+            <value>utilities</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

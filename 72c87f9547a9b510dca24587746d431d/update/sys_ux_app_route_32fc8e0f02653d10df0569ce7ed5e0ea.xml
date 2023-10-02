@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="911 Operators Workspace Config">36fc8e0f30653d103e5f4badcf6f3ff5</app_config>
+        <description/>
+        <extension_point/>
+        <fields>notificationTrayDisplayed,notificationQueue,notificationTrayIsLoading,notificationUIRoute,toastItem</fields>
+        <icon/>
+        <name>Notification tray</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id>wsSidepanel</parent_macroponent_composition_element_id>
+        <route_type>notificationtray</route_type>
+        <screen_type display_value="Notification tray">f2fc8e0f91653d10921f7e0a724c10ea</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 15:48:27</sys_created_on>
+        <sys_id>32fc8e0f02653d10df0569ce7ed5e0ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification tray</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_app_route_32fc8e0f02653d10df0569ce7ed5e0ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 15:48:27</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=32fc8e0f02653d10df0569ce7ed5e0ea"/>
+</record_update>
