@@ -13,4 +13,6 @@ Other resources you should check out:
 And lastly, this repository is part of a larger coordinated effort by the ServiceNow Developer Advocate to provide lots of fun ServiceNow projects for Hacktoberfest. Be sure to check out the [main repository README](https://github.com/ServiceNowDevProgram/Hacktoberfest) to see what else you can participate in!
  
 # What do I need to know?
+- Consider this repository as a blank template you can make in to an awesome application. It's really bare bones right now, but think of useful features you want to add!
 - We've created issues to list out contribution ideas you might want to pick up! Or if you think of new stuff to contribute, make a new issue and let us know what you're going to work on.
+- To see the workspace, you have to give yourself the role `x_sinc_911_operat_0.admin` or it will not show up in the workspace listing.
