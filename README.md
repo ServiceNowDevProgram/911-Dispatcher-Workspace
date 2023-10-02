@@ -13,6 +13,10 @@ Other resources you should check out:
 And lastly, this repository is part of a larger coordinated effort by the ServiceNow Developer Advocate to provide lots of fun ServiceNow projects for Hacktoberfest. Be sure to check out the [main repository README](https://github.com/ServiceNowDevProgram/Hacktoberfest) to see what else you can participate in!
  
 # What do I need to know?
+
+The scenario: 911 is an emergency phone line in the USA that people call when there are varying types of emergencies. Our target user is a 911 operator, who answers these calls and must act quickly and with good judgement to execute upon what is required to connect a response agency (fire, ems, police, etc) to the emergency and provide the help people are calling for. This workspace is for them to triage emergency calls and get them connected to the right resources.
+
 - Consider this repository as a blank template you can make in to an awesome application. It's really bare bones right now, but think of useful features you want to add!
 - We've created issues to list out contribution ideas you might want to pick up! Or if you think of new stuff to contribute, make a new issue and let us know what you're going to work on.
 - To see the workspace, you have to give yourself the role `x_snc_911_operat_0.admin` or it will not show up in the workspace listing.
+
