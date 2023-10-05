@@ -6,6 +6,7 @@
                 <element inactive_on_update="false" label="Police" sequence="1" value="police"/>
                 <element inactive_on_update="false" label="EMS" sequence="2" value="ems"/>
                 <element inactive_on_update="false" label="Utilities" sequence="3" value="utilities"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
             </choice>
         </element>
     </element>
