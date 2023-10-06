@@ -23,6 +23,172 @@
             "composition": [
                 {
                     "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "container_pick_up_task",
+                    "elementLabel": "Container pick up task",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "button_pick_up_task",
+                                "elementLabel": "Button Pick up task",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "clnegbgfhaaddjnddffhhqqjkjsncl",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": {
+                                                    "dataBrokerId": "b997a84053021010cbc2ddeeff7b1228",
+                                                    "operationName": "REFRESH",
+                                                    "parentResourceId": "look_up_unassigned_records",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    }
+                                                },
+                                                "targetId": "clnegbgfhaaddjoddffhhqxjouempq",
+                                                "type": "DATABROKER_OP"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Pick up emergency task"
+                                        }
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "lg"
+                                    },
+                                    "tooltipContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Enter a label"
+                                        }
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "primary-negative"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "button_pick_up_task",
+                                        "styles": {}
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "align-items": "flex-end",
+                                    "flex-direction": "column",
+                                    "margin-right": "var(--now-scalable-space--lg)",
+                                    "margin-top": "var(--now-scalable-space--sm)"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "ariaRegionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "ariaRegionName": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "ariaRole": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "includeAriaHeading": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "section"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
                         "id": "4335ba6dca80378f7ba7a67cd6667bec",
                         "type": "MACROPONENT"
                     },
@@ -770,7 +936,7 @@
                                                     "type": "STATE_BINDING"
                                                 }
                                             },
-                                            "styles": {}
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -967,7 +1133,7 @@
                                                         "script": {
                                                             "apiVersion": "1.0.0",
                                                             "controllerElementId": null,
-                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\n\tvar fields = 'short_description=' + api.state.shortDescription +\n    '^description=Caller number: ' + api.state.phoneNumber +\n    ' | Description' + api.state.description;\n\n\treturn {\n\t\ttable: 'x_snc_911_operat_0_emergency',\n\t\ttemplateFields: fields,\n\t\tuseSetDisplayValue: false\n\t};\n}",
+                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\n\tvar fields = 'short_description=' + api.state.shortDescription +\n    '^description=Caller number: ' + api.state.phoneNumber +\n    ' | Description' + api.state.description;\n\n\tif(api.state.callerSysId != '')\n\tfields += '^caller=' + api.state.callerSysId;\n\n\treturn {\n\t\ttable: 'x_snc_911_operat_0_emergency',\n\t\ttemplateFields: fields,\n\t\tuseSetDisplayValue: false\n\t};\n}",
                                                             "scriptSysId": null,
                                                             "target": null
                                                         },
@@ -1243,6 +1409,7 @@
                                                 "grid-auto-rows": "1fr",
                                                 "grid-template-columns": "1fr",
                                                 "grid-template-rows": "1fr 1fr",
+                                                "margin-bottom": "var(--now-scalable-space--sm)",
                                                 "width": "100%"
                                             },
                                             "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
@@ -1360,6 +1527,13 @@
                 "default": {
                     "children": null,
                     "items": [
+                        {
+                            "element_id": "container_pick_up_task",
+                            "styles": {
+                                "align-self": "flex-end",
+                                "width": "100%"
+                            }
+                        },
                         {
                             "element_id": "form_header",
                             "styles": {
@@ -1749,6 +1923,147 @@
             }
         },
         "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "look_up_unassigned_records",
+        "elementLabel": "Look Up Unassigned Records",
+        "eventMappings": [
+            {
+                "eventMappingId": "clnegbxwffaaddlccddffhhqmeetdggqtw",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            },
+                            "sysId": "f3f991dc47713110cc546958c26d439a"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clnegbxwffaaddlddddffhhqmbjjghhfk",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "encodedQuery": {
+                "type": "JSON_LITERAL",
+                "value": "active=true^assigned_toISEMPTY^ORDERBYpriority^ORDERBYopened_at"
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_snc_911_operat_0_emergency"
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
+            "id": "9b4b978353211010cbc2ddeeff7b1245",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "assign_user_to_emergency_record",
+        "elementLabel": "Assign User to Emergency record",
+        "eventMappings": [
+            {
+                "eventMappingId": "clnegmpfmaaeeffbddffhhqbomhxjjjjl",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_OP_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            },
+                            "sysId": "37f991dc47713110cc546958c26d439a"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clnegmpfmaaeeffcddffhhqixwgqeesgg",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "recordId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "templateFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "useSetDisplayValue": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
     }
 ]</data>
         <description/>
@@ -1844,6 +2159,12 @@
   "message" : "Description",
   "comment" : ""
 }, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Pick up emergency task",
+  "comment" : ""
+}, {
   "message" : "Short description",
   "comment" : ""
 }, {
@@ -1890,20 +2211,32 @@
         "name": "userLocation",
         "shape": "",
         "valueType": "string"
+    },
+    {
+        "initialValue": null,
+        "name": "unassignedRecord",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "initialValue": null,
+        "name": "callerSysId",
+        "shape": "",
+        "valueType": "string"
     }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 09:20:31</sys_created_on>
         <sys_id>b9f098c047393110cc546958c26d434f</sys_id>
-        <sys_mod_count>79</sys_mod_count>
+        <sys_mod_count>91</sys_mod_count>
         <sys_name>Home with emergency call</sys_name>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_ux_macroponent_b9f098c047393110cc546958c26d434f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-05 14:21:18</sys_updated_on>
+        <sys_updated_on>2023-10-06 13:41:59</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b9f098c047393110cc546958c26d434f"/>
 </record_update>
