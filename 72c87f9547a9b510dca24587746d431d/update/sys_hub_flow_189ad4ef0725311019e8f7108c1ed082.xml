@@ -4,20 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1371000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=418117000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>Email notification for new emergency record</description>
         <internal_name>new_emergency_record_created</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Emergency Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛Emergency Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assignment_group"},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created_1.current.description","label":"Trigger - Record Created➛Emergency Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"description"},{"name":"Created_1.current.assignment_group.name","label":"Trigger - Record Created➛Emergency Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Created_1.current.assigned_to.name","label":"Trigger - Record Created➛Emergency Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Emergency Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assigned_to"},{"name":"Created_1.current.assigned_to.email","label":"Trigger - Record Created➛Emergency Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.assignment_group.email","label":"Trigger - Record Created➛Emergency Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.assigned_to.name","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created or Updated_1.current.assignment_group.name","label":"Trigger - Record Created or Updated➛Emergency Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Emergency Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"description"},{"name":"Created_1.current.assignment_group.email","label":"Trigger - Record Created➛Emergency Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created_1.current.assigned_to.email","label":"Trigger - Record Created➛Emergency Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Emergency Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assigned_to"},{"name":"Created_1.current.assigned_to.name","label":"Trigger - Record Created➛Emergency Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.assignment_group.name","label":"Trigger - Record Created➛Emergency Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Created_1.current.description","label":"Trigger - Record Created➛Emergency Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"description"},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛Emergency Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assignment_group"},{"name":"Created_1.current","label":"Trigger - Record Created➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Emergency Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Emergency Table","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Emergency Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"sys_id"}]</label_cache>
         <master_snapshot>8c1f98270765311019e8f7108c1ed09b</master_snapshot>
         <name>Email emergency record assignment</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>781f1c270765311019e8f7108c1ed01a</remote_trigger_id>
+        <remote_trigger_id>25df09490731311019e8f7108c1ed030</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>189ad4ef0725311019e8f7108c1ed082</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Email emergency record assignment</sys_name>
         <sys_overrides/>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
@@ -38,15 +38,17 @@
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_hub_flow_189ad4ef0725311019e8f7108c1ed082</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:16</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=189ad4ef0725311019e8f7108c1ed082"/>
     <sys_variable_value action="delete_multiple" query="document_key=189ad4ef0725311019e8f7108c1ed082"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_snc_911_operat_0_emergency">assignment_groupISNOTEMPTY^NQassigned_toISNOTEMPTY<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <condition table="x_snc_911_operat_0_emergency">assignment_groupISNOTEMPTY^assignment_groupVALCHANGES^NQassigned_toISNOTEMPTY^assigned_toVALCHANGES<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="false" field="assigned_to" goto="false" newquery="true" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -59,15 +61,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-03 21:05:13</sys_created_on>
+        <sys_created_on>2023-10-08 16:29:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>781f1c270765311019e8f7108c1ed01a</sys_id>
+        <sys_id>25df09490731311019e8f7108c1ed030</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:05:13</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:29:08</sys_updated_on>
         <table>x_snc_911_operat_0_emergency</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -76,14 +78,14 @@
         <identifier>189ad4ef0725311019e8f7108c1ed082</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-03 21:08:30</sys_created_on>
-        <sys_id>74df1c670765311019e8f7108c1ed0a7</sys_id>
+        <sys_created_on>2023-10-08 16:54:15</sys_created_on>
+        <sys_id>65955d010771311019e8f7108c1ed0aa</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
-        <trigger display_value="">781f1c270765311019e8f7108c1ed01a</trigger>
+        <sys_updated_on>2023-10-08 16:54:15</sys_updated_on>
+        <trigger display_value="">25df09490731311019e8f7108c1ed030</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN74df1c670765311019e8f7108c1ed0a7"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN65955d010771311019e8f7108c1ed0aa"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=189ad4ef0725311019e8f7108c1ed082^sys_idNOT INdd0f18270765311019e8f7108c1ed0de"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -94,10 +96,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:04:58</sys_created_on>
         <sys_id>dd0f18270765311019e8f7108c1ed0de</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:16</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -126,11 +128,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:04:58</sys_created_on>
         <sys_id>d90f18270765311019e8f7108c1ed0df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:28:45</sys_updated_on>
+        <value>assignment_groupISNOTEMPTY^assignment_groupVALCHANGES^NQassigned_toISNOTEMPTY^assigned_toVALCHANGES</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>dd0f18270765311019e8f7108c1ed0de</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:32:37</sys_created_on>
+        <sys_id>e8a0d9890731311019e8f7108c1ed03c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:04:58</sys_updated_on>
-        <value>assignment_groupISNOTEMPTY^NQassigned_toISNOTEMPTY</value>
-        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+        <sys_updated_on>2023-10-08 16:32:37</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=dd0f18270765311019e8f7108c1ed0de"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=189ad4ef0725311019e8f7108c1ed082"/>
@@ -295,14 +311,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:09</sys_created_on>
         <sys_id>592ed4e30765311019e8f7108c1ed089</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -379,14 +395,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:09</sys_created_on>
         <sys_id>992ed4e30765311019e8f7108c1ed082</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -412,16 +428,16 @@
         <comment>Send to 'Assignment Group' email</comment>
         <display_text/>
         <flow display_value="Email emergency record assignment">189ad4ef0725311019e8f7108c1ed082</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>98027245-2ec0-4164-9e8d-19018397f3e1</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:10</sys_created_on>
         <sys_id>2d2ed4e30765311019e8f7108c1ed0cf</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:55:06</sys_updated_on>
         <ui_id>e2456282-2458-4710-aa1b-d19c9e9dbdc6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2d2ed4e30765311019e8f7108c1ed0cf"/>
@@ -475,12 +491,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:10</sys_created_on>
         <sys_id>a52e18e30765311019e8f7108c1ed029</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:13</sys_updated_on>
-        <value>&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Emergency Record assigned to &lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_726b72eb-45dc-4880-8ddd-05dc3b9c60c0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;table style="height: 115px;" width="1204"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f1cf6261-4cc8-4d32-aac2-ebc6b93271ea" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f052a649-0de2-434c-8957-9dc26fef0410" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt; &lt;/p&gt;</value>
+        <sys_updated_on>2023-10-08 16:54:00</sys_updated_on>
+        <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2d2ed4e30765311019e8f7108c1ed0cf"/>
@@ -490,11 +504,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:10</sys_created_on>
         <sys_id>e92e18e30765311019e8f7108c1ed028</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:04:59</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:00</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Emergency Record assigned to your Group.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table style="height: 115px;" width="1204"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:2ab61d59-d2c5-4ae3-801b-09f5327ec316}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Short description"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_2ab61d59-d2c5-4ae3-801b-09f5327ec316" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:62996262-f4a9-469c-a86e-e3c5c8ac33d4}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Description"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_62996262-f4a9-469c-a86e-e3c5c8ac33d4" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -561,10 +588,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:10</sys_created_on>
         <sys_id>652ed4e30765311019e8f7108c1ed0c1</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:55:06</sys_updated_on>
         <ui_id>b139561f-5ba8-477c-a749-2f6875eabc0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=652ed4e30765311019e8f7108c1ed0c1"/>
@@ -618,12 +645,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:10</sys_created_on>
         <sys_id>ad2ed4e30765311019e8f7108c1ed0c4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:13</sys_updated_on>
-        <value>&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Emergency Case created and assigned to you.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;table style="height: 151px;" width="1208"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f1cf6261-4cc8-4d32-aac2-ebc6b93271ea" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f052a649-0de2-434c-8957-9dc26fef0410" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Assignment Group&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_726b72eb-45dc-4880-8ddd-05dc3b9c60c0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Assigned to&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1e25918f-df97-4f87-baa7-6114effa32d1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt; &lt;/p&gt;</value>
+        <sys_updated_on>2023-10-08 16:38:35</sys_updated_on>
+        <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=652ed4e30765311019e8f7108c1ed0c1"/>
@@ -633,11 +658,32 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:10</sys_created_on>
         <sys_id>e12ed4e30765311019e8f7108c1ed0c4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:04:58</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:41:08</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Emergency Case created and assigned to you.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table style="height: 151px;" width="1208"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e22aceb5-e7c5-4dbd-957a-294e207c9ebe}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Short description"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e22aceb5-e7c5-4dbd-957a-294e207c9ebe" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b74712ed-6a45-41fe-82a9-84dcffae3da8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Description"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b74712ed-6a45-41fe-82a9-84dcffae3da8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Assignment Group&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:a69df632-7c3b-4957-8b63-7c0a8203ddb3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Assignment group &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a69df632-7c3b-4957-8b63-7c0a8203ddb3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Assigned to&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f37d97b5-4636-43f3-965a-827cb950db60}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Assigned to &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f37d97b5-4636-43f3-965a-827cb950db60" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -690,7 +736,40 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=652ed4e30765311019e8f7108c1ed0c1"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=652ed4e30765311019e8f7108c1ed0c1"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=189ad4ef0725311019e8f7108c1ed082"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN152ed4e30765311019e8f7108c1ed091,212ed4e30765311019e8f7108c1ed0c6"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN04cf05490731311019e8f7108c1ed070,152ed4e30765311019e8f7108c1ed091,212ed4e30765311019e8f7108c1ed0c6,c8cf05490731311019e8f7108c1ed07a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">88cf05490731311019e8f7108c1ed06f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Email emergency record assignment">189ad4ef0725311019e8f7108c1ed082</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>42cef170-05ec-4616-969d-95904b197b89</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:28:45</sys_created_on>
+        <sys_id>04cf05490731311019e8f7108c1ed070</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:54:16</sys_updated_on>
+        <ui_id>4855b2b6-0480-4e6e-a3df-a04a952d2ccc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=04cf05490731311019e8f7108c1ed070"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=04cf05490731311019e8f7108c1ed070"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=04cf05490731311019e8f7108c1ed070"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">592ed4e30765311019e8f7108c1ed090</block>
@@ -714,10 +793,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:09</sys_created_on>
         <sys_id>152ed4e30765311019e8f7108c1ed091</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:16</sys_updated_on>
         <ui_id>42cef170-05ec-4616-969d-95904b197b89</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -793,7 +872,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -801,10 +880,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:01:10</sys_created_on>
         <sys_id>212ed4e30765311019e8f7108c1ed0c6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:16</sys_updated_on>
         <ui_id>98027245-2ec0-4164-9e8d-19018397f3e1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -865,7 +944,74 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=212ed4e30765311019e8f7108c1ed0c6"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=212ed4e30765311019e8f7108c1ed0c6"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN292e18e30765311019e8f7108c1ed02d,2d2e18e30765311019e8f7108c1ed02c,612e18e30765311019e8f7108c1ed02c,652e18e30765311019e8f7108c1ed02d,692e18e30765311019e8f7108c1ed02c,a12e18e30765311019e8f7108c1ed02d,e92e18e30765311019e8f7108c1ed02d,ed2e18e30765311019e8f7108c1ed02c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">44cf05490731311019e8f7108c1ed07a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Email emergency record assignment">189ad4ef0725311019e8f7108c1ed082</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98027245-2ec0-4164-9e8d-19018397f3e1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:28:45</sys_created_on>
+        <sys_id>c8cf05490731311019e8f7108c1ed07a</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:54:16</sys_updated_on>
+        <ui_id>e321d250-e51a-4ce9-94e3-ebada6bcf84a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c8cf05490731311019e8f7108c1ed07a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c8cf05490731311019e8f7108c1ed07a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c8cf05490731311019e8f7108c1ed07a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN0402d50d0731311019e8f7108c1ed07a,1d92914d0731311019e8f7108c1ed069,292e18e30765311019e8f7108c1ed02d,2d2e18e30765311019e8f7108c1ed02c,398599010771311019e8f7108c1ed035,40cf05490731311019e8f7108c1ed07f,5992914d0731311019e8f7108c1ed069,612e18e30765311019e8f7108c1ed02c,652e18e30765311019e8f7108c1ed02d,692e18e30765311019e8f7108c1ed02c,8c02d50d0731311019e8f7108c1ed07a,9192914d0731311019e8f7108c1ed06a,a12e18e30765311019e8f7108c1ed02d,c802d50d0731311019e8f7108c1ed07a,dd92914d0731311019e8f7108c1ed069,e92e18e30765311019e8f7108c1ed02d,ed2e18e30765311019e8f7108c1ed02c,fd8599010771311019e8f7108c1ed035"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:38:36</sys_created_on>
+        <sys_id>0402d50d0731311019e8f7108c1ed07a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:38:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>04ae61d5-2147-4eef-af30-23d21cd1754c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:08</sys_created_on>
+        <sys_id>1d92914d0731311019e8f7108c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b74712ed-6a45-41fe-82a9-84dcffae3da8</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
         <extra_info/>
@@ -899,6 +1045,57 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>726b72eb-45dc-4880-8ddd-05dc3b9c60c0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:54:00</sys_created_on>
+        <sys_id>398599010771311019e8f7108c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:54:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2ab61d59-d2c5-4ae3-801b-09f5327ec316</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:28:45</sys_created_on>
+        <sys_id>40cf05490731311019e8f7108c1ed07f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:28:45</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>43cb40eb-229f-4c41-80e4-67736bab2ea7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:08</sys_created_on>
+        <sys_id>5992914d0731311019e8f7108c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e22aceb5-e7c5-4dbd-957a-294e207c9ebe</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
@@ -955,6 +1152,40 @@
         <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created or Updated_1.current.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:38:36</sys_created_on>
+        <sys_id>8c02d50d0731311019e8f7108c1ed07a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:38:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>00fc72af-e915-421b-8fac-4330bfa770b4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.assigned_to.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:08</sys_created_on>
+        <sys_id>9192914d0731311019e8f7108c1ed06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f37d97b5-4636-43f3-965a-827cb950db60</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created_1.current.short_description}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -967,6 +1198,40 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>ad1e0224-0a03-4efe-8263-4c64658749f1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:38:36</sys_created_on>
+        <sys_id>c802d50d0731311019e8f7108c1ed07a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:38:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f0b1f665-0eff-4848-815d-a8989e77f9bb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.assignment_group.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:08</sys_created_on>
+        <sys_id>dd92914d0731311019e8f7108c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a69df632-7c3b-4957-8b63-7c0a8203ddb3</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
@@ -1001,6 +1266,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>1e25918f-df97-4f87-baa7-6114effa32d1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>189ad4ef0725311019e8f7108c1ed082</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:54:00</sys_created_on>
+        <sys_id>fd8599010771311019e8f7108c1ed035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:54:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>62996262-f4a9-469c-a86e-e3c5c8ac33d4</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=189ad4ef0725311019e8f7108c1ed082"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN190f18270765311019e8f7108c1ed0db,952ed4e30765311019e8f7108c1ed088,d92ed4e30765311019e8f7108c1ed08b"/>
@@ -1088,7 +1370,7 @@
         <copied_from_name/>
         <description>Email notification for new emergency record</description>
         <internal_name>email_emergency_record_assignment</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Emergency Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛Emergency Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assignment_group"},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created_1.current.description","label":"Trigger - Record Created➛Emergency Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"description"},{"name":"Created_1.current.assignment_group.name","label":"Trigger - Record Created➛Emergency Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Created_1.current.assigned_to.name","label":"Trigger - Record Created➛Emergency Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Emergency Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assigned_to"},{"name":"Created_1.current.assigned_to.email","label":"Trigger - Record Created➛Emergency Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.assignment_group.email","label":"Trigger - Record Created➛Emergency Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.assigned_to.name","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created or Updated_1.current.assignment_group.name","label":"Trigger - Record Created or Updated➛Emergency Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Emergency Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"description"},{"name":"Created_1.current.assignment_group.email","label":"Trigger - Record Created➛Emergency Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created_1.current.assigned_to.email","label":"Trigger - Record Created➛Emergency Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Emergency Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assigned_to"},{"name":"Created_1.current.assigned_to.name","label":"Trigger - Record Created➛Emergency Record➛Assigned to➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.assignment_group.name","label":"Trigger - Record Created➛Emergency Record➛Assignment group➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"Created_1.current.description","label":"Trigger - Record Created➛Emergency Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"description"},{"name":"Created_1.current.short_description","label":"Trigger - Record Created➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛Emergency Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assignment_group"},{"name":"Created_1.current","label":"Trigger - Record Created➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Emergency Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Emergency Table","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger - Record Created or Updated➛Emergency Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"sys_id"}]</label_cache>
         <master>true</master>
         <name>Email emergency record assignment</name>
         <natlang/>
@@ -1105,7 +1387,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c1f98270765311019e8f7108c1ed09b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1113,7 +1395,7 @@
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:28</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:14</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=8c1f98270765311019e8f7108c1ed09b"/>
@@ -1128,16 +1410,30 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>681fd8270765311019e8f7108c1ed0b6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:15</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=681fd8270765311019e8f7108c1ed0b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>681fd8270765311019e8f7108c1ed0b6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:32:50</sys_created_on>
+        <sys_id>7fa05d890731311019e8f7108c1ed06e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:32:50</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
         <document_key>681fd8270765311019e8f7108c1ed0b6</document_key>
@@ -1160,10 +1456,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:12</sys_created_on>
         <sys_id>ec1fd8270765311019e8f7108c1ed0b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:05:12</sys_updated_on>
-        <value>assignment_groupISNOTEMPTY^NQassigned_toISNOTEMPTY</value>
+        <sys_updated_on>2023-10-08 16:29:05</sys_updated_on>
+        <value>assignment_groupISNOTEMPTY^assignment_groupVALCHANGES^NQassigned_toISNOTEMPTY^assigned_toVALCHANGES</value>
         <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=681fd8270765311019e8f7108c1ed0b6"/>
@@ -1245,14 +1541,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:10</sys_created_on>
         <sys_id>041f98270765311019e8f7108c1ed09e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:27</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1413,14 +1709,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:10</sys_created_on>
         <sys_id>581fd8270765311019e8f7108c1ed02a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:27</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1446,16 +1742,16 @@
         <comment>Send to 'Assignment Group' email</comment>
         <display_text/>
         <flow display_value="Email emergency record assignment">8c1f98270765311019e8f7108c1ed09b</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>98027245-2ec0-4164-9e8d-19018397f3e1</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>2c1fd8270765311019e8f7108c1ed0b3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:28</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:14</sys_updated_on>
         <ui_id>e2456282-2458-4710-aa1b-d19c9e9dbdc6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2c1fd8270765311019e8f7108c1ed0b3"/>
@@ -1495,12 +1791,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>a01fd8270765311019e8f7108c1ed0b6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:26</sys_updated_on>
-        <value>&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Emergency Record assigned to &lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_726b72eb-45dc-4880-8ddd-05dc3b9c60c0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;table style="height: 115px;" width="1204"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f1cf6261-4cc8-4d32-aac2-ebc6b93271ea" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f052a649-0de2-434c-8957-9dc26fef0410" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt; &lt;/p&gt;</value>
+        <sys_updated_on>2023-10-08 16:54:12</sys_updated_on>
+        <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1524,11 +1818,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>a81fd8270765311019e8f7108c1ed0b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:05:11</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:12</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Emergency Record assigned to your Group.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table style="height: 115px;" width="1204"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:2ab61d59-d2c5-4ae3-801b-09f5327ec316}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Short description"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_2ab61d59-d2c5-4ae3-801b-09f5327ec316" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:62996262-f4a9-469c-a86e-e3c5c8ac33d4}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Description"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_62996262-f4a9-469c-a86e-e3c5c8ac33d4" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -1595,10 +1902,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>681fd8270765311019e8f7108c1ed091</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:27</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:13</sys_updated_on>
         <ui_id>b139561f-5ba8-477c-a749-2f6875eabc0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=681fd8270765311019e8f7108c1ed091"/>
@@ -1652,12 +1959,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>e01fd8270765311019e8f7108c1ed094</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:26</sys_updated_on>
-        <value>&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Emergency Case created and assigned to you.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;table style="height: 151px;" width="1208"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f1cf6261-4cc8-4d32-aac2-ebc6b93271ea" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f052a649-0de2-434c-8957-9dc26fef0410" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Assignment Group&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_726b72eb-45dc-4880-8ddd-05dc3b9c60c0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Assigned to&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;span class="data_pill  accepts_transform_functions"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1e25918f-df97-4f87-baa7-6114effa32d1" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt; &lt;/p&gt;</value>
+        <sys_updated_on>2023-10-08 16:41:22</sys_updated_on>
+        <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=681fd8270765311019e8f7108c1ed091"/>
@@ -1667,11 +1972,32 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>e81fd8270765311019e8f7108c1ed093</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:05:11</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:41:22</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Emergency Case created and assigned to you.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table style="height: 151px;" width="1208"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e22aceb5-e7c5-4dbd-957a-294e207c9ebe}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Short description"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e22aceb5-e7c5-4dbd-957a-294e207c9ebe" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b74712ed-6a45-41fe-82a9-84dcffae3da8}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Description"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b74712ed-6a45-41fe-82a9-84dcffae3da8" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Assignment Group&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:a69df632-7c3b-4957-8b63-7c0a8203ddb3}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Assignment group &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_a69df632-7c3b-4957-8b63-7c0a8203ddb3" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Assigned to&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f37d97b5-4636-43f3-965a-827cb950db60}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Emergency Record &amp;gt; Assigned to &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f37d97b5-4636-43f3-965a-827cb950db60" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -1724,7 +2050,40 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=681fd8270765311019e8f7108c1ed091"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=681fd8270765311019e8f7108c1ed091"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8c1f98270765311019e8f7108c1ed09b"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=8c1f98270765311019e8f7108c1ed09b^sys_idNOT IN141fd8270765311019e8f7108c1ed06c,981fd8270765311019e8f7108c1ed067"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8c1f98270765311019e8f7108c1ed09b^sys_idNOT IN09dfc5490731311019e8f7108c1ed091,141fd8270765311019e8f7108c1ed06c,981fd8270765311019e8f7108c1ed067,b4dfc5490731311019e8f7108c1ed088"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">44cf05490731311019e8f7108c1ed07a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Email emergency record assignment">8c1f98270765311019e8f7108c1ed09b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>98027245-2ec0-4164-9e8d-19018397f3e1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:29:06</sys_created_on>
+        <sys_id>09dfc5490731311019e8f7108c1ed091</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:54:14</sys_updated_on>
+        <ui_id>e321d250-e51a-4ce9-94e3-ebada6bcf84a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=09dfc5490731311019e8f7108c1ed091"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=09dfc5490731311019e8f7108c1ed091"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=09dfc5490731311019e8f7108c1ed091"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">a92ed4e30765311019e8f7108c1ed0c5</block>
@@ -1740,7 +2099,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1748,10 +2107,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>141fd8270765311019e8f7108c1ed06c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:27</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:14</sys_updated_on>
         <ui_id>98027245-2ec0-4164-9e8d-19018397f3e1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1835,10 +2194,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:11</sys_created_on>
         <sys_id>981fd8270765311019e8f7108c1ed067</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:27</sys_updated_on>
+        <sys_updated_on>2023-10-08 16:54:13</sys_updated_on>
         <ui_id>42cef170-05ec-4616-969d-95904b197b89</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1899,7 +2258,142 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=981fd8270765311019e8f7108c1ed067"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=981fd8270765311019e8f7108c1ed067"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8c1f98270765311019e8f7108c1ed09b^sys_idNOT IN601fd8270765311019e8f7108c1ed0b9,641fd8270765311019e8f7108c1ed0b8,641fd8270765311019e8f7108c1ed0b9,6c1fd8270765311019e8f7108c1ed0b8,e01fd8270765311019e8f7108c1ed0b9,e41fd8270765311019e8f7108c1ed0b9,e81fd8270765311019e8f7108c1ed0b8,ec1fd8270765311019e8f7108c1ed0b8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">88cf05490731311019e8f7108c1ed06f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Email emergency record assignment">8c1f98270765311019e8f7108c1ed09b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>42cef170-05ec-4616-969d-95904b197b89</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:29:05</sys_created_on>
+        <sys_id>b4dfc5490731311019e8f7108c1ed088</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:54:13</sys_updated_on>
+        <ui_id>4855b2b6-0480-4e6e-a3df-a04a952d2ccc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b4dfc5490731311019e8f7108c1ed088"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b4dfc5490731311019e8f7108c1ed088"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b4dfc5490731311019e8f7108c1ed088"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8c1f98270765311019e8f7108c1ed09b^sys_idNOT IN01a2554d0731311019e8f7108c1ed02f,01a2554d0731311019e8f7108c1ed030,0ddfc5490731311019e8f7108c1ed0c7,45955d010771311019e8f7108c1ed042,4da2554d0731311019e8f7108c1ed02e,4da2554d0731311019e8f7108c1ed02f,601fd8270765311019e8f7108c1ed0b9,641fd8270765311019e8f7108c1ed0b8,641fd8270765311019e8f7108c1ed0b9,6c1fd8270765311019e8f7108c1ed0b8,85a2554d0731311019e8f7108c1ed030,c1a2554d0731311019e8f7108c1ed02f,c1a2554d0731311019e8f7108c1ed030,c9955d010771311019e8f7108c1ed042,e01fd8270765311019e8f7108c1ed0b9,e41fd8270765311019e8f7108c1ed0b9,e81fd8270765311019e8f7108c1ed0b8,ec1fd8270765311019e8f7108c1ed0b8"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:23</sys_created_on>
+        <sys_id>01a2554d0731311019e8f7108c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b74712ed-6a45-41fe-82a9-84dcffae3da8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:23</sys_created_on>
+        <sys_id>01a2554d0731311019e8f7108c1ed030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>00fc72af-e915-421b-8fac-4330bfa770b4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:29:06</sys_created_on>
+        <sys_id>0ddfc5490731311019e8f7108c1ed0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:29:06</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>43cb40eb-229f-4c41-80e4-67736bab2ea7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:54:14</sys_created_on>
+        <sys_id>45955d010771311019e8f7108c1ed042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:54:14</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>62996262-f4a9-469c-a86e-e3c5c8ac33d4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.assigned_to.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:23</sys_created_on>
+        <sys_id>4da2554d0731311019e8f7108c1ed02e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f37d97b5-4636-43f3-965a-827cb950db60</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:23</sys_created_on>
+        <sys_id>4da2554d0731311019e8f7108c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f0b1f665-0eff-4848-815d-a8989e77f9bb</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
         <extra_info/>
@@ -1967,6 +2461,74 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>f052a649-0de2-434c-8957-9dc26fef0410</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:23</sys_created_on>
+        <sys_id>85a2554d0731311019e8f7108c1ed030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>04ae61d5-2147-4eef-af30-23d21cd1754c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:23</sys_created_on>
+        <sys_id>c1a2554d0731311019e8f7108c1ed02f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e22aceb5-e7c5-4dbd-957a-294e207c9ebe</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.assignment_group.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:41:23</sys_created_on>
+        <sys_id>c1a2554d0731311019e8f7108c1ed030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:41:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a69df632-7c3b-4957-8b63-7c0a8203ddb3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.short_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:54:14</sys_created_on>
+        <sys_id>c9955d010771311019e8f7108c1ed042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:54:14</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2ab61d59-d2c5-4ae3-801b-09f5327ec316</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>8c1f98270765311019e8f7108c1ed09b</attached_to>
@@ -2113,25 +2675,25 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>189ad4ef0725311019e8f7108c1ed082</sys_id>
         <latest_snapshot>8c1f98270765311019e8f7108c1ed09b</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-09-13-2023_09-21-2023_1911.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN891f1c270765311019e8f7108c1ed01c"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"891f1c270765311019e8f7108c1ed01c","name":"plan","plan_signature":null}}</plan>
         <plan_id>189ad4ef0725311019e8f7108c1ed082</plan_id>
-        <snapshot>8c1f98270765311019e8f7108c1ed09b</snapshot>
+        <snapshot>a9c591410771311019e8f7108c1ed0f4</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-03 21:05:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>891f1c270765311019e8f7108c1ed01c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:05:13</sys_updated_on>
-        <trigger display_value="">781f1c270765311019e8f7108c1ed01a</trigger>
+        <sys_updated_on>2023-10-08 16:54:15</sys_updated_on>
+        <trigger display_value="">25df09490731311019e8f7108c1ed030</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=189ad4ef0725311019e8f7108c1ed082"/>
 </record_update>
