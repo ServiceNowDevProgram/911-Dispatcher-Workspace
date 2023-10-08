@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
     <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
         <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
-        <order/>
         <page_registry display_value="911 Operators Workspace">fefc8e0fa9653d10483a2b51335c9df4</page_registry>
         <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

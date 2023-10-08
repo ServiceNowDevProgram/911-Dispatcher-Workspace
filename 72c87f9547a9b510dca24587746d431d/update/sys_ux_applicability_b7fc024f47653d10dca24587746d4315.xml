@@ -4,7 +4,6 @@
         <api_name>x_snc_911_operat_0.Audience for app 911-operators-workspace</api_name>
         <description/>
         <name>Audience for app 911-operators-workspace</name>
-        <role_names/>
         <roles>87c87f9547a9b510dca24587746d434a,c7c87f9547a9b510dca24587746d434f</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>

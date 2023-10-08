@@ -2,12 +2,10 @@
     <ais_search_profile action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>This is default AI Search profile for 911 Operators Workspace</description>
-        <exclude_from_evaluation>false</exclude_from_evaluation>
         <genius_result_assembly/>
         <label>911-operators-workspace Search Profile</label>
         <name>x_snc_911_operat_0_zkuzmd_search_profile</name>
         <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
-        <qna_model_id/>
         <state>DRAFT</state>
         <sys_class_name>ais_search_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>

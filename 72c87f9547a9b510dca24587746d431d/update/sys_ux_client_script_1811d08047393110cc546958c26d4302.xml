@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
-        <controller_preset/>
         <includes/>
         <macroponent display_value="Home with emergency call">b9f098c047393110cc546958c26d434f</macroponent>
         <name>callCreated</name>

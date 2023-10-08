@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
     <sys_search_context_config action="INSERT_OR_UPDATE">
-        <collapse_attachment>false</collapse_attachment>
-        <enable_exact_match>false</enable_exact_match>
         <evam_definition/>
         <genius_results_limit/>
         <hit_highlighting>false</hit_highlighting>
@@ -9,7 +7,6 @@
         <search_engine>zing</search_engine>
         <search_profile/>
         <search_results_limit>10</search_results_limit>
-        <show_tab_counts>false</show_tab_counts>
         <spell_check>false</spell_check>
         <suggestions_to_show_limit>10</suggestions_to_show_limit>
         <sys_class_name>sys_search_context_config</sys_class_name>

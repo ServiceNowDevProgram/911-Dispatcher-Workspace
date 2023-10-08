@@ -3,7 +3,6 @@
         <active>true</active>
         <app_config display_value="911 Operators Workspace Config">36fc8e0f30653d103e5f4badcf6f3ff5</app_config>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ {
   "eventMappingId" : "clddhhlgseeqaabaabddfggzvbnsshhkd",
   "isConfiguration" : false,
@@ -166,7 +165,7 @@
     "type" : "EVENT"
   } ]
 } ]</event_mappings>
-        <macroponent display_value="Analytics center">88cfd0cec3302010ec37e0dd9740dde6</macroponent>
+        <macroponent display_value="Analytics Center">88cfd0cec3302010ec37e0dd9740dde6</macroponent>
         <macroponent_config>{
   "label" : {
     "type" : "TRANSLATION_LITERAL",

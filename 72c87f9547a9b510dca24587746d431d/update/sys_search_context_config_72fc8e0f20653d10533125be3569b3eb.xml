@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
     <sys_search_context_config action="INSERT_OR_UPDATE">
-        <collapse_attachment>false</collapse_attachment>
-        <enable_exact_match>false</enable_exact_match>
         <evam_definition display_value="AI Search For Next Search">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
         <genius_results_limit>1</genius_results_limit>
         <hit_highlighting>false</hit_highlighting>
@@ -9,7 +7,6 @@
         <search_engine>ai_search</search_engine>
         <search_profile display_value="911-operators-workspace Search Profile">72fc8e0fcd653d10430672105696dcf4</search_profile>
         <search_results_limit>10</search_results_limit>
-        <show_tab_counts>false</show_tab_counts>
         <spell_check>true</spell_check>
         <suggestions_to_show_limit>10</suggestions_to_show_limit>
         <sys_class_name>sys_search_context_config</sys_class_name>

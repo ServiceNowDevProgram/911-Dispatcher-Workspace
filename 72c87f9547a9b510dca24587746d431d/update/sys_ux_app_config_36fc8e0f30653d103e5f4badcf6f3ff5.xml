@@ -4,7 +4,6 @@
         <custom_icon/>
         <default_route_type/>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <encode_query_string>false</encode_query_string>
         <icon/>
         <landing_path>home</landing_path>

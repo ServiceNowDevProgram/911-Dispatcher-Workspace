@@ -4,7 +4,6 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1371000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
@@ -30,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>189ad4ef0725311019e8f7108c1ed082</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Email emergency record assignment</sys_name>
         <sys_overrides/>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
@@ -38,7 +37,7 @@
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_hub_flow_189ad4ef0725311019e8f7108c1ed082</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:08:30</sys_updated_on>
+        <sys_updated_on>2023-10-07 14:54:12</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=189ad4ef0725311019e8f7108c1ed082"/>
@@ -231,7 +230,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=510f18270765311019e8f7108c1ed0d9"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -315,7 +313,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=592ed4e30765311019e8f7108c1ed089"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -399,7 +396,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=992ed4e30765311019e8f7108c1ed082"/>
     <sys_hub_flow_output action="delete_multiple" query="model=189ad4ef0725311019e8f7108c1ed082"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=189ad4ef0725311019e8f7108c1ed082"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN2d2ed4e30765311019e8f7108c1ed0cf,652ed4e30765311019e8f7108c1ed0c1"/>
@@ -408,7 +404,6 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment>Send to 'Assignment Group' email</comment>
         <display_text/>
         <flow display_value="Email emergency record assignment">189ad4ef0725311019e8f7108c1ed082</flow>
@@ -551,7 +546,6 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment>Send to 'Assigned to' person</comment>
         <display_text/>
         <flow display_value="Email emergency record assignment">189ad4ef0725311019e8f7108c1ed082</flow>
@@ -692,7 +686,6 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=189ad4ef0725311019e8f7108c1ed082"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN152ed4e30765311019e8f7108c1ed091,212ed4e30765311019e8f7108c1ed0c6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
         <block display_value="">592ed4e30765311019e8f7108c1ed090</block>
         <comment/>
         <connected_to/>
@@ -779,7 +772,6 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=152ed4e30765311019e8f7108c1ed091"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=152ed4e30765311019e8f7108c1ed091"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
         <block display_value="">a92ed4e30765311019e8f7108c1ed0c5</block>
         <comment/>
         <connected_to>42cef170-05ec-4616-969d-95904b197b89</connected_to>
@@ -1017,11 +1009,11 @@
         <sys_created_on>2023-10-03 21:04:58</sys_created_on>
         <sys_id>190f18270765311019e8f7108c1ed0db</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_189ad4ef0725311019e8f7108c1ed082_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-03 21:04:58</sys_updated_on>
         <url/>
@@ -1040,11 +1032,11 @@
         <sys_created_on>2023-10-03 21:01:09</sys_created_on>
         <sys_id>952ed4e30765311019e8f7108c1ed088</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_189ad4ef0725311019e8f7108c1ed082_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-03 21:01:09</sys_updated_on>
         <url/>
@@ -1063,11 +1055,11 @@
         <sys_created_on>2023-10-03 21:01:09</sys_created_on>
         <sys_id>d92ed4e30765311019e8f7108c1ed08b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_189ad4ef0725311019e8f7108c1ed082_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-03 21:01:09</sys_updated_on>
         <url/>
@@ -1076,12 +1068,30 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_189ad4ef0725311019e8f7108c1ed082"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_189ad4ef0725311019e8f7108c1ed082"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_189ad4ef0725311019e8f7108c1ed082"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN891f1c270765311019e8f7108c1ed01c"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>189ad4ef0725311019e8f7108c1ed082</plan_id>
+        <snapshot>8c1f98270765311019e8f7108c1ed09b</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 21:05:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>891f1c270765311019e8f7108c1ed01c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 21:05:13</sys_updated_on>
+        <trigger display_value="">781f1c270765311019e8f7108c1ed01a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=189ad4ef0725311019e8f7108c1ed082"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
@@ -1265,7 +1275,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=041f98270765311019e8f7108c1ed09e"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1349,7 +1358,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=581f98270765311019e8f7108c1ed0cb"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1433,7 +1441,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=581fd8270765311019e8f7108c1ed02a"/>
     <sys_hub_flow_output action="delete_multiple" query="model=8c1f98270765311019e8f7108c1ed09b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8c1f98270765311019e8f7108c1ed09b"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=8c1f98270765311019e8f7108c1ed09b^sys_idNOT IN2c1fd8270765311019e8f7108c1ed0b3,681fd8270765311019e8f7108c1ed091"/>
@@ -1442,7 +1449,6 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment>Send to 'Assignment Group' email</comment>
         <display_text/>
         <flow display_value="Email emergency record assignment">8c1f98270765311019e8f7108c1ed09b</flow>
@@ -1585,7 +1591,6 @@
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
-        <attributes/>
         <comment>Send to 'Assigned to' person</comment>
         <display_text/>
         <flow display_value="Email emergency record assignment">8c1f98270765311019e8f7108c1ed09b</flow>
@@ -1726,7 +1731,6 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=8c1f98270765311019e8f7108c1ed09b"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=8c1f98270765311019e8f7108c1ed09b^sys_idNOT IN141fd8270765311019e8f7108c1ed06c,981fd8270765311019e8f7108c1ed067"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
         <block display_value="">a92ed4e30765311019e8f7108c1ed0c5</block>
         <comment/>
         <connected_to>42cef170-05ec-4616-969d-95904b197b89</connected_to>
@@ -1813,7 +1817,6 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=141fd8270765311019e8f7108c1ed06c"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=141fd8270765311019e8f7108c1ed06c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <attributes/>
         <block display_value="">592ed4e30765311019e8f7108c1ed090</block>
         <comment/>
         <connected_to/>
@@ -2051,11 +2054,11 @@
         <sys_created_on>2023-10-03 21:05:10</sys_created_on>
         <sys_id>101f98270765311019e8f7108c1ed0d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8c1f98270765311019e8f7108c1ed09b_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-03 21:05:10</sys_updated_on>
         <url/>
@@ -2074,11 +2077,11 @@
         <sys_created_on>2023-10-03 21:05:10</sys_created_on>
         <sys_id>401f98270765311019e8f7108c1ed0c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8c1f98270765311019e8f7108c1ed09b_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-03 21:05:10</sys_updated_on>
         <url/>
@@ -2097,11 +2100,11 @@
         <sys_created_on>2023-10-03 21:05:10</sys_created_on>
         <sys_id>5c1fd8270765311019e8f7108c1ed02e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_8c1f98270765311019e8f7108c1ed09b_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-03 21:05:10</sys_updated_on>
         <url/>
@@ -2115,23 +2118,4 @@
         <latest_snapshot>8c1f98270765311019e8f7108c1ed09b</latest_snapshot>
         <compiler_build/>
     </sys_hub_flow>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=189ad4ef0725311019e8f7108c1ed082^sys_idNOT IN891f1c270765311019e8f7108c1ed01c"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
-        <plan_id>189ad4ef0725311019e8f7108c1ed082</plan_id>
-        <snapshot>8c1f98270765311019e8f7108c1ed09b</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-03 21:05:13</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>891f1c270765311019e8f7108c1ed01c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:05:13</sys_updated_on>
-        <trigger display_value="">781f1c270765311019e8f7108c1ed01a</trigger>
-    </sys_flow_trigger_plan>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=189ad4ef0725311019e8f7108c1ed082"/>
 </record_update>

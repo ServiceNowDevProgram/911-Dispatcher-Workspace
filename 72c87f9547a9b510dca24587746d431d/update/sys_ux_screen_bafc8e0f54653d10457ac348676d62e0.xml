@@ -3,7 +3,6 @@
         <active>true</active>
         <app_config display_value="911 Operators Workspace Config">36fc8e0f30653d103e5f4badcf6f3ff5</app_config>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ {&#13;
   "eventMappingId" : "7c4b7a6d-da76-4cfb-9561-c14388a97faf",&#13;
   "sourceEventApiName" : "sn_uib_base_aw.NAV_ITEM_SELECTED_RELAY_8515f3e853031010ffa5ddeeff7b1297",&#13;

@@ -9,7 +9,6 @@
             <item display_table="ais_search_profile" display_value="911-operators-workspace Search Profile" endquery="false" field="search_profile" goto="false" newquery="false" operator="=" or="false" value="72fc8e0fcd653d10430672105696dcf4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
-        <pretrained>false</pretrained>
         <profile display_value="911-operators-workspace Search Profile">72fc8e0fcd653d10430672105696dcf4</profile>
         <request_source>api</request_source>
         <solution_label>ais_relevancy_72fc8e0fcd653d10430672105696dcf4</solution_label>

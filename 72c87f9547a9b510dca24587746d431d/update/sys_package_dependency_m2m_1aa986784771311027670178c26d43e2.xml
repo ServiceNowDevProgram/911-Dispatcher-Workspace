@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Process Automation Designer Core - Model" source="com.glide.pad.core.model">653586b84731311027670178c26d43f9</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 02:03:18</sys_created_on>
+        <sys_id>1aa986784771311027670178c26d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 02:03:18</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

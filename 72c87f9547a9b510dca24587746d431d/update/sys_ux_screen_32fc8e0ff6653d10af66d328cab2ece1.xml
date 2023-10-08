@@ -3,7 +3,6 @@
         <active>true</active>
         <app_config display_value="911 Operators Workspace Config">36fc8e0f30653d103e5f4badcf6f3ff5</app_config>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ {
   "eventMappingId" : "ckhffjjisfyaaaabboddhhhmwraaxeeaft",
   "isConfiguration" : false,
