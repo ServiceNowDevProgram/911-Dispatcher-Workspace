@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>413246c847313110984fc88bd36d43a9</answer>
+        <condition table="var__m_sys_decision_input_44504ac447313110984fc88bd36d4365">u_response=fire^EQ<item display_value="Fire" endquery="false" field="u_response" goto="false" newquery="false" operator="=" or="false" value="fire"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Department selection ">44504ac447313110984fc88bd36d4365</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_44504ac447313110984fc88bd36d4365</input_table>
+        <label>Department selection _100</label>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 17:35:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d53246c847313110984fc88bd36d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Department selection _100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_decision_question_d53246c847313110984fc88bd36d43b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 17:35:17</sys_updated_on>
+    </sys_decision_question>
+</record_update>
