@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8f893bd547a9b510dca24587746d43e5" extends="task" label="Emergency" max_length="40" name="x_snc_911_operat_0_emergency" type="collection">
+        <element label="Caller" max_length="32" name="caller" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element choice="1" label="Response dispatched" max_length="40" name="response_dispatched" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Fire" sequence="0" value="fire"/>
                 <element inactive_on_update="false" label="Police" sequence="1" value="police"/>
                 <element inactive_on_update="false" label="EMS" sequence="2" value="ems"/>
                 <element inactive_on_update="false" label="Utilities" sequence="3" value="utilities"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element choice="1" label="Service required" max_length="40" name="service_required" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Police" sequence="1" value="police"/>
+                <element inactive_on_update="false" label="Ambulance" sequence="2" value="ambulance"/>
+                <element inactive_on_update="false" label="Fire Department" sequence="3" value="fire"/>
+                <element inactive_on_update="false" label="Coast Guard" sequence="4" value="coastguard"/>
+                <element inactive_on_update="false" label="Animal Control" sequence="5" value="animalcontrol"/>
+                <element hint="Water, Gas, Electricity etc" inactive_on_update="false" label="Utilities" sequence="6" value="utilities"/>
             </choice>
         </element>
     </element>
