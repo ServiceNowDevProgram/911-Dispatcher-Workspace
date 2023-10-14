@@ -10,5 +10,15 @@
                 <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
             </choice>
         </element>
+        <element choice="1" label="Service required" max_length="40" name="service_required" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Police" sequence="1" value="police"/>
+                <element inactive_on_update="false" label="Ambulance" sequence="2" value="ambulance"/>
+                <element inactive_on_update="false" label="Fire Department" sequence="3" value="fire"/>
+                <element inactive_on_update="false" label="Coast Guard" sequence="4" value="coastguard"/>
+                <element inactive_on_update="false" label="Animal Control" sequence="5" value="animalcontrol"/>
+                <element hint="Water, Gas, Electricity etc" inactive_on_update="false" label="Utilities" sequence="6" value="utilities"/>
+            </choice>
+        </element>
     </element>
 </database>
