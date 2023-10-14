@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {},
+    "table": "x_snc_911_operat_0_emergency",
+    "sysId": "8ff5623d97f1f1105f30f757f053af08",
+    "query": null,
+    "extraParams": null,
+    "views": "",
+    "selectedTabIndex": 0
+}</macroponent_config>
+        <screen display_value="Emergency Record Page with contact details">25d1fefd9735f1105f30f757f053af32</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-11 07:32:45</sys_created_on>
+        <sys_id>69d1fefd9735f1105f30f757f053af35</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_69d1fefd9735f1105f30f757f053af35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-11 07:40:11</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
