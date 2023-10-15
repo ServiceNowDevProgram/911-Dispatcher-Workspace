@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="753b8cd797f131105f30f757f053afde" sys_domain="global" table="x_snc_911_operat_0_emergency" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 11:15:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>353b8cd797f131105f30f757f053afe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_911_operat_0_emergency" name="x_snc_911_operat_0_emergency" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">753b8cd797f131105f30f757f053afde</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_911_operat_0_emergency" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">700d024f47653d10dca24587746d43c3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 11:15:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 11:15:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b13b8cd797f131105f30f757f053afe3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_911_operat_0_emergency" name="x_snc_911_operat_0_emergency" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">753b8cd797f131105f30f757f053afde</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_911_operat_0_emergency" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f93b8cd797f131105f30f757f053af47</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 11:15:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_911_operat_0_emergency</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 11:15:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>753b8cd797f131105f30f757f053afde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_911_operat_0_emergency</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_753b8cd797f131105f30f757f053afde</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 11:15:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace 911 Operators Workspace 0" name="workspace-911-operators-workspace-0">7afc8e0f5b653d109d6c9065e86105ea</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
