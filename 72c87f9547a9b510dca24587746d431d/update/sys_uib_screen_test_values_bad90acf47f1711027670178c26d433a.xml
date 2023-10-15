@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "table" : "x_snc_911_operat_0_emergency",
+  "sysId" : "25ea390f47b1711027670178c26d4340"
+}</macroponent_config>
+        <screen display_value="Emergency Record Page">ec0d424f47653d10dca24587746d430a</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 01:50:29</sys_created_on>
+        <sys_id>bad90acf47f1711027670178c26d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_bad90acf47f1711027670178c26d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 01:50:29</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

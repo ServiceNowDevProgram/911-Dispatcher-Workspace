@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_configuration">
+    <sys_playbook_experience_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assigned_to_field>assigned_to</assigned_to_field>
+        <expand_first_prioritized_card>true</expand_first_prioritized_card>
+        <filter_fields>assigned_to,state</filter_fields>
+        <filter_on_playbook_card_status>true</filter_on_playbook_card_status>
+        <inaccessible_data_visibility>HIDE_INACCESSIBLE_DATA</inaccessible_data_visibility>
+        <max_form_fields_on_card>15</max_form_fields_on_card>
+        <order>0</order>
+        <pending_activity_display>SHOW_ALL</pending_activity_display>
+        <playbook_experience display_value="911 Playbook Experience">7a85fd0347b1711027670178c26d4306</playbook_experience>
+        <playbook_record>eee6b58747b1711027670178c26d43b3</playbook_record>
+        <playbook_table>sys_pd_process_definition</playbook_table>
+        <show_activity_state>true</show_activity_state>
+        <show_automated_manual_indicator>true</show_automated_manual_indicator>
+        <sla_configuration/>
+        <sys_class_name>sys_playbook_experience_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 00:23:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>62e5318747b1711027670178c26d431b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_playbook_experience_configuration_62e5318747b1711027670178c26d431b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 00:57:08</sys_updated_on>
+    </sys_playbook_experience_configuration>
+</record_update>
