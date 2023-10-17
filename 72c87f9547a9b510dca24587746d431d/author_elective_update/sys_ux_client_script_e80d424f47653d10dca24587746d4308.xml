@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Emergency Record Page">140d024f47653d10dca24587746d43f9</macroponent>
+        <name>viewport_gph/initiallyCollapsed</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 15:48:34</sys_created_on>
+        <sys_id>e80d424f47653d10dca24587746d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_client_script_e80d424f47653d10dca24587746d4308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</application>
+        <file_path/>
+        <instance_id>39ba21c6db1211508aea21c405961955</instance_id>
+        <instance_name>dev138730</instance_name>
+        <name>sys_ux_client_script_e80d424f47653d10dca24587746d4308</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Emergency Record Page"&gt;140d024f47653d10dca24587746d43f9&lt;/macroponent&gt;&lt;name&gt;viewport_gph/initiallyCollapsed&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-02 15:48:34&lt;/sys_created_on&gt;&lt;sys_id&gt;e80d424f47653d10dca24587746d4308&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;viewport_gph/initiallyCollapsed&lt;/sys_name&gt;&lt;sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0"&gt;72c87f9547a9b510dca24587746d431d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="911 Operators Workspace"&gt;72c87f9547a9b510dca24587746d431d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_e80d424f47653d10dca24587746d4308&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-02 15:48:34&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-596784623</payload_hash>
+        <record_name>viewport_gph/initiallyCollapsed</record_name>
+        <reverted_from/>
+        <source>95c465cf4731711027670178c26d43e4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 01:50:30</sys_created_on>
+        <sys_id>0fd90acf47f1711027670178c26d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b3107177e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 01:50:30</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>83d90acf91f171104a7019bc1232a64f</update_guid>
+        <update_guid_history>83d90acf91f171104a7019bc1232a64f:-596784623,9ba421836d717110d1c6970069082de0:0,4b3421034d7171103e852497c13f2928:91895175,4890336c30353110088ec96ce87b599b:1587061816</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 01:50:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>3cb710953a824b4896a1780514ade8c9</sys_id>
+        <sys_metadata>e80d424f47653d10dca24587746d4308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_scope_delete display_value="">564d3bc910cd4e6f950f8a931f9bc701</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_e80d424f47653d10dca24587746d4308</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_e80d424f47653d10dca24587746d4308">0fd90acf47f1711027670178c26d434f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 01:50:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

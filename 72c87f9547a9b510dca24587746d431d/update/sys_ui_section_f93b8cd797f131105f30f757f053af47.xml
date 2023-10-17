@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="f93b8cd797f131105f30f757f053af47" sys_domain="global" table="x_snc_911_operat_0_emergency" version="3" view="workspace-911-operators-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 11:15:40</sys_created_on>
+            <sys_id>313bccd797f131105f30f757f053af07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_911_operat_0_emergency" sys_domain="global" view="7afc8e0f5b653d109d6c9065e86105ea">f93b8cd797f131105f30f757f053af47</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 11:15:40</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_snc_911_operat_0_emergency</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 11:15:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f93b8cd797f131105f30f757f053af47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_911_operat_0_emergency</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+            <sys_update_name>sys_ui_section_f93b8cd797f131105f30f757f053af47</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 11:15:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace 911 Operators Workspace 0" name="workspace-911-operators-workspace-0">7afc8e0f5b653d109d6c9065e86105ea</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
