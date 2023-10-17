@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="x_snc_911_operat_0_emergency" section_id="fbf7790b47b1711027670178c26d43df" sys_domain="global" table="x_snc_911_operat_0_emergency" version="3" view="playbook">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 00:33:48</sys_created_on>
+            <sys_id>a348fd0b47b1711027670178c26d43f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_snc_911_operat_0_emergency" display_value="x_snc_911_operat_0_emergency" name="x_snc_911_operat_0_emergency" sys_domain="global" view="77f7790b47b1711027670178c26d43db">fbf7790b47b1711027670178c26d43df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 00:33:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 00:33:48</sys_created_on>
+            <sys_id>ab48fd0b47b1711027670178c26d43f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_snc_911_operat_0_emergency" display_value="x_snc_911_operat_0_emergency" name="x_snc_911_operat_0_emergency" sys_domain="global" view="77f7790b47b1711027670178c26d43db">fbf7790b47b1711027670178c26d43df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 00:33:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 00:33:48</sys_created_on>
+            <sys_id>af48fd0b47b1711027670178c26d43f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="x_snc_911_operat_0_emergency" display_value="x_snc_911_operat_0_emergency" name="x_snc_911_operat_0_emergency" sys_domain="global" view="77f7790b47b1711027670178c26d43db">fbf7790b47b1711027670178c26d43df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 00:33:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>x_snc_911_operat_0_emergency</caption>
+            <header>false</header>
+            <name>x_snc_911_operat_0_emergency</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-15 00:32:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbf7790b47b1711027670178c26d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_911_operat_0_emergency</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+            <sys_update_name>sys_ui_section_fbf7790b47b1711027670178c26d43df</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-15 00:32:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="playbook" name="playbook">77f7790b47b1711027670178c26d43db</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
