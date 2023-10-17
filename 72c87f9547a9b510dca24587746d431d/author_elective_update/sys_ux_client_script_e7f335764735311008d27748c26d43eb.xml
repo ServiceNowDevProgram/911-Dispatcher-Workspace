@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home with emergency call - Layout Change and Validations">6b10f9fa47f1311008d27748c26d4331</macroponent>
+        <name>create_button/disabled</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    console.log('check it');
+    if (api.state.phoneNumber == null || api.state.shortDescription == null || api.state.description == null) {
+        console.log('inside');
+        return true;
+    } else {
+        console.log('flase');
+        return false;
+    }
+}
+//IF(((@state.shortDescription || @state.phoneNumber) || @state.description), true, false)]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-14 07:15:31</sys_created_on>
+        <sys_id>e7f335764735311008d27748c26d43eb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>create_button/disabled</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_client_script_e7f335764735311008d27748c26d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-14 07:21:15</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</application>
+        <file_path/>
+        <instance_id>4fd53445db0297c0439ef70fbf9619c4</instance_id>
+        <instance_name>dev59055</instance_name>
+        <name>sys_ux_client_script_e7f335764735311008d27748c26d43eb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Home with emergency call - Layout Change and Validations"&gt;6b10f9fa47f1311008d27748c26d4331&lt;/macroponent&gt;&lt;name&gt;create_button/disabled&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    console.log('check it');
+    if (api.state.phoneNumber == null || api.state.shortDescription == null || api.state.description == null) {
+        console.log('inside');
+        return true;
+    } else {
+        console.log('flase');
+        return false;
+    }
+}
+//IF(((@state.shortDescription || @state.phoneNumber) || @state.description), true, false)]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-14 07:15:31&lt;/sys_created_on&gt;&lt;sys_id&gt;e7f335764735311008d27748c26d43eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;create_button/disabled&lt;/sys_name&gt;&lt;sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0"&gt;72c87f9547a9b510dca24587746d431d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="911 Operators Workspace"&gt;72c87f9547a9b510dca24587746d431d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_e7f335764735311008d27748c26d43eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-14 07:21:15&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1017901504</payload_hash>
+        <record_name>create_button/disabled</record_name>
+        <reverted_from/>
+        <source>d61865204779f51008d27748c26d43dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-14 07:21:15</sys_created_on>
+        <sys_id>9efb82b64739311008d27748c26d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b2d0f8ba60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-14 07:21:15</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>d2fb82b63c393110ad70f0830ded0af6</update_guid>
+        <update_guid_history>d2fb82b63c393110ad70f0830ded0af6:1017901504,0cdb0e76c5393110e3a85c2c1392db41:-1147541742,a1facef28f3931107c3e6dcc669994bd:-353209096,deaa46f2843931103c56048725ff8993:-1404241103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-14 07:23:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0adaa2d1d475430087531b9335caaac4</sys_id>
+        <sys_metadata>e7f335764735311008d27748c26d43eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>create_button/disabled</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_scope_delete display_value="">564d3bc910cd4e6f950f8a931f9bc701</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_e7f335764735311008d27748c26d43eb</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_e7f335764735311008d27748c26d43eb">9efb82b64739311008d27748c26d43f6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-14 07:23:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
