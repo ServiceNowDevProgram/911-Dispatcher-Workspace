@@ -11,7 +11,10 @@
                 <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
             </choice>
         </element>
-        <element choice="1" label="Service required" max_length="1024" name="service_required" type="glide_list">
+        <element choice="1" label="Services Required" max_length="40" name="services_required" reference="x_snc_911_operat_0_emergency_service_type" type="glide_list">
+            <choice/>
+        </element>
+        <element choice="1" label="Service required" max_length="40" name="service_required" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="Police" sequence="1" value="police"/>
                 <element inactive_on_update="false" label="Ambulance" sequence="2" value="ambulance"/>
