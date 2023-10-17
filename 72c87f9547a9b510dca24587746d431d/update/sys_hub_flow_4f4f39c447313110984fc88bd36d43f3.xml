@@ -4,14 +4,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=610462000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1033243000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>Dispatch Emergency Request Task to the respective Departments</description>
         <internal_name>response_dispatch_flow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Emergency Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"state","choices":[{"used":false,"image":"","label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"reference":false,"value":"10","parameters":{"name":"task"}},{"used":false,"image":"","label":"Pending","rawLabel":"Pending","selected":false,"missing":false,"reference":false,"value":"-5","parameters":{"name":"task"}},{"used":false,"image":"","label":"Open","rawLabel":"Open","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"task"}},{"used":false,"image":"","label":"Work in Progress","rawLabel":"Work in Progress","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"task"}},{"used":false,"image":"","label":"Closed Complete","rawLabel":"Closed Complete","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"task"}},{"used":false,"image":"","label":"Closed Incomplete","rawLabel":"Closed Incomplete","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"task"}},{"used":false,"image":"","label":"Closed Skipped","rawLabel":"Closed Skipped","selected":false,"missing":false,"reference":false,"value":"7","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assigned_to"},{"name":"Created or Updated_1.current.assigned_to.manager","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"978e7cc2-9ed5-414c-969b-df08b763cd1a.answer","label":"2 - Summarize the case Gen Ai➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2b84850b-3ad3-481a-8d79-1a2635cd419b"}},{"name":"a465f07d-9fdc-4b9e-9765-54bfd195364a.answer","label":"1 - Summarize the case Gen Ai➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2b84850b-3ad3-481a-8d79-1a2635cd419b"}},{"name":"Created or Updated_1.current.urgency","label":"Trigger - Record Created or Updated➛Emergency Record➛Urgency","reference":"","reference_display":"Urgency","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"urgency","choices":[{"used":false,"image":"","label":"1 - High","rawLabel":"1 - High","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"task"}},{"used":false,"image":"","label":"2 - Medium","rawLabel":"2 - Medium","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"task"}},{"used":false,"image":"","label":"3 - Low","rawLabel":"3 - Low","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Emergency Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"image":"","label":"1 - Critical","rawLabel":"1 - Critical","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"task"}},{"used":false,"image":"","label":"2 - High","rawLabel":"2 - High","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"task"}},{"used":false,"image":"","label":"3 - Moderate","rawLabel":"3 - Moderate","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"task"}},{"used":false,"image":"","label":"4 - Low","rawLabel":"4 - Low","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"task"}},{"used":false,"image":"","label":"5 - Planning","rawLabel":"5 - Planning","selected":false,"missing":false,"reference":false,"value":"5","parameters":{"name":"task"}}]},{"name":"c7955a7f-2830-45d9-9da1-cfff6951405f.Record","label":"19 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e696fe29-a11c-4c45-b364-fb772ee35510.Record","label":"15 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6f6b6673-57bd-4f79-9ab6-b235d5bff154.Record","label":"11 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Emergency Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"number"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"e2ed9fd5-7dd8-4965-94c3-44a5d851ea68.Record","label":"7 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Emergency Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"state","choices":[{"used":false,"label":"Approved","image":"","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"10","parameters":{"name":"task"}},{"used":false,"label":"Pending","image":"","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task"}},{"used":false,"label":"Open","image":"","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"used":false,"label":"Work in Progress","image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"used":false,"label":"Closed Complete","image":"","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"used":false,"label":"Closed Incomplete","image":"","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"used":false,"label":"Closed Skipped","image":"","reference":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assigned_to"},{"name":"Created or Updated_1.current.assigned_to.manager","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"978e7cc2-9ed5-414c-969b-df08b763cd1a.answer","label":"2 - Summarize the case Gen Ai➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2b84850b-3ad3-481a-8d79-1a2635cd419b"}},{"name":"a465f07d-9fdc-4b9e-9765-54bfd195364a.answer","label":"1 - Summarize the case Gen Ai➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2b84850b-3ad3-481a-8d79-1a2635cd419b"}},{"name":"Created or Updated_1.current.urgency","label":"Trigger - Record Created or Updated➛Emergency Record➛Urgency","reference":"","reference_display":"Urgency","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"urgency","choices":[{"used":false,"label":"1 - High","image":"","reference":false,"rawLabel":"1 - High","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"used":false,"label":"2 - Medium","image":"","reference":false,"rawLabel":"2 - Medium","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"used":false,"label":"3 - Low","image":"","reference":false,"rawLabel":"3 - Low","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Emergency Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task"}}]},{"name":"c7955a7f-2830-45d9-9da1-cfff6951405f.Record","label":"19 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e696fe29-a11c-4c45-b364-fb772ee35510.Record","label":"15 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6f6b6673-57bd-4f79-9ab6-b235d5bff154.Record","label":"11 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Emergency Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"number"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"e2ed9fd5-7dd8-4965-94c3-44a5d851ea68.Record","label":"7 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>81cf8e8c47713110984fc88bd36d43e2</master_snapshot>
         <name>Response Dispatch flow</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4f4f39c447313110984fc88bd36d43f3</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Response Dispatch flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_hub_flow_4f4f39c447313110984fc88bd36d43f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:33</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4f4f39c447313110984fc88bd36d43f3"/>
@@ -75,14 +75,14 @@
         <identifier>4f4f39c447313110984fc88bd36d43f3</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-12 18:57:07</sys_created_on>
-        <sys_id>d4189e9247717110984fc88bd36d4354</sys_id>
+        <sys_created_on>2023-10-17 16:23:31</sys_created_on>
+        <sys_id>fad4aff747713110984fc88bd36d4321</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:07</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:31</sys_updated_on>
         <trigger display_value="">4ecf02cc47713110984fc88bd36d4329</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4f4f39c447313110984fc88bd36d43f3^sys_idNOT INd4189e9247717110984fc88bd36d4354"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4f4f39c447313110984fc88bd36d43f3^sys_idNOT INfad4aff747713110984fc88bd36d4321"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=4f4f39c447313110984fc88bd36d43f3^sys_idNOT IN52f746c047713110984fc88bd36d436f"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -93,10 +93,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>52f746c047713110984fc88bd36d436f</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:31</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -294,14 +294,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:28</sys_created_on>
         <sys_id>92f746c047713110984fc88bd36d4355</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -378,14 +378,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>96f746c047713110984fc88bd36d435d</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -417,10 +417,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>16f746c047713110984fc88bd36d439d</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>e2ed9fd5-7dd8-4965-94c3-44a5d851ea68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=16f746c047713110984fc88bd36d439d"/>
@@ -480,10 +480,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:30</sys_created_on>
         <sys_id>2ef746c047713110984fc88bd36d43f5</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:33</sys_updated_on>
         <ui_id>c7955a7f-2830-45d9-9da1-cfff6951405f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ef746c047713110984fc88bd36d43f5"/>
@@ -543,10 +543,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>a6f746c047713110984fc88bd36d43d0</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>e696fe29-a11c-4c45-b364-fb772ee35510</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a6f746c047713110984fc88bd36d43d0"/>
@@ -606,10 +606,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>d6f746c047713110984fc88bd36d43b7</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>6f6b6673-57bd-4f79-9ab6-b235d5bff154</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d6f746c047713110984fc88bd36d43b7"/>
@@ -669,10 +669,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-12 18:56:36</sys_created_on>
         <sys_id>e0f7129247717110984fc88bd36d434c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:31</sys_updated_on>
         <ui_id>d2cf2901-3ef7-4490-865c-4cfa46fc4837</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e0f7129247717110984fc88bd36d434c"/>
@@ -748,10 +748,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 19:13:58</sys_created_on>
         <sys_id>e3b8ccb147713110984fc88bd36d43e3</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>b3d4cdf4-c3b0-479b-9aad-1c2dac258081</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e3b8ccb147713110984fc88bd36d43e3"/>
@@ -814,7 +814,7 @@
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Notification to manager</comment>
         <display_text/>
         <flow display_value="Response Dispatch flow">4f4f39c447313110984fc88bd36d43f3</flow>
         <order>4</order>
@@ -823,10 +823,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-11 02:29:19</sys_created_on>
         <sys_id>fc6cedf147793110984fc88bd36d43f9</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>c94aa74d-c10d-4e49-add9-0d7a9d9fd21a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fc6cedf147793110984fc88bd36d43f9"/>
@@ -925,7 +925,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4f4f39c447313110984fc88bd36d43f3^sys_idNOT IN3467493547b53110984fc88bd36d43d6,42bf8a8c47713110984fc88bd36d436b,4abf8a8c47713110984fc88bd36d43bf,86bf8a8c47713110984fc88bd36d4395,b9bf8a8c47713110984fc88bd36d432c"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
-        <comment/>
+        <comment>Case Summary Notification to AssignedTo manager.</comment>
         <display_text/>
         <flow display_value="Response Dispatch flow">4f4f39c447313110984fc88bd36d43f3</flow>
         <inputs/>
@@ -937,10 +937,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 23:47:40</sys_created_on>
         <sys_id>3467493547b53110984fc88bd36d43d6</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>978e7cc2-9ed5-414c-969b-df08b763cd1a</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3467493547b53110984fc88bd36d43d6"/>
@@ -1073,10 +1073,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:19</sys_created_on>
         <sys_id>42bf8a8c47713110984fc88bd36d436b</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>4751c7f6-96ae-4e2c-b63d-224fa4cf247c</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=42bf8a8c47713110984fc88bd36d436b"/>
@@ -1232,10 +1232,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:20</sys_created_on>
         <sys_id>4abf8a8c47713110984fc88bd36d43bf</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:33</sys_updated_on>
         <ui_id>dd297a56-49f3-4c3b-a00d-70f8427c757c</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4abf8a8c47713110984fc88bd36d43bf"/>
@@ -1391,10 +1391,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:19</sys_created_on>
         <sys_id>86bf8a8c47713110984fc88bd36d4395</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>38611a5d-eb85-46e8-991e-f388c92f21d8</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=86bf8a8c47713110984fc88bd36d4395"/>
@@ -1550,10 +1550,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:19</sys_created_on>
         <sys_id>b9bf8a8c47713110984fc88bd36d432c</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>da7827af-5cb8-4963-b803-07cf4447d0ef</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b9bf8a8c47713110984fc88bd36d432c"/>
@@ -1717,10 +1717,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>1ef746c047713110984fc88bd36d4372</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>124f33c8-47ed-4eef-b85e-9a0d8aa1344f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1809,10 +1809,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>1ef746c047713110984fc88bd36d4394</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>f862984d-56d8-46fc-be51-f716e0616132</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1872,10 +1872,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:30</sys_created_on>
         <sys_id>66f746c047713110984fc88bd36d43eb</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:33</sys_updated_on>
         <ui_id>d8e319bf-cd4c-45e7-b9ba-d1d59b9bfd5c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1906,10 +1906,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>6af746c047713110984fc88bd36d43c8</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>c4153713-4acf-4504-9a63-b2ceb74e01ad</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1969,10 +1969,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:19</sys_created_on>
         <sys_id>75bf8a8c47713110984fc88bd36d435f</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>9f2c9df2-b7e0-4518-bfbb-af376545e81f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2003,10 +2003,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>9af746c047713110984fc88bd36d43af</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>2f1c9920-6c49-43e1-b1a8-135c72604029</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2066,10 +2066,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:29</sys_created_on>
         <sys_id>eef746c047713110984fc88bd36d43c5</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:32</sys_updated_on>
         <ui_id>be925042-edb2-4771-a18a-cb2a7e2ead42</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2100,10 +2100,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:00:30</sys_created_on>
         <sys_id>eef746c047713110984fc88bd36d43ed</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:09</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:33</sys_updated_on>
         <ui_id>cf8afcf1-6edf-45f3-a711-351ad34018b2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2342,14 +2342,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:19:09</sys_created_on>
         <sys_id>af3c4a4847713110984fc88bd36d43f7</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2447,7 +2447,7 @@
         <copied_from_name/>
         <description>Dispatch Emergency Request Task to the respective Departments</description>
         <internal_name>response_dispatch_flow</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Emergency Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"state","choices":[{"used":false,"image":"","label":"Approved","rawLabel":"Approved","selected":false,"missing":false,"reference":false,"value":"10","parameters":{"name":"task"}},{"used":false,"image":"","label":"Pending","rawLabel":"Pending","selected":false,"missing":false,"reference":false,"value":"-5","parameters":{"name":"task"}},{"used":false,"image":"","label":"Open","rawLabel":"Open","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"task"}},{"used":false,"image":"","label":"Work in Progress","rawLabel":"Work in Progress","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"task"}},{"used":false,"image":"","label":"Closed Complete","rawLabel":"Closed Complete","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"task"}},{"used":false,"image":"","label":"Closed Incomplete","rawLabel":"Closed Incomplete","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"task"}},{"used":false,"image":"","label":"Closed Skipped","rawLabel":"Closed Skipped","selected":false,"missing":false,"reference":false,"value":"7","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assigned_to"},{"name":"Created or Updated_1.current.assigned_to.manager","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"978e7cc2-9ed5-414c-969b-df08b763cd1a.answer","label":"2 - Summarize the case Gen Ai➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2b84850b-3ad3-481a-8d79-1a2635cd419b"}},{"name":"a465f07d-9fdc-4b9e-9765-54bfd195364a.answer","label":"1 - Summarize the case Gen Ai➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2b84850b-3ad3-481a-8d79-1a2635cd419b"}},{"name":"Created or Updated_1.current.urgency","label":"Trigger - Record Created or Updated➛Emergency Record➛Urgency","reference":"","reference_display":"Urgency","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"urgency","choices":[{"used":false,"image":"","label":"1 - High","rawLabel":"1 - High","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"task"}},{"used":false,"image":"","label":"2 - Medium","rawLabel":"2 - Medium","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"task"}},{"used":false,"image":"","label":"3 - Low","rawLabel":"3 - Low","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Emergency Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"reference":false,"value":""},{"used":false,"image":"","label":"1 - Critical","rawLabel":"1 - Critical","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"task"}},{"used":false,"image":"","label":"2 - High","rawLabel":"2 - High","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"task"}},{"used":false,"image":"","label":"3 - Moderate","rawLabel":"3 - Moderate","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"task"}},{"used":false,"image":"","label":"4 - Low","rawLabel":"4 - Low","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"task"}},{"used":false,"image":"","label":"5 - Planning","rawLabel":"5 - Planning","selected":false,"missing":false,"reference":false,"value":"5","parameters":{"name":"task"}}]},{"name":"c7955a7f-2830-45d9-9da1-cfff6951405f.Record","label":"19 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e696fe29-a11c-4c45-b364-fb772ee35510.Record","label":"15 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6f6b6673-57bd-4f79-9ab6-b235d5bff154.Record","label":"11 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Emergency Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"number"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"e2ed9fd5-7dd8-4965-94c3-44a5d851ea68.Record","label":"7 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Emergency Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"state","choices":[{"used":false,"label":"Approved","image":"","reference":false,"rawLabel":"Approved","selected":false,"missing":false,"value":"10","parameters":{"name":"task"}},{"used":false,"label":"Pending","image":"","reference":false,"rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task"}},{"used":false,"label":"Open","image":"","reference":false,"rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"used":false,"label":"Work in Progress","image":"","reference":false,"rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"used":false,"label":"Closed Complete","image":"","reference":false,"rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"used":false,"label":"Closed Incomplete","image":"","reference":false,"rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"used":false,"label":"Closed Skipped","image":"","reference":false,"rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"assigned_to"},{"name":"Created or Updated_1.current.assigned_to.manager","label":"Trigger - Record Created or Updated➛Emergency Record➛Assigned to➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"978e7cc2-9ed5-414c-969b-df08b763cd1a.answer","label":"2 - Summarize the case Gen Ai➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2b84850b-3ad3-481a-8d79-1a2635cd419b"}},{"name":"a465f07d-9fdc-4b9e-9765-54bfd195364a.answer","label":"1 - Summarize the case Gen Ai➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2b84850b-3ad3-481a-8d79-1a2635cd419b"}},{"name":"Created or Updated_1.current.urgency","label":"Trigger - Record Created or Updated➛Emergency Record➛Urgency","reference":"","reference_display":"Urgency","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"urgency","choices":[{"used":false,"label":"1 - High","image":"","reference":false,"rawLabel":"1 - High","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"used":false,"label":"2 - Medium","image":"","reference":false,"rawLabel":"2 - Medium","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"used":false,"label":"3 - Low","image":"","reference":false,"rawLabel":"3 - Low","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Emergency Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task"}}]},{"name":"c7955a7f-2830-45d9-9da1-cfff6951405f.Record","label":"19 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e696fe29-a11c-4c45-b364-fb772ee35510.Record","label":"15 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6f6b6673-57bd-4f79-9ab6-b235d5bff154.Record","label":"11 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Emergency Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"number"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Emergency Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_snc_911_operat_0_emergency","column_name":"short_description"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Emergency Record","reference":"x_snc_911_operat_0_emergency","reference_display":"Emergency","type":"reference","base_type":"reference","attributes":{}},{"name":"e2ed9fd5-7dd8-4965-94c3-44a5d851ea68.Record","label":"7 - Create Task➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Response Dispatch flow</name>
         <natlang/>
@@ -2464,7 +2464,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>81cf8e8c47713110984fc88bd36d43e2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2472,7 +2472,7 @@
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:05</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:28</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=81cf8e8c47713110984fc88bd36d43e2"/>
@@ -2487,10 +2487,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:34</sys_created_on>
         <sys_id>21cfce8c47713110984fc88bd36d436b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:08</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:31</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2604,14 +2604,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:32</sys_created_on>
         <sys_id>5dcf8e8c47713110984fc88bd36d43fe</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:03</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2772,14 +2772,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:32</sys_created_on>
         <sys_id>c5cf8e8c47713110984fc88bd36d43e4</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:03</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2811,10 +2811,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-12 18:57:02</sys_created_on>
         <sys_id>0f081e9247717110984fc88bd36d431f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:26</sys_updated_on>
         <ui_id>d2cf2901-3ef7-4490-865c-4cfa46fc4837</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0f081e9247717110984fc88bd36d431f"/>
@@ -2881,7 +2881,7 @@
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
-        <comment/>
+        <comment>Notification to manager</comment>
         <display_text/>
         <flow display_value="Response Dispatch flow">81cf8e8c47713110984fc88bd36d43e2</flow>
         <order>4</order>
@@ -2890,10 +2890,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-11 02:29:38</sys_created_on>
         <sys_id>557c653547793110984fc88bd36d43e4</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:26</sys_updated_on>
         <ui_id>c94aa74d-c10d-4e49-add9-0d7a9d9fd21a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=557c653547793110984fc88bd36d43e4"/>
@@ -3004,10 +3004,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 19:14:20</sys_created_on>
         <sys_id>8dd884f147713110984fc88bd36d439d</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:26</sys_updated_on>
         <ui_id>b3d4cdf4-c3b0-479b-9aad-1c2dac258081</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8dd884f147713110984fc88bd36d439d"/>
@@ -3079,10 +3079,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>a1cfce8c47713110984fc88bd36d4363</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>e696fe29-a11c-4c45-b364-fb772ee35510</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a1cfce8c47713110984fc88bd36d4363"/>
@@ -3142,10 +3142,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>a5cfce8c47713110984fc88bd36d4369</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:05</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:28</sys_updated_on>
         <ui_id>c7955a7f-2830-45d9-9da1-cfff6951405f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a5cfce8c47713110984fc88bd36d4369"/>
@@ -3205,10 +3205,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>adcfce8c47713110984fc88bd36d435c</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>6f6b6673-57bd-4f79-9ab6-b235d5bff154</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=adcfce8c47713110984fc88bd36d435c"/>
@@ -3268,10 +3268,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>ddcfce8c47713110984fc88bd36d4355</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>e2ed9fd5-7dd8-4965-94c3-44a5d851ea68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ddcfce8c47713110984fc88bd36d4355"/>
@@ -3332,10 +3332,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:34</sys_created_on>
         <sys_id>25cfce8c47713110984fc88bd36d436d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>da7827af-5cb8-4963-b803-07cf4447d0ef</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=25cfce8c47713110984fc88bd36d436d"/>
@@ -3491,10 +3491,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:34</sys_created_on>
         <sys_id>29cfce8c47713110984fc88bd36d438d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:05</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>38611a5d-eb85-46e8-991e-f388c92f21d8</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=29cfce8c47713110984fc88bd36d438d"/>
@@ -3637,7 +3637,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=29cfce8c47713110984fc88bd36d438d"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
-        <comment/>
+        <comment>Case Summary Notification to AssignedTo manager.</comment>
         <display_text/>
         <flow display_value="Response Dispatch flow">81cf8e8c47713110984fc88bd36d43e2</flow>
         <inputs/>
@@ -3649,10 +3649,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 23:48:00</sys_created_on>
         <sys_id>3d77c57547b53110984fc88bd36d4330</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:26</sys_updated_on>
         <ui_id>978e7cc2-9ed5-414c-969b-df08b763cd1a</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3d77c57547b53110984fc88bd36d4330"/>
@@ -3785,10 +3785,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:34</sys_created_on>
         <sys_id>a5cfce8c47713110984fc88bd36d4380</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>4751c7f6-96ae-4e2c-b63d-224fa4cf247c</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a5cfce8c47713110984fc88bd36d4380"/>
@@ -3944,10 +3944,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:34</sys_created_on>
         <sys_id>a9cfce8c47713110984fc88bd36d439a</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:05</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:28</sys_updated_on>
         <ui_id>dd297a56-49f3-4c3b-a00d-70f8427c757c</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a9cfce8c47713110984fc88bd36d439a"/>
@@ -4111,10 +4111,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>11cfce8c47713110984fc88bd36d4342</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>be925042-edb2-4771-a18a-cb2a7e2ead42</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4145,10 +4145,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>1dcfce8c47713110984fc88bd36d4344</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>c4153713-4acf-4504-9a63-b2ceb74e01ad</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4208,10 +4208,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>91cfce8c47713110984fc88bd36d433e</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>2f1c9920-6c49-43e1-b1a8-135c72604029</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4271,10 +4271,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>95cfce8c47713110984fc88bd36d434b</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:05</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>cf8afcf1-6edf-45f3-a711-351ad34018b2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4334,10 +4334,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>99cfce8c47713110984fc88bd36d4348</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:05</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>d8e319bf-cd4c-45e7-b9ba-d1d59b9bfd5c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4368,10 +4368,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>9dcfce8c47713110984fc88bd36d4320</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>124f33c8-47ed-4eef-b85e-9a0d8aa1344f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4460,10 +4460,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>9dcfce8c47713110984fc88bd36d4329</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>f862984d-56d8-46fc-be51-f716e0616132</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4523,10 +4523,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-05 18:34:33</sys_created_on>
         <sys_id>d1cfce8c47713110984fc88bd36d433b</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 18:57:04</sys_updated_on>
+        <sys_updated_on>2023-10-17 16:23:27</sys_updated_on>
         <ui_id>9f2c9df2-b7e0-4518-bfbb-af376545e81f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
