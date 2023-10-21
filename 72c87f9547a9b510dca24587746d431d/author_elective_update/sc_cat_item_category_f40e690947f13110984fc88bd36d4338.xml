@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Report Issues">221de1c547f13110984fc88bd36d43f1</sc_cat_item>
+        <sc_category display_value="Services">4cb69d19c3921200b0449f2974d3ae69</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 18:40:59</sys_created_on>
+        <sys_id>f40e690947f13110984fc88bd36d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Report Issues</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sc_cat_item_category_f40e690947f13110984fc88bd36d4338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 18:40:59</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</application>
+        <file_path/>
+        <instance_id>9ba29d2cdb0a5f886578f22ebf961961</instance_id>
+        <instance_name>dev58822</instance_name>
+        <name>sc_cat_item_category_f40e690947f13110984fc88bd36d4338</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report Issues">221de1c547f13110984fc88bd36d43f1</sc_cat_item><sc_category display_value="Services">4cb69d19c3921200b0449f2974d3ae69</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-08 18:40:59</sys_created_on><sys_id>f40e690947f13110984fc88bd36d4338</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Report Issues</sys_name><sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package><sys_policy/><sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope><sys_update_name>sc_cat_item_category_f40e690947f13110984fc88bd36d4338</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-08 18:40:59</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-947865757</payload_hash>
+        <record_name>Services.Report Issues</record_name>
+        <reverted_from/>
+        <source>24db0a7347a53110984fc88bd36d4370</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 18:40:59</sys_created_on>
+        <sys_id>740e690947f13110984fc88bd36d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b1097b5280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 18:40:59</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>b40e6909aff13110b2db38f873ad3b3c</update_guid>
+        <update_guid_history>b40e6909aff13110b2db38f873ad3b3c:-947865757</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Report Issues">2a10b1c947f13110984fc88bd36d4370</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 18:50:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0c49830d07954d588370390705046ae4</sys_id>
+        <sys_metadata>f40e690947f13110984fc88bd36d4338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Report Issues</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_scope_delete display_value="">564d3bc910cd4e6f950f8a931f9bc701</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_f40e690947f13110984fc88bd36d4338</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_f40e690947f13110984fc88bd36d4338">740e690947f13110984fc88bd36d433d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 18:50:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
