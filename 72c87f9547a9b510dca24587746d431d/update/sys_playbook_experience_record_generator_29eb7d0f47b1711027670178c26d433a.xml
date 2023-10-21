@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_record_generator">
+    <sys_playbook_experience_record_generator action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <create_record_activity_name>Emergency</create_record_activity_name>
+        <create_record_form_view display_value="playbook" name="playbook">77f7790b47b1711027670178c26d43db</create_record_form_view>
+        <order>0</order>
+        <process_definition display_value="911 Emergency Playbook">eee6b58747b1711027670178c26d43b3</process_definition>
+        <sys_class_name>sys_playbook_experience_record_generator</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 00:54:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>29eb7d0f47b1711027670178c26d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_911_operat_0_emergency</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_playbook_experience_record_generator_29eb7d0f47b1711027670178c26d433a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 00:54:35</sys_updated_on>
+        <table>x_snc_911_operat_0_emergency</table>
+        <template_fields/>
+    </sys_playbook_experience_record_generator>
+</record_update>

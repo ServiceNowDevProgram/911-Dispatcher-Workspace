@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience">
+    <sys_playbook_experience action="INSERT_OR_UPDATE">
+        <name>911 Playbook Experience</name>
+        <sys_class_name>sys_playbook_experience</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 00:21:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7a85fd0347b1711027670178c26d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>911 Playbook Experience</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_playbook_experience_7a85fd0347b1711027670178c26d4306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 00:21:55</sys_updated_on>
+    </sys_playbook_experience>
+</record_update>

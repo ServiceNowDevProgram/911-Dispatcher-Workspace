@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_view_rules_configuration">
+    <sys_ux_view_rules_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>911 Operators Workspace</name>
+        <sys_class_name>sys_ux_view_rules_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 10:26:22</sys_created_on>
+        <sys_id>daef730797b131105f30f757f053af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>911 Operators Workspace</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_view_rules_configuration_daef730797b131105f30f757f053af1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 10:26:22</sys_updated_on>
+    </sys_ux_view_rules_configuration>
+</record_update>

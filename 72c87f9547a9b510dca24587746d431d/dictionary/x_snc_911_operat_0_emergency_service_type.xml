@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cb5e419747b9351008d27748c26d43cf" label="Emergency Service Type" max_length="40" name="x_snc_911_operat_0_emergency_service_type" type="collection">
+        <element choice="1" display="true" label="Emergency Service Required" max_length="40" name="emergency_service_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Police" sequence="1" value="police"/>
+                <element inactive_on_update="false" label="Ambulance" sequence="2" value="ambulance"/>
+                <element inactive_on_update="false" label="Fire Department" sequence="3" value="fire"/>
+                <element inactive_on_update="false" label="Coast Guard" sequence="4" value="coastguard"/>
+                <element inactive_on_update="false" label="Animal Control" sequence="5" value="animalcontrol"/>
+                <element inactive_on_update="false" label="Utilities" sequence="6" value="utilities"/>
+            </choice>
+        </element>
+    </element>
+</database>

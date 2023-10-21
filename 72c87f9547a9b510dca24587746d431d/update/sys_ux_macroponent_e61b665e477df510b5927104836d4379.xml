@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "emergency_call",
+  "elementLabel" : "Emergency call",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "container_3",
+      "elementLabel" : "Call details",
+      "propertyValues" : {
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "hideEmptyStateUi" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "container_pick_up_task",
+          "elementLabel" : "Container pick up task",
+          "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "hideEmptyStateUi" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "ariaRegionName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "includeAriaHeading" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "section"
+            },
+            "ariaRole" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "",
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "button_pick_up_task",
+              "elementLabel" : "Button Pick up task",
+              "propertyValues" : {
+                "size" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "md"
+                },
+                "variant" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "primary-negative"
+                },
+                "icon" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "disabled" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "Pick up emergency task",
+                    "comment" : ""
+                  }
+                },
+                "tooltipContent" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "Enter a label",
+                    "comment" : ""
+                  }
+                },
+                "configAria" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : { }
+                }
+              },
+              "eventMappings" : [ {
+                "eventMappingId" : "clnegbgfhaaddjnddffhhqqjkjsncl",
+                "isConfiguration" : false,
+                "offRowStorageId" : null,
+                "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                "sourceEventCorrelationId" : null,
+                "sourceEventDefinition" : {
+                  "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                  "id" : null,
+                  "type" : "UXEVENT"
+                },
+                "sourceEventSysId" : null,
+                "targets" : [ {
+                  "broker" : null,
+                  "clientScript" : null,
+                  "conditional" : null,
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : {
+                    "dataBrokerId" : "b997a84053021010cbc2ddeeff7b1228",
+                    "operationName" : "REFRESH",
+                    "parentResourceId" : "look_up_unassigned_records",
+                    "payload" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : { }
+                    }
+                  },
+                  "targetId" : "clnegbgfhaaddjoddffhhqxjouempq",
+                  "type" : "DATABROKER_OP"
+                } ]
+              } ],
+              "slot" : null,
+              "definition" : {
+                "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "extensionPoints" : [ ],
+              "isNonDestructive" : false,
+              "items" : [ ],
+              "styles" : null
+            }, {
+              "elementId" : "create_button",
+              "elementLabel" : "Create Button",
+              "propertyValues" : {
+                "size" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "md"
+                },
+                "variant" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "primary"
+                },
+                "icon" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "lifesaver-fill"
+                },
+                "disabled" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "Create",
+                    "comment" : ""
+                  }
+                },
+                "tooltipContent" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "Create Button",
+                    "comment" : ""
+                  }
+                },
+                "configAria" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : { }
+                }
+              },
+              "eventMappings" : [ {
+                "eventMappingId" : "clndbbmaacceeaaffvffddffhhqlaozbbffln",
+                "isConfiguration" : false,
+                "offRowStorageId" : null,
+                "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                "sourceEventCorrelationId" : null,
+                "sourceEventDefinition" : {
+                  "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                  "id" : null,
+                  "type" : "UXEVENT"
+                },
+                "sourceEventSysId" : null,
+                "targets" : [ {
+                  "broker" : null,
+                  "clientScript" : null,
+                  "conditional" : null,
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : {
+                    "dataBrokerId" : "beda4252770300108d070d74c810618f",
+                    "operationName" : "EXECUTE",
+                    "parentResourceId" : "create_emergency_record",
+                    "payload" : {
+                      "type" : "CLIENT_TRANSFORM_SCRIPT",
+                      "script" : {
+                        "apiVersion" : "1.0.0",
+                        "controllerElementId" : null,
+                        "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\n\tvar fields = 'short_description=' + api.state.shortDescription +\n    '^description=Caller number: ' + api.state.phoneNumber +\n    ' | Description' + api.state.description;\n\n\tif(api.state.callerSysId != '')\n\tfields += '^caller=' + api.state.callerSysId;\n\n\treturn {\n\t\ttable: 'x_snc_911_operat_0_emergency',\n\t\ttemplateFields: fields,\n\t\tuseSetDisplayValue: false\n\t};\n}",
+                        "scriptSysId" : null,
+                        "target" : null
+                      }
+                    }
+                  },
+                  "targetId" : "clndbbmaaccffaaffvggddffhhqfaaeeghaaaam",
+                  "type" : "DATABROKER_OP"
+                } ]
+              } ],
+              "slot" : "",
+              "definition" : {
+                "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "extensionPoints" : [ ],
+              "isNonDestructive" : false,
+              "items" : [ ],
+              "styles" : null
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "isInline" : null,
+                "items" : [{"element_id":"create_button","styles":{"align-self":"flex-end","padding-left":"var(--now-scalable-space--lg)","padding-right":"var(--now-scalable-space--md)","margin":"var(--now-static-space--md)"}},{"element_id":"button_pick_up_task","styles":{"margin":"var(--now-static-space--md)"}}],
+                "root" : null,
+                "rules" : null,
+                "styles" : {"align-items":"flex-end","flex-direction":"row","margin-right":"var(--now-scalable-space--lg)","margin-top":"var(--now-scalable-space--sm)"},
+                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                "type" : "flex"
+              },
+              "version" : "3.0.0"
+            }
+          },
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : null
+        }, {
+          "elementId" : "container_form",
+          "elementLabel" : "Container form",
+          "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "hideEmptyStateUi" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "ariaRegionName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "includeAriaHeading" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "section"
+            },
+            "ariaRole" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "",
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "container_left",
+              "elementLabel" : "Container Left",
+              "propertyValues" : {
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
+                "hideEmptyStateUi" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : true
+                },
+                "ariaRegionName" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
+                },
+                "includeAriaHeading" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "section"
+                },
+                "ariaRole" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : ""
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : null,
+              "definition" : {
+                "id" : "d356d14b6e293a3020a244b63d278d8f",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : {
+                "composition" : [ {
+                  "elementId" : "phone_number",
+                  "elementLabel" : "Phone Number",
+                  "propertyValues" : {
+                    "minlength" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "maxlength" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "max" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "multiple" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "helperContent" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "pattern" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : ""
+                    },
+                    "optional" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Caller phone number",
+                        "comment" : ""
+                      }
+                    },
+                    "type" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "text"
+                    },
+                    "autofocus" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "configAria" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : {
+                        "input" : {
+                          "type" : "MAP_CONTAINER",
+                          "container" : { }
+                        }
+                      }
+                    },
+                    "required" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "min" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "size" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "md"
+                    },
+                    "readonly" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "name" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "invalid" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "messages" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : [ ]
+                    },
+                    "disabled" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "step" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "any"
+                    },
+                    "placeholder" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "e.g. (555) 555-0004",
+                        "comment" : ""
+                      }
+                    },
+                    "value" : {
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "phoneNumber" ]
+                      }
+                    },
+                    "hideRequiredIndicator" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    }
+                  },
+                  "eventMappings" : [ {
+                    "eventMappingId" : "clndggybjhaajjwmddffhhqjjxzggyuffq",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_input.NOW_INPUT#VALUE_SET",
+                    "sourceEventCorrelationId" : null,
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_input.NOW_INPUT#VALUE_SET",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                        "payload" : {
+                          "type" : "MAP_CONTAINER",
+                          "container" : {
+                            "propName" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "phoneNumber"
+                            },
+                            "value" : {
+                              "type" : "EVENT_PAYLOAD_BINDING",
+                              "binding" : {
+                                "address" : [ "value" ]
+                              }
+                            }
+                          }
+                        },
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
+                      },
+                      "operation" : null,
+                      "targetId" : "clndggybjhaajjwnddffhhqrgtfcwwgg",
+                      "type" : "EVENT"
+                    }, {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : null,
+                      "operation" : {
+                        "dataBrokerId" : "b997a84053021010cbc2ddeeff7b1228",
+                        "operationName" : "REFRESH",
+                        "parentResourceId" : "look_up_caller",
+                        "payload" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : { }
+                        }
+                      },
+                      "targetId" : "clndiiiiohyaaafvddffhhqggeeiiaaxxccbb",
+                      "type" : "DATABROKER_OP"
+                    } ]
+                  } ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : {
+                    "composition" : [ {
+                      "elementId" : "icon_1",
+                      "elementLabel" : "Icon 1",
+                      "propertyValues" : {
+                        "size" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "md"
+                        },
+                        "icon" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "phone-fill"
+                        }
+                      },
+                      "eventMappings" : [ ],
+                      "slot" : "end",
+                      "definition" : {
+                        "id" : "33eaddad37cf901283bbdc7a574773b9",
+                        "type" : "MACROPONENT"
+                      },
+                      "overrides" : null,
+                      "isHidden" : {
+                        "type" : "JSON_LITERAL",
+                        "value" : null
+                      },
+                      "isHero" : false,
+                      "extensionPoints" : [ ],
+                      "isNonDestructive" : false,
+                      "items" : [ ],
+                      "styles" : null
+                    } ],
+                    "layout" : null
+                  },
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "extensionPoints" : [ ],
+                  "isNonDestructive" : false,
+                  "items" : [ ],
+                  "styles" : null
+                }, {
+                  "elementId" : "input_short_desc",
+                  "elementLabel" : "Input short desc",
+                  "propertyValues" : {
+                    "minlength" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "maxlength" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "max" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "multiple" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "helperContent" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "pattern" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "optional" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Short description",
+                        "comment" : ""
+                      }
+                    },
+                    "type" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "text"
+                    },
+                    "autofocus" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "configAria" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : {
+                        "input" : {
+                          "type" : "MAP_CONTAINER",
+                          "container" : { }
+                        }
+                      }
+                    },
+                    "required" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "min" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "size" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "md"
+                    },
+                    "readonly" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "name" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "invalid" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "messages" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : [ ]
+                    },
+                    "disabled" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "step" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "any"
+                    },
+                    "placeholder" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "value" : {
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "shortDescription" ]
+                      }
+                    },
+                    "hideRequiredIndicator" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    }
+                  },
+                  "eventMappings" : [ {
+                    "eventMappingId" : "clndbbjiyaaaffsmddffhhqcjmstjhr",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_input.NOW_INPUT#VALUE_SET",
+                    "sourceEventCorrelationId" : null,
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_input.NOW_INPUT#VALUE_SET",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                        "payload" : {
+                          "type" : "MAP_CONTAINER",
+                          "container" : {
+                            "propName" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "shortDescription"
+                            },
+                            "value" : {
+                              "type" : "EVENT_PAYLOAD_BINDING",
+                              "binding" : {
+                                "address" : [ "value" ]
+                              }
+                            }
+                          }
+                        },
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
+                      },
+                      "operation" : null,
+                      "targetId" : "clndbbjiyaaaffsnddffhhqphhpaffhhtr",
+                      "type" : "EVENT"
+                    } ]
+                  } ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "bb0f92e8d7eff1590624bfe69d316f23",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "extensionPoints" : [ ],
+                  "isNonDestructive" : false,
+                  "items" : [ ],
+                  "styles" : null
+                } ],
+                "layout" : {
+                  "default" : {
+                    "children" : null,
+                    "isInline" : null,
+                    "items" : [{"element_id":"phone_number","styles":{}},{"element_id":"input_short_desc","styles":{}}],
+                    "root" : null,
+                    "rules" : null,
+                    "styles" : {"flex-direction":"column","padding-left":"var(--now-scalable-space--lg)","padding-right":"var(--now-scalable-space--sm)","margin":"var(--now-static-space--sm)"},
+                    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type" : "flex"
+                  },
+                  "version" : "3.0.0"
+                }
+              },
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "extensionPoints" : [ ],
+              "isNonDestructive" : false,
+              "items" : [ ],
+              "styles" : null
+            }, {
+              "elementId" : "container_right",
+              "elementLabel" : "Container Right",
+              "propertyValues" : {
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
+                "hideEmptyStateUi" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : true
+                },
+                "ariaRegionName" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
+                },
+                "includeAriaHeading" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "section"
+                },
+                "ariaRole" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : ""
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : null,
+              "definition" : {
+                "id" : "d356d14b6e293a3020a244b63d278d8f",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : {
+                "composition" : [ {
+                  "elementId" : "textarea_description",
+                  "elementLabel" : "Textarea description",
+                  "propertyValues" : {
+                    "minlength" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "color" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "initial"
+                    },
+                    "maxlength" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "showCounter" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "autoresize" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : true
+                    },
+                    "helperContent" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "optional" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Description",
+                        "comment" : ""
+                      }
+                    },
+                    "autofocus" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "rows" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : 4
+                    },
+                    "configAria" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : { }
+                    },
+                    "required" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "size" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "md"
+                    },
+                    "readonly" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "invalid" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "name" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "messages" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : [ ]
+                    },
+                    "resize" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "vertical"
+                    },
+                    "disabled" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "placeholder" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "value" : {
+                      "type" : "STATE_BINDING",
+                      "binding" : {
+                        "address" : [ "description" ]
+                      }
+                    },
+                    "cols" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "hideRequiredIndicator" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    }
+                  },
+                  "eventMappings" : [ {
+                    "eventMappingId" : "clndbbjzmaaaffthddffhhqrlihhxeebc",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_textarea.NOW_TEXTAREA#VALUE_SET",
+                    "sourceEventCorrelationId" : null,
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_textarea.NOW_TEXTAREA#VALUE_SET",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                        "payload" : {
+                          "type" : "MAP_CONTAINER",
+                          "container" : {
+                            "propName" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "description"
+                            },
+                            "value" : {
+                              "type" : "EVENT_PAYLOAD_BINDING",
+                              "binding" : {
+                                "address" : [ "value" ]
+                              }
+                            }
+                          }
+                        },
+                        "sysId" : "32408b42ff7a10109046e490703bf176"
+                      },
+                      "operation" : null,
+                      "targetId" : "clndbbjzmaaafftiddffhhqenawukei",
+                      "type" : "EVENT"
+                    } ]
+                  } ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "d667a5e769598b2e5c6e92ebe73394f6",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "extensionPoints" : [ ],
+                  "isNonDestructive" : false,
+                  "items" : [ ],
+                  "styles" : null
+                } ],
+                "layout" : {
+                  "default" : {
+                    "children" : null,
+                    "isInline" : null,
+                    "items" : [{"element_id":"textarea_description","styles":{"flex":"none","height":"","margin-right":"0","padding-right":"0","width":"97%"}}],
+                    "root" : null,
+                    "rules" : null,
+                    "styles" : {"display":"flex","flex-direction":"row","grid-auto-columns":"1fr","grid-auto-flow":"column","grid-auto-rows":"1fr","grid-template-columns":"1fr 1fr","grid-template-rows":"1fr 1fr","margin-left":"0","margin-right":"0","padding-left":"var(--now-scalable-space--sm)","padding-right":"var(--now-scalable-space--lg)","width":"100%","margin":"var(--now-static-space--sm)"},
+                    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type" : "flex"
+                  },
+                  "version" : "3.0.0"
+                }
+              },
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "extensionPoints" : [ ],
+              "isNonDestructive" : false,
+              "items" : [ ],
+              "styles" : null
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "isInline" : null,
+                "items" : [{"element_id":"container_left","styles":{"min-width":"","width":"50%"}},{"element_id":"container_right","styles":{"width":"50%"}}],
+                "root" : null,
+                "rules" : null,
+                "styles" : {"flex-direction":"row","padding":"var(--now-static-space--md)"},
+                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                "type" : "flex"
+              },
+              "version" : "3.0.0"
+            }
+          },
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : null
+        }, {
+          "elementId" : "form_header",
+          "elementLabel" : "Form Header",
+          "propertyValues" : {
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* { }"
+            },
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "Create Emergency Call",
+                "comment" : ""
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "h1"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "",
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : null
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"element_id":"form_header","styles":{"padding-left":"var(--now-scalable-space--lg)"}},{"element_id":"container_form","styles":{"width":"100%"}},{"element_id":"container_pick_up_task","styles":{"align-self":"flex-end","width":"100%"}}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"column"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    }, {
+      "elementId" : "container_2",
+      "elementLabel" : "Caller container",
+      "propertyValues" : {
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "hideEmptyStateUi" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "container_1",
+          "elementLabel" : "Caller Details",
+          "propertyValues" : {
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "hideEmptyStateUi" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "ariaRegionName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "includeAriaHeading" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "section"
+            },
+            "ariaRole" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "stylized_text_1",
+              "elementLabel" : "Stylized text 1",
+              "propertyValues" : {
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                },
+                "text" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "Caller details (matched by phone number)",
+                    "comment" : ""
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "h3"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : null,
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "extensionPoints" : [ ],
+              "isNonDestructive" : false,
+              "items" : [ ],
+              "styles" : null
+            }, {
+              "elementId" : "grid_container_1",
+              "elementLabel" : "Grid Container 1",
+              "propertyValues" : {
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
+                "hideEmptyStateUi" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : true
+                },
+                "ariaRegionName" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
+                },
+                "includeAriaHeading" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "section"
+                },
+                "ariaRole" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : ""
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : null,
+              "definition" : {
+                "id" : "d356d14b6e293a3020a244b63d278d8f",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : {
+                "composition" : [ {
+                  "elementId" : "user_name",
+                  "elementLabel" : "User name",
+                  "propertyValues" : {
+                    "html" : {
+                      "type" : "CLIENT_TRANSFORM_SCRIPT",
+                      "script" : {
+                        "apiVersion" : "2.0.0",
+                        "controllerElementId" : null,
+                        "inlineScript" : null,
+                        "scriptSysId" : "ae1b665e477df510b5927104836d437c",
+                        "target" : null
+                      }
+                    }
+                  },
+                  "eventMappings" : [ ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "extensionPoints" : [ ],
+                  "isNonDestructive" : false,
+                  "items" : [ ],
+                  "styles" : null
+                }, {
+                  "elementId" : "user_location",
+                  "elementLabel" : "User Location",
+                  "propertyValues" : {
+                    "html" : {
+                      "type" : "CLIENT_TRANSFORM_SCRIPT",
+                      "script" : {
+                        "apiVersion" : "2.0.0",
+                        "controllerElementId" : null,
+                        "inlineScript" : null,
+                        "scriptSysId" : "a21b665e477df510b5927104836d4382",
+                        "target" : null
+                      }
+                    }
+                  },
+                  "eventMappings" : [ ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "extensionPoints" : [ ],
+                  "isNonDestructive" : false,
+                  "items" : [ ],
+                  "styles" : null
+                } ],
+                "layout" : {
+                  "default" : {
+                    "children" : null,
+                    "isInline" : null,
+                    "items" : [{"element_id":"user_name","styles":{}},{"element_id":"user_location","styles":{}}],
+                    "root" : null,
+                    "rules" : null,
+                    "styles" : {"display":"flex","flex-direction":"column","grid-auto-columns":"1fr","grid-auto-rows":"1fr","grid-template-columns":"1fr","grid-template-rows":"1fr 1fr","margin-bottom":"var(--now-scalable-space--sm)","width":"100%"},
+                    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type" : "flex"
+                  },
+                  "version" : "3.0.0"
+                }
+              },
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "extensionPoints" : [ ],
+              "isNonDestructive" : false,
+              "items" : [ ],
+              "styles" : null
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "isInline" : null,
+                "items" : [{"element_id":"stylized_text_1","styles":{"margin-left":"0"}},{"element_id":"grid_container_1","styles":{}}],
+                "root" : null,
+                "rules" : null,
+                "styles" : {"flex-direction":"column","padding-left":"var(--now-scalable-space--lg)"},
+                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                "type" : "flex"
+              },
+              "version" : "3.0.0"
+            }
+          },
+          "isHidden" : {
+            "type" : "UNARY",
+            "operation" : {
+              "operand" : {
+                "type" : "STATE_BINDING",
+                "binding" : {
+                  "address" : [ "phoneNumber" ]
+                }
+              },
+              "operator" : "NOT"
+            }
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : null
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"element_id":"container_1","styles":{"width":"100%"}}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"column"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"container_3","styles":{"width":"100%"}},{"element_id":"container_2","styles":{"width":"25%"}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"row","justify-content":"flex-start","margin":"var(--now-static-space--lg)"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+}, {
+  "elementId" : "dashboard",
+  "elementLabel" : "Dashboard",
+  "propertyValues" : {
+    "userInfo" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user" ],
+        "category" : "session"
+      }
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideShareButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "editMode" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "dashboardSysId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "hideCreateNewButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideEditButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defaultDashboard" : {
+      "type" : "JSON_LITERAL",
+      "value" : "b2fc8e0ff9653d10d5cfeca63546b8ed"
+    },
+    "defaultDrilldowns" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideDashboardPicker" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "f552e6a932780394b6f06c14071aa115",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "beda4252770300108d070d74c810618f",
+    "type" : "GRAPHQL"
+  },
+  "dependencies" : { },
+  "elementId" : "create_emergency_record",
+  "elementLabel" : "Create Emergency Record",
+  "eventMappings" : [ {
+    "eventMappingId" : "clndeeitjjbaaggytddffhhqvksqntggff",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "3a1b665e477df510b5927104836d43f4"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clndeeitjjbaaggyuddffhhqoqdigwvw",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+}, {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "9664d48053461010cbc2ddeeff7b128e",
+    "type" : "COMPOSITE"
+  },
+  "dependencies" : { },
+  "elementId" : "look_up_emergency_call",
+  "elementLabel" : "Look Up Emergency Call",
+  "eventMappings" : [ {
+    "eventMappingId" : "clndffddlffwaaiigvddffhhqeehhwnhcclf",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "fa1ba65e477df510b5927104836d4303"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clndffddlffwaaiigwddffhhqjjencqggggcc",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_911_operat_0_emergency"
+    },
+    "recordId" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "emergencyCallSysId" ]
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "number"
+    },
+    "returnTableMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EXPLICIT"
+}, {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "b997a84053021010cbc2ddeeff7b1228",
+    "type" : "COMPOSITE"
+  },
+  "dependencies" : { },
+  "elementId" : "look_up_caller",
+  "elementLabel" : "Look Up Caller",
+  "eventMappings" : [ {
+    "eventMappingId" : "clndiidsiiyaaaopddffhhqdvjjggcxdc",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "721ba65e477df510b5927104836d430d"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clndiidsiiyaaaoqddffhhqgtctpddiix",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "sys_user"
+    },
+    "encodedQuery" : {
+      "type" : "CLIENT_TRANSFORM",
+      "transform" : {
+        "operands" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "JSON_LITERAL",
+            "value" : "phone="
+          }, {
+            "type" : "STATE_BINDING",
+            "binding" : {
+              "address" : [ "phoneNumber" ]
+            }
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^ORmobile_phone="
+          }, {
+            "type" : "STATE_BINDING",
+            "binding" : {
+              "address" : [ "phoneNumber" ]
+            }
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^ORhome_phone="
+          }, {
+            "type" : "STATE_BINDING",
+            "binding" : {
+              "address" : [ "phoneNumber" ]
+            }
+          } ]
+        },
+        "operator" : "CONCAT"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "name,email,location"
+    },
+    "orderBy" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "sortType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "asc"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1000"
+    },
+    "offset" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "queryCategory" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EXPLICIT"
+}, {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "b997a84053021010cbc2ddeeff7b1228",
+    "type" : "COMPOSITE"
+  },
+  "dependencies" : { },
+  "elementId" : "look_up_unassigned_records",
+  "elementLabel" : "Look Up Unassigned Records",
+  "eventMappings" : [ {
+    "eventMappingId" : "clnegbxwffaaddlccddffhhqmeetdggqtw",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "ba1ba65e477df510b5927104836d4317"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clnegbxwffaaddlddddffhhqmbjjghhfk",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_911_operat_0_emergency"
+    },
+    "encodedQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : "active=true^assigned_toISEMPTY^ORDERBYpriority^ORDERBYopened_at"
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "orderBy" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "sortType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "asc"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "offset" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "queryCategory" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "readEvaluationMode" : "EXPLICIT"
+}, {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "9b4b978353211010cbc2ddeeff7b1245",
+    "type" : "GRAPHQL"
+  },
+  "dependencies" : { },
+  "elementId" : "assign_user_to_emergency_record",
+  "elementLabel" : "Assign User to Emergency record",
+  "eventMappings" : [ {
+    "eventMappingId" : "clnegmpfmaaeeffbddffhhqbomhxjjjjl",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "3a1b665e477df510b5927104836d43fb"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clnegmpfmaaeeffcddffhhqixwgqeesgg",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+} ]</data>
+        <description/>
+        <dispatched_events>b2fc8e0fe5653d105f2be2bbf75b1ce5</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"emergency_call","styles":{"background":"rgb(var(--now-color--neutral-1))","height":"","max-height":"","min-height":"","width":"100%","max-width":""}},{"element_id":"dashboard","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"grid-gap":"var(--now-static-space--lg)","grid-template-areas":"\"main\"","grid-template-columns":"1fr","grid-template-rows":"minmax(400px,auto)","height":"100%"},
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home with emergency call - Layout Change</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "openInEditMode",
+  "label" : "openInEditMode",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "Caller details (matched by phone number)",
+  "comment" : ""
+}, {
+  "message" : "Caller phone number",
+  "comment" : ""
+}, {
+  "message" : "Create",
+  "comment" : ""
+}, {
+  "message" : "Create Button",
+  "comment" : ""
+}, {
+  "message" : "Create Emergency Call",
+  "comment" : ""
+}, {
+  "message" : "Description",
+  "comment" : ""
+}, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Pick up emergency task",
+  "comment" : ""
+}, {
+  "message" : "Short description",
+  "comment" : ""
+}, {
+  "message" : "e.g. (555) 555-0004",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "phoneNumber",
+  "label" : "phoneNumber",
+  "fieldType" : null,
+  "valueType" : null,
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "shortDescription",
+  "label" : "shortDescription",
+  "fieldType" : null,
+  "valueType" : null,
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "description",
+  "label" : "description",
+  "fieldType" : null,
+  "valueType" : null,
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "emergencyCallSysId",
+  "label" : "emergencyCallSysId",
+  "fieldType" : null,
+  "valueType" : null,
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "userName",
+  "label" : "userName",
+  "fieldType" : null,
+  "valueType" : null,
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "userLocation",
+  "label" : "userLocation",
+  "fieldType" : null,
+  "valueType" : null,
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "unassignedRecord",
+  "label" : "unassignedRecord",
+  "fieldType" : null,
+  "valueType" : null,
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "callerSysId",
+  "label" : "callerSysId",
+  "fieldType" : null,
+  "valueType" : null,
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 20:20:17</sys_created_on>
+        <sys_id>e61b665e477df510b5927104836d4379</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Home with emergency call - Layout Change</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_macroponent_e61b665e477df510b5927104836d4379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-12 20:41:43</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=e61b665e477df510b5927104836d4379"/>
+</record_update>

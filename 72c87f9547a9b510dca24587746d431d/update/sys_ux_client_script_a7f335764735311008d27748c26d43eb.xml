@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home with emergency call - Layout Change and Validations">6b10f9fa47f1311008d27748c26d4331</macroponent>
+        <name>isValidPhoneNumber</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var regExp = /[a-zA-Z]/g;
+    var phoneNumber = api.state.phoneNumber;
+    if (phoneNumber.match(regExp)) {
+        api.setState('validPhoneNum', false);
+        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "errorDisplayed",
+            status: "warning",
+            icon: "circle-check-outline",
+            content:"Invalid Phone Number, please enter valid Number",
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+     helpers.timing.setTimeout(() => {
+            api.emit('NOW_UXF_PAGE#CLEAR_NOTIFICATIONS');
+        }, 2 * 1000);
+    } else {
+        api.setState('validPhoneNum', true);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-14 05:39:22</sys_created_on>
+        <sys_id>a7f335764735311008d27748c26d43eb</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>isValidPhoneNumber</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_client_script_a7f335764735311008d27748c26d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-14 08:54:10</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
