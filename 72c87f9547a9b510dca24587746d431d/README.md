@@ -24,4 +24,11 @@ If you find yourself unable to import your repository due to the presence of fil
    2.2 Activate/install all required dependencies
    2.3 Re-import the application from source control
    Currently listed dependencies:
+   * Process Automation Designer Core - Model
+   * Playbook Experience Core
+   * Process Automation Designer for App Engine
    * Task table schema
+   * Process Automation Definition Shared
+   * Process Automation Designer Core - Runtime
+   * Process Flow Formatter
+   * Process Automation Designer Core
