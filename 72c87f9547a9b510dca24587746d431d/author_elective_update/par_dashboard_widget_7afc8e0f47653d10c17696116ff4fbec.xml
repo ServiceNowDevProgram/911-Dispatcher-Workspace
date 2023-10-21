@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">fafc8e0fef653d10f36d01618752fbed</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 15:48:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7afc8e0f47653d10c17696116ff4fbec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>par_dashboard_widget_7afc8e0f47653d10c17696116ff4fbec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 16:17:03</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</application>
+        <file_path/>
+        <instance_id>9ba29d2cdb0a5f886578f22ebf961961</instance_id>
+        <instance_name>dev58822</instance_name>
+        <name>par_dashboard_widget_7afc8e0f47653d10c17696116ff4fbec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">fafc8e0fef653d10f36d01618752fbed</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 15:48:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7afc8e0f47653d10c17696116ff4fbec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>par_dashboard_widget_7afc8e0f47653d10c17696116ff4fbec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 16:17:03</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>]]></payload>
+        <payload_hash>-436888524</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a84b82f347a53110984fc88bd36d43c4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 23:36:30</sys_created_on>
+        <sys_id>f64b46f347a53110984fc88bd36d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18afd0cd2e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-04 23:36:30</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>b64b46f33ea53110ac949267c1eeb4d9</update_guid>
+        <update_guid_history>b64b46f33ea53110ac949267c1eeb4d9:-436888524</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">28a69d8947713110984fc88bd36d43a7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:58:51</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1021e9df736f49189de840f8d4020590</sys_id>
+        <sys_metadata>7afc8e0f47653d10c17696116ff4fbec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_scope_delete display_value="">564d3bc910cd4e6f950f8a931f9bc701</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_7afc8e0f47653d10c17696116ff4fbec</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_7afc8e0f47653d10c17696116ff4fbec">f64b46f347a53110984fc88bd36d43d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 16:58:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

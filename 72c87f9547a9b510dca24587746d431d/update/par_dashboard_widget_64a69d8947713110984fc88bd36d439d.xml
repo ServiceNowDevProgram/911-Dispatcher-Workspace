@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">fafc8e0fef653d10f36d01618752fbed</canvas>
+        <component display_value="">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"newReporting":false,"showSparkline":false,"dataPassthrough":null,"configVersion":"23.0.0-ci-SNAPSHOT","groupBy":null,"trendBy":null,"showMaximumRange":false,"enableRealTimeUpdate":false,"scoreType":null,"showScoreUpdateTime":false,"colorConfig":{"type":"default"},"headerTitle":"EMS Issues","showFilterIcon":true,"followFilters":true,"applyDateRange":false,"showChange":false,"showTarget":false,"showGapPercentage":false,"showScoreDate":false,"showChangePercentage":false,"showChangeFrom":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Emergency","sourceType":"table","tableOrViewName":"x_snc_911_operat_0_emergency","filterQuery":"response_dispatched=ems^state=1","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY185MTFfb3BlcmF0XzBfZW1lcmdlbmN5MTY5Njc4Mzc0NjgxNA==","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4X3NuY185MTFfb3BlcmF0XzBfZW1lcmdlbmN5MTY5Njc4Mzc0NjgxNA==","id":"ZEdGaWJHVjRYM051WTE4NU1URmZiM0JsY21GMFh6QmZaVzFsY21kbGJtTjVNVFk1TmpjNE16YzBOamd4TkE9PTE2OTY3ODM3NDgwMTk=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"showZero":true,"enableCustomEmptyState":false,"enableDrilldown":true,"showHeaderSeparator":true,"showHeader":true}</component_props>
+        <h>9</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 16:58:51</sys_created_on>
+        <sys_id>64a69d8947713110984fc88bd36d439d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>par_dashboard_widget_64a69d8947713110984fc88bd36d439d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 17:05:07</sys_updated_on>
+        <visualization/>
+        <w>9</w>
+        <x>29</x>
+        <y>4</y>
+    </par_dashboard_widget>
+</record_update>

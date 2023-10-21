@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description>CSM </description>
+        <name>Default Open create collab chat on interaction</name>
+        <parent_macroponent display_value="CSM Interaction record page">fda8798547353110984fc88bd36d43c9</parent_macroponent>
+        <source_component/>
+        <source_da display_value="Open create collab chat modal">f1d63fd6b7420110ffe5ef54ce11a946</source_da>
+        <source_element_id>ui_action_bar</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 19:27:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>06a831c547353110984fc88bd36d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default Open create collab chat on interaction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CSM and FSM Configurable Workspace Foundation" source="sn_cwf_wrkspc">27b568be53b11010d4f9ddeeff7b12c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_06a831c547353110984fc88bd36d4399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 19:27:30</sys_updated_on>
+        <target_event display_value="RECORD#OPEN_COLLAB_CHAT">a91838b3b7900110ffe5ef54ce11a98c</target_event>
+        <target_payload_mapping>{&#13;
+      "type": "MAP_CONTAINER",&#13;
+      "container": {&#13;
+      "fields": {&#13;
+      "type": "EVENT_PAYLOAD_BINDING",&#13;
+      "binding": {&#13;
+      "address": [&#13;
+      "fields"&#13;
+      ]&#13;
+      }&#13;
+      }   &#13;
+      }&#13;
+      }</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>
