@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home with emergency call - Validations Info Messages">581f2f7747b1311008d27748c26d43d8</macroponent>
+        <name>successMessage</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    const number = api.data.look_up_emergency_call.result.number.value;
+    const instanceName = api.data.get_instance_name_1.output;
+    var recordURL = `https://${instanceName}.service-now.com/now/911-operators-workspace/record/x_snc_911_operat_0_emergency/${api.data.look_up_emergency_call.result._row_data.uniqueValue}`;
+    var link = `<a href="${recordURL}">${number}</a>`;
+    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "created",
+            status: "positive",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: `<span>Emergency call successfully created: ${link}. You'll be directed there in few seconds.</span>`
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+
+    api.setState("shortDescription", "");
+    api.setState("phoneNumber", "");
+    api.setState("description", "");
+    if (api.state.isUserPresentInDBWithPhone) {
+        api.setState("isUserPresentInDBWithPhone", false);
+    }
+    //Clears the success message after 3 seconds
+    helpers.timing.setTimeout(() => {
+        api.emit('NOW_UXF_PAGE#CLEAR_NOTIFICATIONS');
+        var fields = {
+        table: 'x_snc_911_operat_0_emergency',
+        sysId: api.data.look_up_emergency_call.result._row_data.uniqueValue
+    };
+        helpers.navigate.to('record', fields, {}, false, false);
+    }, 3 * 1000);
+    
+    
+
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 17:08:08</sys_created_on>
+        <sys_id>e01fe3b747b1311008d27748c26d435f</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>successMessage</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_client_script_e01fe3b747b1311008d27748c26d435f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 19:30:19</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
