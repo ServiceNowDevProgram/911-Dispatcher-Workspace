@@ -4,18 +4,19 @@
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
-
+g_form.setValue('response_dispatched', 'police');
+g_form.save();
 }]]></client_script_v2>
         <comments>Police</comments>
         <condition/>
         <form_action>true</form_action>
         <form_button>true</form_button>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
-        <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>true</isolate_script>
         <list_action>false</list_action>
@@ -29,9 +30,10 @@
         <messages/>
         <name>Police</name>
         <onclick>dispatch1()</onclick>
-        <order>200</order>
+        <order>-199</order>
         <script><![CDATA[function dispatch1(){
 	g_form.setValue('response_dispatched', 'police');
+	g_form.save();
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -43,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>54e279b947793110984fc88bd36d4325</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Police</sys_name>
         <sys_overrides/>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
@@ -51,7 +53,7 @@
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_ui_action_54e279b947793110984fc88bd36d4325</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-19 01:57:53</sys_updated_on>
+        <sys_updated_on>2023-10-22 14:33:10</sys_updated_on>
         <table>x_snc_911_operat_0_emergency</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
