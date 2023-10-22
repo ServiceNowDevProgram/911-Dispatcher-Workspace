@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Report Issues">221de1c547f13110984fc88bd36d43f1</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-08 18:37:00</sys_created_on>
+        <sys_id>661de1c547f13110984fc88bd36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report Issue.SNC External</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_661de1c547f13110984fc88bd36d43f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-08 18:37:00</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</application>
+        <file_path/>
+        <instance_id>9ba29d2cdb0a5f886578f22ebf961961</instance_id>
+        <instance_name>dev58822</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_661de1c547f13110984fc88bd36d43f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report Issues">221de1c547f13110984fc88bd36d43f1</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-08 18:37:00</sys_created_on><sys_id>661de1c547f13110984fc88bd36d43f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Report Issue.SNC External</sys_name><sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package><sys_policy/><sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_661de1c547f13110984fc88bd36d43f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-08 18:37:00</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>539113903</payload_hash>
+        <record_name>Report Issue.SNC External</record_name>
+        <reverted_from/>
+        <source>233ceb0247313110984fc88bd36d4398</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-10-12 06:26:25</sys_created_on>
+        <sys_id>a844fa25474a3110984fc88bd36d4383</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18b22909e680000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>6844fa25ad4a311028830bd304ecef83</update_guid>
+        <update_guid_history>6844fa25ad4a311028830bd304ecef83:539113903</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Report Issue.SNC External">ac44fa25474a3110984fc88bd36d4389</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-22 23:20:34</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>a3145f2d3c194c1687a9a01e42da1d84</sys_id>
+        <sys_metadata>661de1c547f13110984fc88bd36d43f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report Issue.SNC External</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_scope_delete display_value="">564d3bc910cd4e6f950f8a931f9bc701</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_661de1c547f13110984fc88bd36d43f6</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_661de1c547f13110984fc88bd36d43f6">a844fa25474a3110984fc88bd36d4383</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-22 23:20:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

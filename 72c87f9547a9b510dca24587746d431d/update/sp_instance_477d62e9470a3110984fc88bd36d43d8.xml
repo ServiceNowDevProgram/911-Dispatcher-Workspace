@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a96d22e9470a3110984fc88bd36d43af</sp_column>
+        <sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-22 22:50:57</sys_created_on>
+        <sys_id>477d62e9470a3110984fc88bd36d43d8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sp_instance_477d62e9470a3110984fc88bd36d43d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-22 23:11:23</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Left",
+		"displayValue": "Left"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "60bd2ee9470a3110984fc88bd36d4309",
+		"displayValue": "Report your Issue"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=477d62e9470a3110984fc88bd36d43d8"/>
+</record_update>
