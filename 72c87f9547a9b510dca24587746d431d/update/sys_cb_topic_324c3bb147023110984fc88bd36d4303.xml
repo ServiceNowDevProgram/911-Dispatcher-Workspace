@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.51",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5fc6cc106de744e99456fdaa41d5bd8c": {
+          "id": "5fc6cc106de744e99456fdaa41d5bd8c",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "9acaaa4874d147ef8f07afd29c79e599": {
+          "id": "9acaaa4874d147ef8f07afd29c79e599",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2a5cc40f0a774aec965b8e537fe82d04": {
+          "name": "Ask question",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Do you like to raise an emergency issue?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "7591fa4de65f4c158d610f446e7180a6",
+          "detailDescription": "",
+          "id": "2a5cc40f0a774aec965b8e537fe82d04",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "b2db297516f14580a8e8bc19cff584e2": {
+          "id": "b2db297516f14580a8e8bc19cff584e2",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "a66092d167504867b1a0bd384e4ce7bc": {
+          "id": "a66092d167504867b1a0bd384e4ce7bc",
+          "stepType": "ReusableTopic",
+          "name": "Request Catalog Item",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "useTemplateTopic": false,
+          "reusableTopicChoice": "Request Catalog Item",
+          "reusableTopicId": "a39acd71c3a3330012d1758a7ff57eb6",
+          "inputs": {
+            "catalog_item_id": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "221de1c547f13110984fc88bd36d43f1"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "execute_contextual_search": {
+              "value": "false",
+              "mode": "simple",
+              "type": "String"
+            },
+            "confirm_catalog_item": {
+              "value": "true",
+              "mode": "simple",
+              "type": "String"
+            },
+            "show_end_state_card": {
+              "value": "false",
+              "mode": "simple",
+              "type": "True/False"
+            }
+          },
+          "outputs": [
+            {
+              "id": "09985a6d606649f9b76163566833dbf1",
+              "value": "record_id",
+              "mapping": "record_id"
+            },
+            {
+              "id": "d414b4c9b553456695f10dfe54d855a9",
+              "value": "record_table",
+              "mapping": "record_table"
+            },
+            {
+              "id": "7d8f7a540627458cadd6daf6e4a86abe",
+              "value": "variables",
+              "mapping": "variables"
+            }
+          ],
+          "variableIds": [
+            "09985a6d606649f9b76163566833dbf1",
+            "d414b4c9b553456695f10dfe54d855a9",
+            "7d8f7a540627458cadd6daf6e4a86abe"
+          ],
+          "dynamicTopicBlockName": {
+            "value": "",
+            "mode": "simple"
+          },
+          "inputDynamicModal": {},
+          "outputDynamicModal": {}
+        },
+        "30e3278dd5404c1796c381173e0f9eb1": {
+          "id": "30e3278dd5404c1796c381173e0f9eb1",
+          "stepType": "TextOutput",
+          "name": "Thanks message",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thanks for reaching out to us, We will take an action immediately."
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "d153c79e6e7a430a80d42958c9d2ec8a"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "620c14b496da4a029d67c029082be6fa": {
+          "id": "620c14b496da4a029d67c029082be6fa",
+          "stepType": "TextOutput",
+          "name": "Thanks",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thanks for Reaching us."
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "6a380c247654481794d7a5a285a46ae2"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "ac10bfb7ff3f4352963cdf23668c6a7b",
+          "edgeType": "Edge",
+          "source": "5fc6cc106de744e99456fdaa41d5bd8c",
+          "target": "2a5cc40f0a774aec965b8e537fe82d04",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "75f0a5274cb34111bd9887604101c971",
+          "edgeType": "Edge",
+          "source": "2a5cc40f0a774aec965b8e537fe82d04",
+          "target": "b2db297516f14580a8e8bc19cff584e2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9157bf63e6114ea9bbbc6ff803378b04",
+          "edgeType": "Branch",
+          "source": "b2db297516f14580a8e8bc19cff584e2",
+          "target": "a66092d167504867b1a0bd384e4ce7bc",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.ask_question=Yes",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "f16607a0263343f1b46e27ceccdc9cee",
+          "edgeType": "Edge",
+          "source": "a66092d167504867b1a0bd384e4ce7bc",
+          "target": "30e3278dd5404c1796c381173e0f9eb1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6fa215d8685d4e548b73e731a13e4c26",
+          "edgeType": "Edge",
+          "source": "30e3278dd5404c1796c381173e0f9eb1",
+          "target": "9acaaa4874d147ef8f07afd29c79e599",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f80663cd1d1a44b6989961645d93c92f",
+          "edgeType": "Branch",
+          "source": "b2db297516f14580a8e8bc19cff584e2",
+          "target": "620c14b496da4a029d67c029082be6fa",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.ask_question=No",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "ece70f80c55845e980d9e59001880a2d",
+          "edgeType": "Edge",
+          "source": "620c14b496da4a029d67c029082be6fa",
+          "target": "9acaaa4874d147ef8f07afd29c79e599",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "7591fa4de65f4c158d610f446e7180a6": {
+      "id": "7591fa4de65f4c158d610f446e7180a6",
+      "name": "ask_question",
+      "label": "Ask Question",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "2a5cc40f0a774aec965b8e537fe82d04",
+      "isHidden": false
+    },
+    "09985a6d606649f9b76163566833dbf1": {
+      "id": "09985a6d606649f9b76163566833dbf1",
+      "name": "record_id",
+      "label": "Record_id",
+      "defaultValue": "record_id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "a66092d167504867b1a0bd384e4ce7bc",
+      "isHidden": false
+    },
+    "d414b4c9b553456695f10dfe54d855a9": {
+      "id": "d414b4c9b553456695f10dfe54d855a9",
+      "name": "record_table",
+      "label": "Record_table",
+      "defaultValue": "record_table",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "a66092d167504867b1a0bd384e4ce7bc",
+      "isHidden": false
+    },
+    "7d8f7a540627458cadd6daf6e4a86abe": {
+      "id": "7d8f7a540627458cadd6daf6e4a86abe",
+      "name": "variables",
+      "label": "Variables",
+      "defaultValue": "variables",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "a66092d167504867b1a0bd384e4ce7bc",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>911 Case Creation</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>911 Case Creation</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 23:13:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>324c3bb147023110984fc88bd36d4303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>911 Case Creation</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_cb_topic_324c3bb147023110984fc88bd36d4303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-23 23:20:53</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=324c3bb147023110984fc88bd36d4303"/>
+    <sys_variable_value action="delete_multiple" query="document_key=324c3bb147023110984fc88bd36d4303"/>
+</record_update>
