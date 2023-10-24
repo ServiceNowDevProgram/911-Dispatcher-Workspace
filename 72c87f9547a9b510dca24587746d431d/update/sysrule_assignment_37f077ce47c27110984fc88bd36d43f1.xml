@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
+    <sysrule_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_911_operat_0_emergency">response_dispatched=fire^EQ<item display_value="Fire" endquery="false" field="response_dispatched" goto="false" newquery="false" operator="=" or="false" value="fire"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <group display_value="Fire Issues Assignment Group" name="Fire Issues Assignment Group">4cfea70e47c27110984fc88bd36d43e4</group>
+        <match_conditions>ALL</match_conditions>
+        <name>Fire issues</name>
+        <order>100</order>
+        <script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+&#13;
+*/&#13;
+current.release.product.service.assigned_to;</script>
+        <sys_class_name>sysrule_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 17:03:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37f077ce47c27110984fc88bd36d43f1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Fire issues</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sysrule_assignment_37f077ce47c27110984fc88bd36d43f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 17:30:07</sys_updated_on>
+        <table>x_snc_911_operat_0_emergency</table>
+        <user/>
+    </sysrule_assignment>
+</record_update>
