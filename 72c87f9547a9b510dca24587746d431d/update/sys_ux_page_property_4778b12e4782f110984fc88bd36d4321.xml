@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>911 tab config</description>
+        <name>chrome_tab</name>
+        <page display_value="911  Workspace">f34961e64742f110984fc88bd36d43a1</page>
+        <required_translations>[ {
+  "message" : "New Change Request",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix>chrome_tab</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 21:33:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>4778b12e4782f110984fc88bd36d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_page_property_4778b12e4782f110984fc88bd36d4321</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 21:33:53</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_911_operat_0.f34961e64742f110984fc88bd36d43a1.root.chrome_tab</unique_name>
+        <value>{&#13;
+	"contextual": [&#13;
+		"record",&#13;
+		"kb_view"&#13;
+	],&#13;
+	"newTabMenu": [&#13;
+		{&#13;
+			"label": {&#13;
+				"translatable": true,&#13;
+				"message": "New Interaction"&#13;
+			},&#13;
+			"routeInfo": {&#13;
+				"route": "record",&#13;
+				"fields": {&#13;
+					"table": "interaction",&#13;
+					"sysId": "-1"&#13;
+				},&#13;
+				"multiInstField": "sysId"&#13;
+			},&#13;
+			"condition": {&#13;
+				"tableDescription": {&#13;
+					"table": "interaction",&#13;
+					"canCreate": true&#13;
+				}&#13;
+			}&#13;
+		},&#13;
+		{&#13;
+			"label": {&#13;
+				"translatable": true,&#13;
+				"message": "New Incident"&#13;
+			},&#13;
+			"routeInfo": {&#13;
+				"route": "record",&#13;
+				"fields": {&#13;
+					"table": "incident",&#13;
+					"sysId": "-1"&#13;
+				},&#13;
+				"multiInstField": "sysId"&#13;
+			},&#13;
+			"condition": {&#13;
+				"tableDescription": {&#13;
+					"table": "incident",&#13;
+					"canCreate": true&#13;
+				}&#13;
+			}&#13;
+		},&#13;
+		{&#13;
+			"label": {&#13;
+				"translatable": true,&#13;
+				"message": "New Change Request"&#13;
+			},&#13;
+			"routeInfo": {&#13;
+				"route": "create-change-request-page",&#13;
+				"fields": {},&#13;
+				"multiInstField": ""&#13;
+			},&#13;
+			"condition": {&#13;
+				"tableDescription": {&#13;
+					"table": "change_request",&#13;
+					"canCreate": true&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+	],&#13;
+	"maxMainTabLimit": 10,&#13;
+	"maxTotalSubTabLimit": 30&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=4778b12e4782f110984fc88bd36d4321"/>
+</record_update>
