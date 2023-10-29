@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script will set the mandatory attribute for the assignment_group field and set the value of the field depending on repsonse_dispatched field selection</description>
+        <field>response_dispatched</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>assignmentGroupMandatory</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+    if (newValue != '') {
+        g_form.setMandatory('assignment_group', true);
+        var assignmentGroup;
+        switch (newValue) {
+            case "fire":
+                assignmentGroup = '7a940e8c47313110984fc88bd36d4389';
+                break;
+            case "police":
+                assignmentGroup = '3a268ecc47313110984fc88bd36d4379';
+                break;
+            case "ems":
+                assignmentGroup = 'd6170e0047713110984fc88bd36d43b4';
+                break;
+            case "utilities":
+                assignmentGroup = 'ee77828047713110984fc88bd36d4336';
+                break;
+            case "social_worker_services":
+                assignmentGroup = '860b8dfa47b1311005bec7de826d4338';
+                break;
+            default:
+                g_form.setMandatory('assignment_group', false);
+                g_form.setValue('assignment_group', '');
+
+        }
+        g_form.setValue('assignment_group', assignmentGroup);
+    } else {
+        g_form.setMandatory('assignment_group', false);
+        g_form.setValue('assignment_group', '');
+    }
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:37:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>247dc36b470ebd1008d27748c26d43a9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>assignmentGroupMandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_script_client_247dc36b470ebd1008d27748c26d43a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 14:24:38</sys_updated_on>
+        <table>x_snc_911_operat_0_emergency</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
