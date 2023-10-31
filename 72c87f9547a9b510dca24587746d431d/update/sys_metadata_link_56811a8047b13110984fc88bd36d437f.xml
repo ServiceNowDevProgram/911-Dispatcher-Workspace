@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7a940e8c47313110984fc88bd36d4389</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group">
+    <sys_user_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cost_center/>
+        <default_assignee/>
+        <description/>
+        <email/>
+        <exclude_manager>false</exclude_manager>
+        <hourly_rate>0</hourly_rate>
+        <include_members>false</include_members>
+        <manager display_value="Ryan Knight">18e1cf4947203110984fc88bd36d43e5</manager>
+        <name>Fire Department</name>
+        <parent/>
+        <roles/>
+        <source/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 17:46:07</sys_created_on>
+        <sys_id>7a940e8c47313110984fc88bd36d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 17:46:07</sys_updated_on>
+        <type/>
+        <vendors/>
+    </sys_user_group>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 18:42:15</sys_created_on>
+        <sys_id>56811a8047b13110984fc88bd36d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fire Department</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_metadata_link_56811a8047b13110984fc88bd36d437f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:42:15</sys_updated_on>
+        <tablename>sys_user_group</tablename>
+    </sys_metadata_link>
+</record_update>

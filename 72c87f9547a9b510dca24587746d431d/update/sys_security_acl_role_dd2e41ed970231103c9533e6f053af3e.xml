@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-22 15:54:25</sys_created_on>
+        <sys_id>dd2e41ed970231103c9533e6f053af3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_911_operat_0_emergency_task.x_snc_911_operat_0.emergency_task_user</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_security_acl display_value="x_snc_911_operat_0_emergency_task">d12e41ed970231103c9533e6f053af3c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dd2e41ed970231103c9533e6f053af3e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-22 15:54:25</sys_updated_on>
+        <sys_user_role display_value="x_snc_911_operat_0.emergency_task_user" name="x_snc_911_operat_0.emergency_task_user">012ec56d970231103c9533e6f053af5d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

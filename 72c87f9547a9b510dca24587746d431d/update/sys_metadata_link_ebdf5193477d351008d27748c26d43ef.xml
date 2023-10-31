@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d8d1d91f47b9351008d27748c26d43ef</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_911_operat_0_emergency_service_type">
+    <x_snc_911_operat_0_emergency_service_type action="INSERT_OR_UPDATE">
+        <emergency_service_required>fire</emergency_service_required>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 16:24:12</sys_created_on>
+        <sys_id>d8d1d91f47b9351008d27748c26d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 16:24:12</sys_updated_on>
+    </x_snc_911_operat_0_emergency_service_type>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 17:25:31</sys_created_on>
+        <sys_id>ebdf5193477d351008d27748c26d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_metadata_link_ebdf5193477d351008d27748c26d43ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 17:25:31</sys_updated_on>
+        <tablename>x_snc_911_operat_0_emergency_service_typ</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="911 Operators Workspace Config">36fc8e0f30653d103e5f4badcf6f3ff5</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckhffjjisfyaaaabboddhhhmwraaxeeaft",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_911_operat_0.NAV_ITEM_SELECTED_RELAY_fefc8e0f79653d10670e866cad8851e4",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_911_operat_0.NAV_ITEM_SELECTED_RELAY_fefc8e0f79653d10670e866cad8851e4",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckhffjjisfyaaaabbnddhhhmsoffggkjjsjj",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Home with emergency call - Layout Change">e61b665e477df510b5927104836d4379</macroponent>
+        <macroponent_config>{
+  "sysId" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "openInEditMode" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Home with emergency call - Layout Change</name>
+        <order>-10</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Home">f6fc8e0fe5653d107d3970e48b8a2ce9</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 20:20:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e61b665e477df510b5927104836d43e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Home with emergency call - Layout Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_screen_e61b665e477df510b5927104836d43e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-12 20:33:36</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=e61b665e477df510b5927104836d43e7"/>
+</record_update>

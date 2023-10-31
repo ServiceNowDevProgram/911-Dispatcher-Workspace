@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=15892000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>summarize_the_case_gen_ai</internal_name>
+        <label_cache>[{"name":"subflow.question","label":"Input➛Question","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3b035f80-f0e3-4068-a5e0-50e79f78b7dc","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.shortdesc","label":"Input➛shortdesc","reference":"","reference_display":"","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"653a011b-3994-4c5e-910d-cb0f4311190c"}},{"name":"subflow.duration","label":"Input➛duration","reference":"","reference_display":"","type":"glide_duration","base_type":"glide_duration","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dcd5a67e-7133-4f82-9f69-e4130125854d"}},{"name":"subflow.priority","label":"Input➛priority","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a1fde4a4-5177-4c4a-9487-735598ce561b"}},{"name":"subflow.urgency","label":"Input➛urgency","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"acb0ada9-83f0-48c1-b4c5-b0c2b25e8273"}},{"name":"b68c6fea-51d0-48de-9bee-27eabddcbad6.answer","label":"1 - AskChatGPT➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a89e808-4c5b-41d9-9394-355ebfd9e775"}}]</label_cache>
+        <master_snapshot>2467007147713110984fc88bd36d4311</master_snapshot>
+        <name>Summarize the case Gen Ai</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 18:56:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ed4443d47313110984fc88bd36d4379</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Summarize the case Gen Ai</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_hub_flow_0ed4443d47313110984fc88bd36d4379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-28 12:34:27</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_0ed4443d47313110984fc88bd36d4379^id=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0ed4443d47313110984fc88bd36d4379^sys_idNOT INcad4443d47313110984fc88bd36d437b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0ed4443d47313110984fc88bd36d4379</id>
+        <name>Summarize the case Gen Ai</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 18:56:56</sys_created_on>
+        <sys_id>cad4443d47313110984fc88bd36d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 18:56:56</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=cad4443d47313110984fc88bd36d437b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0ed4443d47313110984fc88bd36d4379^sys_idNOT INdcc089b947753110984fc88bd36d43f8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3b035f80-f0e3-4068-a5e0-50e79f78b7dc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>question</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Question</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Summarize the case Gen Ai">0ed4443d47313110984fc88bd36d4379</model>
+        <model_id>0ed4443d47313110984fc88bd36d4379</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0ed4443d47313110984fc88bd36d4379</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 23:18:41</sys_created_on>
+        <sys_id>dcc089b947753110984fc88bd36d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:18:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dcc089b947753110984fc88bd36d43f8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0ed4443d47313110984fc88bd36d4379^sys_idNOT INdb57cc3147713110984fc88bd36d4311"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2b84850b-3ad3-481a-8d79-1a2635cd419b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>answer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Answer</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Summarize the case Gen Ai">0ed4443d47313110984fc88bd36d4379</model>
+        <model_id>0ed4443d47313110984fc88bd36d4379</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_0ed4443d47313110984fc88bd36d4379</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:07:57</sys_created_on>
+        <sys_id>db57cc3147713110984fc88bd36d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 19:07:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=db57cc3147713110984fc88bd36d4311"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0ed4443d47313110984fc88bd36d4379^sys_idNOT INf127fe9b47063d1008d27748c26d439b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="AskchatGPT">eab6403147713110984fc88bd36d4379</action_type>
+        <action_type_parent display_value="AskchatGPT">4526047d47313110984fc88bd36d4358</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Summarize the case Gen Ai">0ed4443d47313110984fc88bd36d4379</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-28 10:02:33</sys_created_on>
+        <sys_id>f127fe9b47063d1008d27748c26d439b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-28 10:02:33</sys_updated_on>
+        <ui_id>7b2b7c8d-8ef4-4fc8-a84f-0ab30e556790</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f127fe9b47063d1008d27748c26d439b"/>
+    <sys_element_mapping action="delete_multiple" query="id=f127fe9b47063d1008d27748c26d439b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>question</field>
+        <id>f127fe9b47063d1008d27748c26d439b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-28 10:02:33</sys_created_on>
+        <sys_id>7127fe9b47063d1008d27748c26d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-28 10:02:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_eab6403147713110984fc88bd36d4379</table>
+        <value>{{subflow.question}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f127fe9b47063d1008d27748c26d439b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f127fe9b47063d1008d27748c26d439b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0ed4443d47313110984fc88bd36d4379^sys_idNOT IN4a7198fd47713110984fc88bd36d4341"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7127fe9b47063d1008d27748c26d43a0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Summarize the case Gen Ai">0ed4443d47313110984fc88bd36d4379</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>answer</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:52:05</sys_created_on>
+        <sys_id>4a7198fd47713110984fc88bd36d4341</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-28 10:02:33</sys_updated_on>
+        <ui_id>1c72ace6-3919-4e30-9406-3d3088d7b14c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4a7198fd47713110984fc88bd36d4341"/>
+    <sys_element_mapping action="delete_multiple" query="id=4a7198fd47713110984fc88bd36d4341"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer</field>
+        <id>4a7198fd47713110984fc88bd36d4341</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:52:05</sys_created_on>
+        <sys_id>827198fd47713110984fc88bd36d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 19:52:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_0ed4443d47313110984fc88bd36d4379</table>
+        <value>{{b68c6fea-51d0-48de-9bee-27eabddcbad6.answer}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4a7198fd47713110984fc88bd36d4341"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4a7198fd47713110984fc88bd36d4341"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0ed4443d47313110984fc88bd36d4379^sys_idNOT INdcc089b947753110984fc88bd36d43fb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>question</element>
+        <help/>
+        <hint/>
+        <label>Question</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0ed4443d47313110984fc88bd36d4379</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 23:18:41</sys_created_on>
+        <sys_id>dcc089b947753110984fc88bd36d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:18:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0ed4443d47313110984fc88bd36d4379"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0ed4443d47313110984fc88bd36d4379^sys_idNOT INa357cc3147713110984fc88bd36d4315"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>answer</element>
+        <help/>
+        <hint/>
+        <label>Answer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_0ed4443d47313110984fc88bd36d4379</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:07:57</sys_created_on>
+        <sys_id>a357cc3147713110984fc88bd36d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 19:07:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0ed4443d47313110984fc88bd36d4379"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>summarize_the_case_gen_ai</internal_name>
+        <label_cache>[{"name":"subflow.question","label":"Input➛Question","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3b035f80-f0e3-4068-a5e0-50e79f78b7dc"}},{"name":"subflow.shortdesc","label":"Input➛shortdesc","reference":"","reference_display":"","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"653a011b-3994-4c5e-910d-cb0f4311190c"}},{"name":"subflow.duration","label":"Input➛duration","reference":"","reference_display":"","type":"glide_duration","base_type":"glide_duration","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dcd5a67e-7133-4f82-9f69-e4130125854d"}},{"name":"subflow.priority","label":"Input➛priority","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a1fde4a4-5177-4c4a-9487-735598ce561b"}},{"name":"subflow.urgency","label":"Input➛urgency","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"acb0ada9-83f0-48c1-b4c5-b0c2b25e8273"}},{"name":"b68c6fea-51d0-48de-9bee-27eabddcbad6.answer","label":"1 - AskChatGPT➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a89e808-4c5b-41d9-9394-355ebfd9e775"}}]</label_cache>
+        <master>true</master>
+        <name>Summarize the case Gen Ai</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Summarize the case Gen Ai">0ed4443d47313110984fc88bd36d4379</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:08:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2467007147713110984fc88bd36d4311</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:21:50</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2467007147713110984fc88bd36d4311"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2467007147713110984fc88bd36d4311"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_2467007147713110984fc88bd36d4311^id=2467007147713110984fc88bd36d4311"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2467007147713110984fc88bd36d4311"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2467007147713110984fc88bd36d4311"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2467007147713110984fc88bd36d4311^sys_idNOT IN2467007147713110984fc88bd36d432b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2467007147713110984fc88bd36d4311</id>
+        <name>Summarize the case Gen Ai</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:08:02</sys_created_on>
+        <sys_id>2467007147713110984fc88bd36d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 19:08:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2467007147713110984fc88bd36d432b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2467007147713110984fc88bd36d4311^sys_idNOT INca7189f947753110984fc88bd36d43f2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3b035f80-f0e3-4068-a5e0-50e79f78b7dc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>question</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Question</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Summarize the case Gen Ai">2467007147713110984fc88bd36d4311</model>
+        <model_id>2467007147713110984fc88bd36d4311</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2467007147713110984fc88bd36d4311</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 23:21:49</sys_created_on>
+        <sys_id>ca7189f947753110984fc88bd36d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:21:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ca7189f947753110984fc88bd36d43f2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2467007147713110984fc88bd36d4311^sys_idNOT IN3467007147713110984fc88bd36d4380"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2b84850b-3ad3-481a-8d79-1a2635cd419b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>answer</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Answer</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Summarize the case Gen Ai">2467007147713110984fc88bd36d4311</model>
+        <model_id>2467007147713110984fc88bd36d4311</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_2467007147713110984fc88bd36d4311</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:08:03</sys_created_on>
+        <sys_id>3467007147713110984fc88bd36d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 19:08:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3467007147713110984fc88bd36d4380"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2467007147713110984fc88bd36d4311"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2467007147713110984fc88bd36d4311^sys_idNOT IN1671c9f947753110984fc88bd36d434a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="">183c7d4247796110984fc88bd36d4366</action_type>
+        <action_type_parent display_value="">ccb7b9ca47396110984fc88bd36d4318</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Summarize the case Gen Ai">2467007147713110984fc88bd36d4311</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 23:21:50</sys_created_on>
+        <sys_id>1671c9f947753110984fc88bd36d434a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:21:50</sys_updated_on>
+        <ui_id>b68c6fea-51d0-48de-9bee-27eabddcbad6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1671c9f947753110984fc88bd36d434a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1671c9f947753110984fc88bd36d434a^sys_idNOT IN5671c9f947753110984fc88bd36d434b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>question</input_name>
+        <instance>1671c9f947753110984fc88bd36d434a</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"question":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDes*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 23:21:50</sys_created_on>
+        <sys_id>5671c9f947753110984fc88bd36d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:21:50</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1671c9f947753110984fc88bd36d434a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=2467007147713110984fc88bd36d4311"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2467007147713110984fc88bd36d4311^sys_idNOT IN1a71c9f947753110984fc88bd36d434c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4e7198fd47713110984fc88bd36d4340</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Summarize the case Gen Ai">2467007147713110984fc88bd36d4311</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>answer</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 23:21:50</sys_created_on>
+        <sys_id>1a71c9f947753110984fc88bd36d434c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:21:50</sys_updated_on>
+        <ui_id>1c72ace6-3919-4e30-9406-3d3088d7b14c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1a71c9f947753110984fc88bd36d434c"/>
+    <sys_element_mapping action="delete_multiple" query="id=1a71c9f947753110984fc88bd36d434c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer</field>
+        <id>1a71c9f947753110984fc88bd36d434c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 23:21:50</sys_created_on>
+        <sys_id>9a71c9f947753110984fc88bd36d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:21:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_2467007147713110984fc88bd36d4311</table>
+        <value>{{b68c6fea-51d0-48de-9bee-27eabddcbad6.answer}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1a71c9f947753110984fc88bd36d434c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1a71c9f947753110984fc88bd36d434c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2467007147713110984fc88bd36d4311"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2467007147713110984fc88bd36d4311"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2467007147713110984fc88bd36d4311^sys_idNOT IN4671c9f947753110984fc88bd36d430e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>question</element>
+        <help/>
+        <hint/>
+        <label>Question</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2467007147713110984fc88bd36d4311</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 23:21:49</sys_created_on>
+        <sys_id>4671c9f947753110984fc88bd36d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Question</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2467007147713110984fc88bd36d4311_question_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:21:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2467007147713110984fc88bd36d4311"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2467007147713110984fc88bd36d4311^sys_idNOT IN7067007147713110984fc88bd36d4385"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>answer</element>
+        <help/>
+        <hint/>
+        <label>Answer</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_2467007147713110984fc88bd36d4311</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:08:03</sys_created_on>
+        <sys_id>7067007147713110984fc88bd36d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Answer</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2467007147713110984fc88bd36d4311_answer_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 19:08:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2467007147713110984fc88bd36d4311"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>0ed4443d47313110984fc88bd36d4379</sys_id>
+        <latest_snapshot>2467007147713110984fc88bd36d4311</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-09-13-2023_09-21-2023_1911.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0ed4443d47313110984fc88bd36d4379"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0ed4443d47313110984fc88bd36d4379^sys_idNOT INb467007147713110984fc88bd36d43b5"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"b467007147713110984fc88bd36d43b5","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Summarize the case Gen Ai">0ed4443d47313110984fc88bd36d4379</plan_id>
+        <snapshot>2467007147713110984fc88bd36d4311</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 19:08:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b467007147713110984fc88bd36d43b5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 23:21:50</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

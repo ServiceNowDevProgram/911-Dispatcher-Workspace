@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__7ebadb8ea84271106a0c062e44d321c9">7ebadb8e47427110984fc88bd36d43d9</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"a1733370b5684e628b9f973e036baae2","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"a1733370b5684e628b9f973e036baae2"}],"goals":[{"name":"primary","trigger_id":"a1733370b5684e628b9f973e036baae2","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"a2ee204d9f7c41a69aafb0308af1f5ad","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"8181c1cee45749d0a33b52e4a5ce4443","name":"End"},{"type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"c85dd0439fde43dc8e135812812b2e00","name":"Do you like to create 911 case?","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"variable_id":"f3d44024addd47da9422814789a71a05","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Do you like to create 911 cases?\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"description":""},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"Yes","expression":{"type":"Applicability","mode":"query","value":"do_you_like_to_create_911_case_=Yes"},"id":"8f621ed3cf434a9cb845fd0d9ca0e19d","name":"Yes"},{"type":"Branch","label":"No","expression":{"type":"Applicability","mode":"query","value":"do_you_like_to_create_911_case_=No"},"id":"ab3674110ef344dd88c342faa248d873","name":"No"}],"id":"673b5344c08e4dada11bfb1de52ca8e5","goal_id":"primary"},{"type":"LibraryCall","library_topic_name":"Request Catalog Item","library_topic_id":"a39acd71c3a3330012d1758a7ff57eb6","library_topic_is_template":false,"parameter-mappings":[{"parameter-name":"catalog_item_id","value":{"type":"String","mode":"string","value":"8798dbca47427110984fc88bd36d4300"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"execute_contextual_search","value":{"type":"String","mode":"string","value":"false"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"confirm_catalog_item","value":{"type":"String","mode":"string","value":"true"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"show_end_state_card","value":{"type":"String","mode":"string","value":"false"},"metadata":{"type":"True/False","list":false,"items":[],"use_items":false}}],"return-value-mappings":[{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"record_id","main_topic_mapped_variable_name":"record_id"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"record_table","main_topic_mapped_variable_name":"record_table"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"variables","main_topic_mapped_variable_name":"variables"}],"id":"59d1347d25ea4b4e9360a53381ded6ff","name":"Request Catalog Item","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"Thanks for reaching us, we will take an action soon.\", vaContext.getRequesterLang())"}],"id":"f3f977c0741540e09fa6389015d01593","name":"Thanks Message","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"gs.getMessageLang(\"Thanks for reaching us\", vaContext.getRequesterLang())"}],"id":"b0e1e9cfd65845b9b02a682ae088350c","name":"Thanks Message","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"a2ee204d9f7c41a69aafb0308af1f5ad","target_node_id":"c85dd0439fde43dc8e135812812b2e00","id":"5d3525d89c2548cea46455956937b127"},{"type":"Edge","source_node_id":"c85dd0439fde43dc8e135812812b2e00","target_node_id":"673b5344c08e4dada11bfb1de52ca8e5","id":"62b2faeb511146fdb47a8dab8bcf8848"},{"type":"Edge","source_node_id":"673b5344c08e4dada11bfb1de52ca8e5","target_node_id":"59d1347d25ea4b4e9360a53381ded6ff","branch_id":"8f621ed3cf434a9cb845fd0d9ca0e19d","id":"799083447fb54ca1b31ef13e81414181","name":"8f621ed3cf434a9cb845fd0d9ca0e19d"},{"type":"Edge","source_node_id":"59d1347d25ea4b4e9360a53381ded6ff","target_node_id":"f3f977c0741540e09fa6389015d01593","id":"4e9b57cc9acb4436b9e73cb6c400d55a"},{"type":"Edge","source_node_id":"f3f977c0741540e09fa6389015d01593","target_node_id":"8181c1cee45749d0a33b52e4a5ce4443","id":"4e1415f4c6a74eb391c1f09e4202bfd2"},{"type":"Edge","source_node_id":"673b5344c08e4dada11bfb1de52ca8e5","target_node_id":"b0e1e9cfd65845b9b02a682ae088350c","branch_id":"ab3674110ef344dd88c342faa248d873","id":"493f0ce656334b87914f3d570058107e","name":"ab3674110ef344dd88c342faa248d873"},{"type":"Edge","source_node_id":"b0e1e9cfd65845b9b02a682ae088350c","target_node_id":"8181c1cee45749d0a33b52e4a5ce4443","id":"93769898aefa4a3f8a5ac0e64a74b5d1"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Choice","choices":[{"name":"Yes","element":"Yes"},{"name":"No","element":"No"}],"id":"f3d44024addd47da9422814789a71a05","name":"do_you_like_to_create_911_case_","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"String","name":"record_id","list":false,"id":"f10c3acb9f2c482cb0cb49b0aec5447d","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"String","name":"record_table","list":false,"id":"2a44ad2d857c49b3a930e781e8dbf24e","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"String","name":"variables","list":false,"id":"a656ebeeb371425686cefaa5d705316f","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"72c87f9547a9b510dca24587746d431d","domain":"global","topic_type":"STANDARD","channels":[],"dialog_acts_enabled":false,"id":"99871f4a47427110984fc88bd36d4323","name":"_PRVW__7ebadb8ea84271106a0c062e44d321c9","key_phrases":["911 Case Creation"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"description":"","model_type":"nlu_keyword","modify_confirmation_enabled":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>99871f4a47427110984fc88bd36d4323</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.51",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "a2ee204d9f7c41a69aafb0308af1f5ad": {
+          "id": "a2ee204d9f7c41a69aafb0308af1f5ad",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8181c1cee45749d0a33b52e4a5ce4443": {
+          "id": "8181c1cee45749d0a33b52e4a5ce4443",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c85dd0439fde43dc8e135812812b2e00": {
+          "name": "Do you like to create 911 case?",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Do you like to create 911 cases?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "f3d44024addd47da9422814789a71a05",
+          "detailDescription": "",
+          "id": "c85dd0439fde43dc8e135812812b2e00",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "673b5344c08e4dada11bfb1de52ca8e5": {
+          "id": "673b5344c08e4dada11bfb1de52ca8e5",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "59d1347d25ea4b4e9360a53381ded6ff": {
+          "id": "59d1347d25ea4b4e9360a53381ded6ff",
+          "stepType": "ReusableTopic",
+          "name": "Request Catalog Item",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "useTemplateTopic": false,
+          "reusableTopicChoice": "Request Catalog Item",
+          "reusableTopicId": "a39acd71c3a3330012d1758a7ff57eb6",
+          "inputs": {
+            "catalog_item_id": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "8798dbca47427110984fc88bd36d4300"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            },
+            "execute_contextual_search": {
+              "value": "false",
+              "mode": "simple",
+              "type": "String"
+            },
+            "confirm_catalog_item": {
+              "value": "true",
+              "mode": "simple",
+              "type": "String"
+            },
+            "show_end_state_card": {
+              "value": "false",
+              "mode": "simple",
+              "type": "True/False"
+            }
+          },
+          "outputs": [
+            {
+              "id": "f10c3acb9f2c482cb0cb49b0aec5447d",
+              "value": "record_id",
+              "mapping": "record_id"
+            },
+            {
+              "id": "2a44ad2d857c49b3a930e781e8dbf24e",
+              "value": "record_table",
+              "mapping": "record_table"
+            },
+            {
+              "id": "a656ebeeb371425686cefaa5d705316f",
+              "value": "variables",
+              "mapping": "variables"
+            }
+          ],
+          "variableIds": [
+            "f10c3acb9f2c482cb0cb49b0aec5447d",
+            "2a44ad2d857c49b3a930e781e8dbf24e",
+            "a656ebeeb371425686cefaa5d705316f"
+          ],
+          "dynamicTopicBlockName": {
+            "value": "",
+            "mode": "simple"
+          },
+          "inputDynamicModal": {},
+          "outputDynamicModal": {}
+        },
+        "f3f977c0741540e09fa6389015d01593": {
+          "id": "f3f977c0741540e09fa6389015d01593",
+          "stepType": "TextOutput",
+          "name": "Thanks Message",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thanks for reaching us, we will take an action soon."
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "3f85514864034abb876c5160fd8ce120"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "b0e1e9cfd65845b9b02a682ae088350c": {
+          "id": "b0e1e9cfd65845b9b02a682ae088350c",
+          "stepType": "TextOutput",
+          "name": "Thanks Message",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Thanks for reaching us"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "4c49f4ed8bdb409a97ee0d4fdc649c93"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "5d3525d89c2548cea46455956937b127",
+          "edgeType": "Edge",
+          "source": "a2ee204d9f7c41a69aafb0308af1f5ad",
+          "target": "c85dd0439fde43dc8e135812812b2e00",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "62b2faeb511146fdb47a8dab8bcf8848",
+          "edgeType": "Edge",
+          "source": "c85dd0439fde43dc8e135812812b2e00",
+          "target": "673b5344c08e4dada11bfb1de52ca8e5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "799083447fb54ca1b31ef13e81414181",
+          "edgeType": "Branch",
+          "source": "673b5344c08e4dada11bfb1de52ca8e5",
+          "target": "59d1347d25ea4b4e9360a53381ded6ff",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.do_you_like_to_create_911_case_=Yes",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "4e9b57cc9acb4436b9e73cb6c400d55a",
+          "edgeType": "Edge",
+          "source": "59d1347d25ea4b4e9360a53381ded6ff",
+          "target": "f3f977c0741540e09fa6389015d01593",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4e1415f4c6a74eb391c1f09e4202bfd2",
+          "edgeType": "Edge",
+          "source": "f3f977c0741540e09fa6389015d01593",
+          "target": "8181c1cee45749d0a33b52e4a5ce4443",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "493f0ce656334b87914f3d570058107e",
+          "edgeType": "Branch",
+          "source": "673b5344c08e4dada11bfb1de52ca8e5",
+          "target": "b0e1e9cfd65845b9b02a682ae088350c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.do_you_like_to_create_911_case_=No",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "93769898aefa4a3f8a5ac0e64a74b5d1",
+          "edgeType": "Edge",
+          "source": "b0e1e9cfd65845b9b02a682ae088350c",
+          "target": "8181c1cee45749d0a33b52e4a5ce4443",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "f3d44024addd47da9422814789a71a05": {
+      "id": "f3d44024addd47da9422814789a71a05",
+      "name": "do_you_like_to_create_911_case_",
+      "label": "Do You Like To Create 911 Case?",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "c85dd0439fde43dc8e135812812b2e00",
+      "isHidden": false
+    },
+    "f10c3acb9f2c482cb0cb49b0aec5447d": {
+      "id": "f10c3acb9f2c482cb0cb49b0aec5447d",
+      "name": "record_id",
+      "label": "Record_id",
+      "defaultValue": "record_id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "59d1347d25ea4b4e9360a53381ded6ff",
+      "isHidden": false
+    },
+    "2a44ad2d857c49b3a930e781e8dbf24e": {
+      "id": "2a44ad2d857c49b3a930e781e8dbf24e",
+      "name": "record_table",
+      "label": "Record_table",
+      "defaultValue": "record_table",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "59d1347d25ea4b4e9360a53381ded6ff",
+      "isHidden": false
+    },
+    "a656ebeeb371425686cefaa5d705316f": {
+      "id": "a656ebeeb371425686cefaa5d705316f",
+      "name": "variables",
+      "label": "Variables",
+      "defaultValue": "variables",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "nodeId": "59d1347d25ea4b4e9360a53381ded6ff",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <name>_PRVW__7ebadb8ea84271106a0c062e44d321c9</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 15:25:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7abadb8e47427110984fc88bd36d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_cb_design_topic_7abadb8e47427110984fc88bd36d43e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 15:25:36</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

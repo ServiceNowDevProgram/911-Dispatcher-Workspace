@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Home with emergency call - Layout Change">e61b665e477df510b5927104836d4379</macroponent>
+        <name>pickUpEmergencyTask</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+
+    if (api.data.look_up_unassigned_records.results[0] && api.data.look_up_unassigned_records.results[0]._row_data.uniqueValue) {
+
+        const sys_id = api.data.look_up_unassigned_records.results[0]._row_data.uniqueValue;
+
+        api.setState("unassignedRecord", sys_id);
+
+        let fields = "assigned_to=" + api.context.session.user.sys_id;
+
+        api.data.assign_user_to_emergency_record.execute({
+            table: "x_snc_911_operat_0_emergency",
+            recordId: sys_id,
+            templateFields: fields,
+            useSetDisplayValue: false
+        });
+
+    } else {
+
+        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+            items: [{
+                id: "allassigned",
+                status: "positive",
+                icon: "thumbs-up-outline",
+                content: {
+                    type: "string",
+                    value: "Hurray! There are no unassigned emergency calls!"
+                },
+                action: {
+                    type: "dismiss"
+                },
+            }]
+        });
+
+
+    }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 20:20:19</sys_created_on>
+        <sys_id>ba1ba65e477df510b5927104836d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pickUpEmergencyTask</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_client_script_ba1ba65e477df510b5927104836d4317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-12 20:20:19</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

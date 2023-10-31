@@ -3,52 +3,49 @@
         <active>true</active>
         <app_config display_value="911 Operators Workspace Config">36fc8e0f30653d103e5f4badcf6f3ff5</app_config>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
-        <event_mappings>[
-    
-]</event_mappings>
+        <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Emergency Record Page">140d024f47653d10dca24587746d43f9</macroponent>
         <macroponent_config>{
-    "bare": {
-        "type": "JSON_LITERAL",
-        "value": true
-    },
-    "headerLevel": {
-        "type": "JSON_LITERAL",
-        "value": "1"
-    },
-    "headingOnlyVisibleToScreenReaders": {
-        "type": "JSON_LITERAL",
-        "value": false
-    },
-    "interceptNotifications": {
-        "type": "JSON_LITERAL",
-        "value": false
-    },
-    "label": {
-        "type": "TRANSLATION_LITERAL",
-        "value": {
-            "code": null,
-            "comment": "",
-            "message": ""
-        }
-    },
-    "propagateNotifications": {
-        "type": "JSON_LITERAL",
-        "value": false
-    },
-    "scrollable": {
-        "type": "JSON_LITERAL",
-        "value": "y"
-    },
-    "selectedTabIndex": {
-        "type": "JSON_LITERAL",
-        "value": 0
-    },
-    "views": {
-        "type": "JSON_LITERAL",
-        "value": ""
+  "views" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "selectedTabIndex" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
     }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
 }</macroponent_config>
         <name>Emergency Record Page</name>
         <order>100</order>
@@ -63,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec0d424f47653d10dca24587746d430a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Emergency Record Page</sys_name>
         <sys_overrides/>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
@@ -71,7 +68,7 @@
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_ux_screen_ec0d424f47653d10dca24587746d430a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-02 15:48:34</sys_updated_on>
+        <sys_updated_on>2023-10-15 01:50:31</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=ec0d424f47653d10dca24587746d430a"/>
 </record_update>

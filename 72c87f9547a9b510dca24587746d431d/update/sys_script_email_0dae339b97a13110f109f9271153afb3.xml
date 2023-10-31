@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>emergency_details</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+    var inc = current;
+    if (!inc.isValidRecord()) return;
+
+    template.print('<div style="font-size:16px;">');
+    template.print('<div style="font-size:20px;line-height:30px;font-weight:600; padding-top:32px;">About this emergency</div>');
+    template.print('<div style="padding-top:16px; padding-bottom:32px;">');
+
+    template.print('Short description: <span style="font-weight:600;">' + inc.short_description + '</span><br/>');
+    var comments = inc.close_notes.toString();
+    comments = comments.replace(/\n/g, '<br/>');
+    if (email_action.sys_name.toString() === 'Emergency Closed' && !inc.close_notes.nil()) {
+        template.print('Closed by: <span style="font-weight:600;">' + inc.closed_by.name + '</span><br/>');
+        template.print('Closing notes: <span style="font-weight:600;">' + comments + '</span>');
+    } else if (email_action.sys_name.toString() === 'Emergency resolved' && !inc.close_notes.nil()) {
+        template.print('Resolved by: <span style="font-weight:600;">' + inc.resolved_by.name + '</span><br/>');
+        template.print('Resolution notes: <span style="font-weight:600;">' + comments + '</span>');
+    }
+
+    template.print('</div>');
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 18:43:54</sys_created_on>
+        <sys_id>0dae339b97a13110f109f9271153afb3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>emergency_details</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_script_email_0dae339b97a13110f109f9271153afb3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 18:47:00</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_response" table="var__m_sys_decision_input_44504ac447313110984fc88bd36d4365" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_response</element>
+            <name>var__m_sys_decision_input_44504ac447313110984fc88bd36d4365</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 17:35:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_response</sys_name>
+            <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_decision_input_44504ac447313110984fc88bd36d4365_u_response</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 17:35:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_response</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fire</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_44504ac447313110984fc88bd36d4365</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 17:35:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 17:35:15</sys_updated_on>
+            <value>fire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_response</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Police</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_44504ac447313110984fc88bd36d4365</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 17:35:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 17:35:16</sys_updated_on>
+            <value>police</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_response</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EMS</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_44504ac447313110984fc88bd36d4365</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 17:35:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 17:35:16</sys_updated_on>
+            <value>ems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_response</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utilities</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_44504ac447313110984fc88bd36d4365</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 17:35:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 17:35:16</sys_updated_on>
+            <value>utilities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_response</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social Worker Services</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_44504ac447313110984fc88bd36d4365</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-14 02:27:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-14 02:27:06</sys_updated_on>
+            <value>social_worker_services</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

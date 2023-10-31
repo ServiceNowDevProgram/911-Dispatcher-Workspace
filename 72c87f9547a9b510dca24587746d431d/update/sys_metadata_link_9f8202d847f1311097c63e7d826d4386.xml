@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>17d1469847f1311097c63e7d826d43e4</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;
+    &lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;
+        &lt;collection&gt;incident&lt;/collection&gt;
+        &lt;email_layout/&gt;
+        &lt;message/&gt;
+        &lt;message_html/&gt;
+        &lt;message_list/&gt;
+        &lt;message_text&gt;&lt;![CDATA[Your agency has been assigned with the new 911 Emergency]]&gt;&lt;/message_text&gt;
+        &lt;name&gt;911 Email Template&lt;/name&gt;
+        &lt;sms_alternate/&gt;
+        &lt;subject&gt;New 911 Emergency task&lt;/subject&gt;
+        &lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-10-06 12:13:02&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;17d1469847f1311097c63e7d826d43e4&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;911 Email Template&lt;/sys_name&gt;
+        &lt;sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0"&gt;72c87f9547a9b510dca24587746d431d&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="911 Operators Workspace"&gt;72c87f9547a9b510dca24587746d431d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_email_template_17d1469847f1311097c63e7d826d43e4&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-10-06 12:13:02&lt;/sys_updated_on&gt;
+        &lt;sys_version&gt;2&lt;/sys_version&gt;
+    &lt;/sysevent_email_template&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:15:17</sys_created_on>
+        <sys_id>9f8202d847f1311097c63e7d826d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>911 Email Template</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_metadata_link_9f8202d847f1311097c63e7d826d4386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:15:17</sys_updated_on>
+        <tablename>sys_metadata</tablename>
+    </sys_metadata_link>
+</record_update>

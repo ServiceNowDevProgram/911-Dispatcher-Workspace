@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_view_rule_ux_view_rule_config">
+    <sys_ux_m2m_workspace_view_rule_ux_view_rule_config action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 10:26:22</sys_created_on>
+        <sys_id>f3eff3c397b131105f30f757f053afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Task.911 Operators Workspace</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_f3eff3c397b131105f30f757f053afdb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 10:26:22</sys_updated_on>
+        <view_rules_configuration display_value="911 Operators Workspace">daef730797b131105f30f757f053af1d</view_rules_configuration>
+        <workspace_view_rule display_value="Emergency Task">844f378397b131105f30f757f053af5b</workspace_view_rule>
+    </sys_ux_m2m_workspace_view_rule_ux_view_rule_config>
+</record_update>
