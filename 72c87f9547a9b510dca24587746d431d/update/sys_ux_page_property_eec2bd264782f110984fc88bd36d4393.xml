@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="911  Workspace">f34961e64742f110984fc88bd36d43a1</page>
+        <required_translations>[ {
+  "message" : "home",
+  "comment" : ""
+}, {
+  "message" : "list",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 21:08:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>eec2bd264782f110984fc88bd36d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_ux_page_property_eec2bd264782f110984fc88bd36d4393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 21:08:25</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_911_operat_0.f34961e64742f110984fc88bd36d43a1.root.chrome_toolbar</unique_name>
+        <value>[{"id":"911-home","label":{"translatable":true,"message":"home"},"icon":"home-outline","routeInfo":{"route":"911-home"},"group":"top","badge":{},"presence":{},"availability":{},"order":100},{"id":"911-list-page","label":{"translatable":true,"message":"list"},"icon":"list-outline","routeInfo":{"route":"911-list-page"},"group":"top","badge":{},"presence":{},"availability":{},"order":100}]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=eec2bd264782f110984fc88bd36d4393"/>
+</record_update>
