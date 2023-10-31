@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cd_audience">
+    <sn_cd_audience action="INSERT_OR_UPDATE">
+        <audience_query>location=f69521b437d0200044e0bfc8bcbe5d6e</audience_query>
+        <audience_type>sys_user</audience_type>
+        <name>Australia</name>
+        <sys_class_name>sn_cd_audience</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 16:34:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4ee37826474eb110984fc88bd36d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Australia</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sn_cd_audience_4ee37826474eb110984fc88bd36d43d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 16:34:13</sys_updated_on>
+    </sn_cd_audience>
+</record_update>
