@@ -364,12 +364,12 @@
     }
   }
 }</graph>
-        <key_phrases>911 Case Creation</key_phrases>
+        <key_phrases>911 Case Creation Topic</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
         <model_type>nlu_keyword</model_type>
         <modify_confirmation_enabled>false</modify_confirmation_enabled>
-        <name>911 Case Creation</name>
+        <name>911 Case Creation Topic</name>
         <nlu_intent/>
         <nlu_intent_label/>
         <nlu_model/>
@@ -385,14 +385,14 @@
         <sys_created_on>2023-10-24 15:11:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>99871f4a47427110984fc88bd36d4323</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>911 Case Creation</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>911 Case Creation Topic</sys_name>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_cb_topic_99871f4a47427110984fc88bd36d4323</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-24 15:25:33</sys_updated_on>
+        <sys_updated_on>2023-10-31 16:35:36</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>
