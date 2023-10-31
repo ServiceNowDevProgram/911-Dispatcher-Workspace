@@ -4,16 +4,16 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3546000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=780914000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>This flow is created to notify the agency(police, fire, ems, etc) when an operator assigns an emergency record to them.</description>
         <internal_name>assigned_case_email_notification</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Service Task Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current.assignment_group","label":"Trigger - Record Created or Updated➛Service Task Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"service_task","column_name":"assignment_group"},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Service Task Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"description"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Service Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"short_description"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger - Record Created or Updated➛Service Task Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Service Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"service_task","column_name":"assigned_to"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Service Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"number"},{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Service Task Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current.assignment_group","label":"Trigger - Record Created or Updated➛Service Task Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"service_task","column_name":"assignment_group"},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Service Task Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"description"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Service Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"short_description"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger - Record Created or Updated➛Service Task Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Service Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"service_task","column_name":"assigned_to"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master_snapshot>62b538309746b5108137fb000153af6e</master_snapshot>
-        <name>Assigned Case Email Notification</name>
+        <name>Assigned Task Email Notification</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6c3864fc97c2b5108137fb000153afbb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Assigned Case Email Notification</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Assigned Task Email Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_hub_flow_6c3864fc97c2b5108137fb000153afbb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:20</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6c3864fc97c2b5108137fb000153afbb"/>
@@ -76,28 +76,28 @@
         <identifier>6c3864fc97c2b5108137fb000153afbb</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-20 06:12:19</sys_created_on>
-        <sys_id>43b538309746b5108137fb000153aff6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2023-10-29 06:08:28</sys_created_on>
+        <sys_id>2e2bcfe3470ebd1008d27748c26d43c1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:28</sys_updated_on>
         <trigger display_value="">c7b538309746b5108137fb000153aff5</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6c3864fc97c2b5108137fb000153afbb^sys_idNOT IN43b538309746b5108137fb000153aff6"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6c3864fc97c2b5108137fb000153afbb^sys_idNOT IN2e2bcfe3470ebd1008d27748c26d43c1"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=6c3864fc97c2b5108137fb000153afbb^sys_idNOT IN45e334bc9706b5108137fb000153af76"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
+        <flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:16</sys_created_on>
         <sys_id>45e334bc9706b5108137fb000153af76</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -202,7 +202,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</model>
+        <model display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</model>
         <model_id>6c3864fc97c2b5108137fb000153afbb</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6c3864fc97c2b5108137fb000153afbb</name>
@@ -225,14 +225,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:16</sys_created_on>
         <sys_id>85e334bc9706b5108137fb000153af71</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -286,7 +286,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</model>
+        <model display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</model>
         <model_id>6c3864fc97c2b5108137fb000153afbb</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6c3864fc97c2b5108137fb000153afbb</name>
@@ -309,14 +309,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:16</sys_created_on>
         <sys_id>cde334bc9706b5108137fb000153af66</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -370,7 +370,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</model>
+        <model display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</model>
         <model_id>6c3864fc97c2b5108137fb000153afbb</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_6c3864fc97c2b5108137fb000153afbb</name>
@@ -416,7 +416,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cde334bc9706b5108137fb000153af6d"/>
     <sys_hub_flow_output action="delete_multiple" query="model=6c3864fc97c2b5108137fb000153afbb"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6c3864fc97c2b5108137fb000153afbb"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=6c3864fc97c2b5108137fb000153afbb^sys_idNOT IN55e334bc9706b5108137fb000153afb6,d5e334bc9706b5108137fb000153afd3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6c3864fc97c2b5108137fb000153afbb^sys_idNOT IN55e334bc9706b5108137fb000153afb6,d5e334bc9706b5108137fb000153afd3,e61b8be3470ebd1008d27748c26d4382"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -425,17 +425,17 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
+        <flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
         <order>2</order>
         <parent_ui_id>66a31d4c-7b46-4ad6-b42d-1610146087c9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:16</sys_created_on>
         <sys_id>55e334bc9706b5108137fb000153afb6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <ui_id>db56bc11-9dd0-467e-a603-a701186f7314</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55e334bc9706b5108137fb000153afb6"/>
@@ -564,17 +564,17 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
+        <flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
         <order>5</order>
         <parent_ui_id>1f0b5196-81f8-452e-8972-2ed38bd69e31</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:17</sys_created_on>
         <sys_id>d5e334bc9706b5108137fb000153afd3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:20</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <ui_id>6b7b4bf0-9cc7-45e0-90ec-4110932aa9df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5e334bc9706b5108137fb000153afd3"/>
@@ -627,16 +627,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:17</sys_created_on>
         <sys_id>55e334bc9706b5108137fb000153afd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:04:17</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Immediate Action Required&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;table style="width: 1204px;"&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e8b1b1f1-2a23-4707-8a88-7f9beadbf280}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="border: 1px solid RGB(var(--now-color--primary-1, 30, 133, 109));" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e8b1b1f1-2a23-4707-8a88-7f9beadbf280}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Service Task Record &amp;gt; Short description"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e8b1b1f1-2a23-4707-8a88-7f9beadbf280" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e8b1b1f1-2a23-4707-8a88-7f9beadbf280}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e8b1b1f1-2a23-4707-8a88-7f9beadbf280}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Service Task Record &amp;gt; Short description"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e8b1b1f1-2a23-4707-8a88-7f9beadbf280" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;
@@ -695,18 +695,119 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d5e334bc9706b5108137fb000153afd3"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d5e334bc9706b5108137fb000153afd3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
+        <order>7</order>
+        <parent_ui_id>2c5baa5d-729f-4028-bc8b-73b273ee5947</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:12</sys_created_on>
+        <sys_id>e61b8be3470ebd1008d27748c26d4382</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
+        <ui_id>8358bba3-5c63-4028-a7f7-8e75c090ee13</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e61b8be3470ebd1008d27748c26d4382"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e61b8be3470ebd1008d27748c26d4382</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:12</sys_created_on>
+        <sys_id>a61b8be3470ebd1008d27748c26d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
+        <value>dummy911@dummy.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e61b8be3470ebd1008d27748c26d4382</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:12</sys_created_on>
+        <sys_id>ae1b8be3470ebd1008d27748c26d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
+        <value>service_task</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e61b8be3470ebd1008d27748c26d4382"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>e61b8be3470ebd1008d27748c26d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:12</sys_created_on>
+        <sys_id>261b8be3470ebd1008d27748c26d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Emergency Task  {{Created or Updated_1.current.number}} assigned!</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>e61b8be3470ebd1008d27748c26d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:12</sys_created_on>
+        <sys_id>e61b8be3470ebd1008d27748c26d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e61b8be3470ebd1008d27748c26d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:12</sys_created_on>
+        <sys_id>ae1b8be3470ebd1008d27748c26d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e61b8be3470ebd1008d27748c26d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:12</sys_created_on>
+        <sys_id>621b8be3470ebd1008d27748c26d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e61b8be3470ebd1008d27748c26d4382"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e61b8be3470ebd1008d27748c26d4382"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6c3864fc97c2b5108137fb000153afbb"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=6c3864fc97c2b5108137fb000153afbb^sys_idNOT IN1de334bc9706b5108137fb000153afbd,51e334bc9706b5108137fb000153afbb,cde334bc9706b5108137fb000153af79"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6c3864fc97c2b5108137fb000153afbb^sys_idNOT IN1de334bc9706b5108137fb000153afbd,221b8be3470ebd1008d27748c26d437a,51e334bc9706b5108137fb000153afbb,cde334bc9706b5108137fb000153af79"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">55e334bc9706b5108137fb000153afbd</block>
+        <block display_value="">e0b49b5f470a3d1008d27748c26d4314</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
+        <flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -720,10 +821,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:17</sys_created_on>
         <sys_id>1de334bc9706b5108137fb000153afbd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:20</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <ui_id>1f0b5196-81f8-452e-8972-2ed38bd69e31</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -737,10 +838,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:17</sys_created_on>
         <sys_id>51e334bc9706b5108137fb000153afcd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:04:17</sys_updated_on>
-        <value>Assignment Group is not Empty</value>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
+        <value>Assignment Group mail is not Empty</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1de334bc9706b5108137fb000153afbd"/>
@@ -750,11 +851,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:17</sys_created_on>
         <sys_id>19e334bc9706b5108137fb000153afc0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:04:17</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created or Updated_1.current.assignment_group}}!=</value>
+        <value>{{Created or Updated_1.current.assignment_group}}!=^{{Created or Updated_1.current.assignment_group.email}}!= </value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -772,14 +873,47 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=1de334bc9706b5108137fb000153afbd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">99e334bc9706b5108137fb000153afba</block>
+        <block display_value="">261b8be3470ebd1008d27748c26d4379</block>
+        <comment/>
+        <connected_to>1f0b5196-81f8-452e-8972-2ed38bd69e31</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:12</sys_created_on>
+        <sys_id>221b8be3470ebd1008d27748c26d437a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
+        <ui_id>2c5baa5d-729f-4028-bc8b-73b273ee5947</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=221b8be3470ebd1008d27748c26d437a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=221b8be3470ebd1008d27748c26d437a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=221b8be3470ebd1008d27748c26d437a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ecb49b5f470a3d1008d27748c26d430e</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
+        <flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -792,10 +926,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:16</sys_created_on>
         <sys_id>51e334bc9706b5108137fb000153afbb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <ui_id>e33c93d4-f14f-49b3-9c4f-d7a921b62791</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -805,14 +939,14 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=51e334bc9706b5108137fb000153afbb"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">c1e334bc9706b5108137fb000153af79</block>
+        <block display_value="">6cb45b5f470a3d1008d27748c26d43ed</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
+        <flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -826,10 +960,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:16</sys_created_on>
         <sys_id>cde334bc9706b5108137fb000153af79</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <ui_id>66a31d4c-7b46-4ad6-b42d-1610146087c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -843,10 +977,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:16</sys_created_on>
         <sys_id>cde334bc9706b5108137fb000153af7d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:04:16</sys_updated_on>
-        <value>Assigned to is not empty</value>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
+        <value>Assigned to Email is not empty</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=cde334bc9706b5108137fb000153af79"/>
@@ -856,11 +990,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:04:16</sys_created_on>
         <sys_id>4de334bc9706b5108137fb000153af7d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:04:16</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:12</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created or Updated_1.current.assigned_to}}!=</value>
+        <value>{{Created or Updated_1.current.assigned_to}}!=^{{Created or Updated_1.current.assigned_to.email}}!= </value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1014,12 +1148,12 @@
         <copied_from_name/>
         <description>This flow is created to notify the agency(police, fire, ems, etc) when an operator assigns an emergency record to them.</description>
         <internal_name>assigned_case_email_notification</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Service Task Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current.assignment_group","label":"Trigger - Record Created or Updated➛Service Task Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"service_task","column_name":"assignment_group"},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Service Task Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"description"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Service Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"short_description"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger - Record Created or Updated➛Service Task Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Service Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"service_task","column_name":"assigned_to"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Service Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"number"},{"name":"Created or Updated_1.current.assignment_group.email","label":"Trigger - Record Created or Updated➛Service Task Record➛Assignment group➛Group email","reference":"","reference_display":"Group email","type":"email","base_type":"email","parent_table_name":"sys_user_group","column_name":"email"},{"name":"Created or Updated_1.current.assignment_group","label":"Trigger - Record Created or Updated➛Service Task Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"service_task","column_name":"assignment_group"},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Service Task Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"description"},{"name":"Created or Updated_1.current.short_description","label":"Trigger - Record Created or Updated➛Service Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"service_task","column_name":"short_description"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger - Record Created or Updated➛Service Task Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger - Record Created or Updated➛Service Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"service_task","column_name":"assigned_to"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Service Task Record","reference":"service_task","reference_display":"Service Task","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
-        <name>Assigned Case Email Notification</name>
+        <name>Assigned Task Email Notification</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Assigned Case Email Notification">6c3864fc97c2b5108137fb000153afbb</parent_flow>
+        <parent_flow display_value="Assigned Task Email Notification">6c3864fc97c2b5108137fb000153afbb</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -1031,7 +1165,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>62b538309746b5108137fb000153af6e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1039,7 +1173,7 @@
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:28</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=62b538309746b5108137fb000153af6e"/>
@@ -1048,16 +1182,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</flow>
+        <flow display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>76b538309746b5108137fb000153afc2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:29</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1126,7 +1260,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1162,7 +1296,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</model>
+        <model display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</model>
         <model_id>62b538309746b5108137fb000153af6e</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_62b538309746b5108137fb000153af6e</name>
@@ -1185,14 +1319,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>36b538309746b5108137fb000153af89</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1210,7 +1344,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1246,7 +1380,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</model>
+        <model display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</model>
         <model_id>62b538309746b5108137fb000153af6e</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_62b538309746b5108137fb000153af6e</name>
@@ -1269,14 +1403,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>62b538309746b5108137fb000153af70</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1294,7 +1428,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1330,7 +1464,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</model>
+        <model display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</model>
         <model_id>62b538309746b5108137fb000153af6e</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_62b538309746b5108137fb000153af6e</name>
@@ -1353,14 +1487,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>f2b538309746b5108137fb000153af81</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-28 12:21:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1376,7 +1510,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f2b538309746b5108137fb000153af81"/>
     <sys_hub_flow_output action="delete_multiple" query="model=62b538309746b5108137fb000153af6e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=62b538309746b5108137fb000153af6e"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=62b538309746b5108137fb000153af6e^sys_idNOT INbab538309746b5108137fb000153afa8,fab538309746b5108137fb000153afb2"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=62b538309746b5108137fb000153af6e^sys_idNOT IN522b8fe3470ebd1008d27748c26d43bc,bab538309746b5108137fb000153afa8,fab538309746b5108137fb000153afb2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1385,17 +1519,118 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</flow>
+        <flow display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</flow>
+        <order>7</order>
+        <parent_ui_id>2c5baa5d-729f-4028-bc8b-73b273ee5947</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:27</sys_created_on>
+        <sys_id>522b8fe3470ebd1008d27748c26d43bc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <ui_id>8358bba3-5c63-4028-a7f7-8e75c090ee13</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=522b8fe3470ebd1008d27748c26d43bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>522b8fe3470ebd1008d27748c26d43bc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:27</sys_created_on>
+        <sys_id>9a2b8fe3470ebd1008d27748c26d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <value>service_task</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>522b8fe3470ebd1008d27748c26d43bc</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:27</sys_created_on>
+        <sys_id>d62b8fe3470ebd1008d27748c26d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <value>dummy911@dummy.com</value>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=522b8fe3470ebd1008d27748c26d43bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>522b8fe3470ebd1008d27748c26d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:27</sys_created_on>
+        <sys_id>562b8fe3470ebd1008d27748c26d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>Emergency Task  {{Created or Updated_1.current.number}} assigned!</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>522b8fe3470ebd1008d27748c26d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:27</sys_created_on>
+        <sys_id>1e2b8fe3470ebd1008d27748c26d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>522b8fe3470ebd1008d27748c26d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:27</sys_created_on>
+        <sys_id>de2b8fe3470ebd1008d27748c26d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>522b8fe3470ebd1008d27748c26d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:27</sys_created_on>
+        <sys_id>922b8fe3470ebd1008d27748c26d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=522b8fe3470ebd1008d27748c26d43bc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=522b8fe3470ebd1008d27748c26d43bc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</flow>
         <order>2</order>
         <parent_ui_id>66a31d4c-7b46-4ad6-b42d-1610146087c9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>bab538309746b5108137fb000153afa8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <ui_id>db56bc11-9dd0-467e-a603-a701186f7314</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bab538309746b5108137fb000153afa8"/>
@@ -1524,17 +1759,17 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</flow>
+        <flow display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</flow>
         <order>5</order>
         <parent_ui_id>1f0b5196-81f8-452e-8972-2ed38bd69e31</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>fab538309746b5108137fb000153afb2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <ui_id>6b7b4bf0-9cc7-45e0-90ec-4110932aa9df</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fab538309746b5108137fb000153afb2"/>
@@ -1587,16 +1822,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>32b538309746b5108137fb000153afc1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 14pt;"&gt;&lt;strong&gt;Immediate Action Required&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;table style="width: 1204px;"&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Short Description&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e8b1b1f1-2a23-4707-8a88-7f9beadbf280}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="border: 1px solid RGB(var(--now-color--primary-1, 30, 133, 109));" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e8b1b1f1-2a23-4707-8a88-7f9beadbf280}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Service Task Record &amp;gt; Short description"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e8b1b1f1-2a23-4707-8a88-7f9beadbf280" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e8b1b1f1-2a23-4707-8a88-7f9beadbf280}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e8b1b1f1-2a23-4707-8a88-7f9beadbf280}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created or Updated &amp;gt; Service Task Record &amp;gt; Short description"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created or Updated&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Short description&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e8b1b1f1-2a23-4707-8a88-7f9beadbf280" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/td&gt;
@@ -1656,17 +1891,17 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=fab538309746b5108137fb000153afb2"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fab538309746b5108137fb000153afb2"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=62b538309746b5108137fb000153af6e"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=62b538309746b5108137fb000153af6e^sys_idNOT IN3eb538309746b5108137fb000153af94,3eb538309746b5108137fb000153af9c,beb538309746b5108137fb000153af99"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=62b538309746b5108137fb000153af6e^sys_idNOT IN3eb538309746b5108137fb000153af94,3eb538309746b5108137fb000153af9c,5e2b8fe3470ebd1008d27748c26d43dd,beb538309746b5108137fb000153af99"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">c1e334bc9706b5108137fb000153af79</block>
+        <block display_value="">6cb45b5f470a3d1008d27748c26d43ed</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</flow>
+        <flow display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1680,10 +1915,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>3eb538309746b5108137fb000153af94</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <ui_id>66a31d4c-7b46-4ad6-b42d-1610146087c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1697,10 +1932,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>3eb538309746b5108137fb000153af98</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
-        <value>Assigned to is not empty</value>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <value>Assigned to Email is not empty</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3eb538309746b5108137fb000153af94"/>
@@ -1710,11 +1945,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>bab538309746b5108137fb000153af98</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created or Updated_1.current.assigned_to}}!=</value>
+        <value>{{Created or Updated_1.current.assigned_to}}!=^{{Created or Updated_1.current.assigned_to.email}}!= </value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1732,14 +1967,14 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=3eb538309746b5108137fb000153af94"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">55e334bc9706b5108137fb000153afbd</block>
+        <block display_value="">e0b49b5f470a3d1008d27748c26d4314</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</flow>
+        <flow display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1753,10 +1988,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>3eb538309746b5108137fb000153af9c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <ui_id>1f0b5196-81f8-452e-8972-2ed38bd69e31</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1770,10 +2005,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>bab538309746b5108137fb000153af9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
-        <value>Assignment Group is not Empty</value>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <value>Assignment Group mail is not Empty</value>
         <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3eb538309746b5108137fb000153af9c"/>
@@ -1783,11 +2018,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>3ab538309746b5108137fb000153af9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{Created or Updated_1.current.assignment_group}}!=</value>
+        <value>{{Created or Updated_1.current.assignment_group}}!=^{{Created or Updated_1.current.assignment_group.email}}!= </value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>condition_name</field>
@@ -1805,14 +2040,47 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=3eb538309746b5108137fb000153af9c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">99e334bc9706b5108137fb000153afba</block>
+        <block display_value="">261b8be3470ebd1008d27748c26d4379</block>
+        <comment/>
+        <connected_to>1f0b5196-81f8-452e-8972-2ed38bd69e31</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 06:08:27</sys_created_on>
+        <sys_id>5e2b8fe3470ebd1008d27748c26d43dd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
+        <ui_id>2c5baa5d-729f-4028-bc8b-73b273ee5947</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5e2b8fe3470ebd1008d27748c26d43dd"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5e2b8fe3470ebd1008d27748c26d43dd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5e2b8fe3470ebd1008d27748c26d43dd"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ecb49b5f470a3d1008d27748c26d430e</block>
         <comment/>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Assigned Case Email Notification">62b538309746b5108137fb000153af6e</flow>
+        <flow display_value="Assigned Task Email Notification">62b538309746b5108137fb000153af6e</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1825,10 +2093,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-20 06:12:18</sys_created_on>
         <sys_id>beb538309746b5108137fb000153af99</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:18</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:27</sys_updated_on>
         <ui_id>e33c93d4-f14f-49b3-9c4f-d7a921b62791</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1965,12 +2233,12 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>6c3864fc97c2b5108137fb000153afbb</sys_id>
         <latest_snapshot>62b538309746b5108137fb000153af6e</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6c3864fc97c2b5108137fb000153afbb^sys_idNOT IN87b538309746b5108137fb000153aff7"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"87b538309746b5108137fb000153aff7","name":"plan","plan_signature":null}}</plan>
         <plan_id>6c3864fc97c2b5108137fb000153afbb</plan_id>
         <snapshot>62b538309746b5108137fb000153af6e</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -1978,11 +2246,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>87b538309746b5108137fb000153aff7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 06:12:19</sys_updated_on>
+        <sys_updated_on>2023-10-29 06:08:28</sys_updated_on>
         <trigger display_value="">c7b538309746b5108137fb000153aff5</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6c3864fc97c2b5108137fb000153afbb"/>
