@@ -4,8 +4,9 @@
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
-g_form.setValue('response_dispatched', 'utilities');
-	g_form.save();
+    g_form.setValue('response_dispatched', 'utilities');
+    g_form.setValue('assignment_group', 'ee77828047713110984fc88bd36d4336');
+    g_form.save();
 }]]></client_script_v2>
         <comments>Utilities</comments>
         <condition/>
@@ -33,7 +34,8 @@ g_form.setValue('response_dispatched', 'utilities');
         <order>-197</order>
         <script><![CDATA[function dispatch3(){
 	g_form.setValue('response_dispatched', 'utilities');
-	g_form.save()
+	g_form.setValue('assignment_group', 'ee77828047713110984fc88bd36d4336');
+	g_form.save();
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -45,7 +47,7 @@ g_form.setValue('response_dispatched', 'utilities');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5333b57d47793110984fc88bd36d4373</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Utilities</sys_name>
         <sys_overrides/>
         <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
@@ -53,7 +55,7 @@ g_form.setValue('response_dispatched', 'utilities');
         <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
         <sys_update_name>sys_ui_action_5333b57d47793110984fc88bd36d4373</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-22 17:04:48</sys_updated_on>
+        <sys_updated_on>2023-10-28 12:50:08</sys_updated_on>
         <table>x_snc_911_operat_0_emergency</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
