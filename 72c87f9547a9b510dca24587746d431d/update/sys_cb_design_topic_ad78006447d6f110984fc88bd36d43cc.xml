@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__5578006436d6f1107e9359cb2471ce88">6d78006447d6f110984fc88bd36d43c5</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"7b8ba4c4d29343979cb10f67d442920d","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"7b8ba4c4d29343979cb10f67d442920d"}],"goals":[{"name":"primary","trigger_id":"7b8ba4c4d29343979cb10f67d442920d","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"68054d93754b4f2f816ea6dd56b77cef","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"ab6e19282114423da79274e111e2f4fd","name":"End"},{"type":"InputPrompt","variable_id":"ae04d82ebc7149b1a1be3f02837aab08","message":{"type":"String","mode":"string","value":"{{vaInputs.user_question}}"},"default_value":{"type":"String","mode":"string","value":""},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"skippable":{"type":"Applicability","mode":"script","value":"false"},"skipreprompt":{"type":"Applicability","mode":"script","value":"false"},"id":"10342d39137a4c9eb973a6cf39c81465","name":"User Question","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"formatType":"Text","validationScript":"","description":""},{"type":"Decision","name":"Decision","branches":[{"type":"Branch","label":"End Conversation","expression":{"type":"Applicability","mode":"query","value":"user_questionCONTAINShanks^ORvaInputs.user_questionCONTAINSend chat^ORvaInputs.user_questionCONTAINSgoodbye"},"id":"cf167131b3d94e9e8f0044dd17b01fc5","name":"End Conversation"},{"type":"Branch","label":"Valid Question","expression":{"type":"Applicability","mode":"query","value":""},"id":"6758d7435d984502a319b3d3e8f92989","name":"Valid Question"}],"id":"2ce25762bac040858ddacda3bc8cb2e6","goal_id":"primary"},{"type":"FDIHInvocation","name":"Ask ChatGPT","kind":"action","mode":"sync","inputs":[{"supported_input_modes":[],"name":"question","type":"string","order":0,"required":false,"value":[{"type":"String","mode":"string","value":"{{vaInputs.user_question}}"}],"is_list_data_entry":false}],"outputs":[{"name":"__action_status__","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"action_status"},{"name":"answer","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"answer"},{"name":"__dont_treat_as_error__","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"don_t_treat_as_error"}],"metadata":{"runAs":"session_user"},"id":"ad3f96ad9c334e3caf3db06af46e5bc7","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"sys_id":"183c7d4247796110984fc88bd36d4366","scope":"63ca6cc447b12110984fc88bd36d43b2"},{"type":"TextOutputPrompt","value":[{"type":"String","mode":"string","value":"{{vaInputs.answer}}"}],"id":"5d1eb9296c244ec795c91e3c67e9a292","name":"Bot Response","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"68054d93754b4f2f816ea6dd56b77cef","target_node_id":"10342d39137a4c9eb973a6cf39c81465","id":"12d0553c261941888de31610585ffca7"},{"type":"Edge","source_node_id":"10342d39137a4c9eb973a6cf39c81465","target_node_id":"2ce25762bac040858ddacda3bc8cb2e6","id":"bfa5085fca354c1c8c25bd553e41a084"},{"type":"Edge","source_node_id":"2ce25762bac040858ddacda3bc8cb2e6","target_node_id":"ab6e19282114423da79274e111e2f4fd","branch_id":"cf167131b3d94e9e8f0044dd17b01fc5","id":"cc374387d4fc4374aa4cc5fe1d54c375","name":"cf167131b3d94e9e8f0044dd17b01fc5"},{"type":"Edge","source_node_id":"2ce25762bac040858ddacda3bc8cb2e6","target_node_id":"ad3f96ad9c334e3caf3db06af46e5bc7","branch_id":"6758d7435d984502a319b3d3e8f92989","id":"d6a837540e6f4e67bff169d359c2f23f","name":"6758d7435d984502a319b3d3e8f92989"},{"type":"Edge","source_node_id":"ad3f96ad9c334e3caf3db06af46e5bc7","target_node_id":"5d1eb9296c244ec795c91e3c67e9a292","id":"e4ec16798f84435791793671a90bb6ea"},{"type":"Edge","source_node_id":"5d1eb9296c244ec795c91e3c67e9a292","target_node_id":"10342d39137a4c9eb973a6cf39c81465","id":"cf8750045ef2410198e043dc6159e97b"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"String","name":"user_question","list":false,"id":"ae04d82ebc7149b1a1be3f02837aab08","formatType":"Text","validationScript":"","secure":false,"sensitive":false},{"type":"String","name":"action_status","list":false,"id":"0484f699f5624edd98cbbaa2b0e65fa6","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"String","name":"answer","list":false,"id":"3f3f7c42d33f4ce29f71b14a29a2638a","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"True/False","id":"668b87461fa34c7e816e02137f53c59f","name":"don_t_treat_as_error","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"global","domain":"global","topic_type":"STANDARD","channels":[],"dialog_acts_enabled":false,"id":"f89ff3c547622110984fc88bd36d430c","name":"_PRVW__5578006436d6f1107e9359cb2471ce88","key_phrases":["Ask ChatGpt"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"model_type":"nlu_keyword","modify_confirmation_enabled":false,"library":false,"csTopicId":"6b0b105d47e22110984fc88bd36d4391","readOnly":true,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>f89ff3c547622110984fc88bd36d430c</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.42",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "68054d93754b4f2f816ea6dd56b77cef": {
+          "id": "68054d93754b4f2f816ea6dd56b77cef",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ab6e19282114423da79274e111e2f4fd": {
+          "id": "ab6e19282114423da79274e111e2f4fd",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "10342d39137a4c9eb973a6cf39c81465": {
+          "id": "10342d39137a4c9eb973a6cf39c81465",
+          "stepType": "Prompt",
+          "name": "User Question",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user_question}}",
+                      "displayValue": "Input Variables➛User Question"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "ae04d82ebc7149b1a1be3f02837aab08",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "2ce25762bac040858ddacda3bc8cb2e6": {
+          "id": "2ce25762bac040858ddacda3bc8cb2e6",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "ad3f96ad9c334e3caf3db06af46e5bc7": {
+          "id": "ad3f96ad9c334e3caf3db06af46e5bc7",
+          "name": "Ask ChatGPT",
+          "invocationType": "action",
+          "stepType": "FlowAction",
+          "actionSpoke": "63ca6cc447b12110984fc88bd36d43b2",
+          "actionSpokeAction": "183c7d4247796110984fc88bd36d4366",
+          "actionWaitType": "sync",
+          "actionRunAs": "session_user",
+          "permissionsNote": "By default, the Action executes based on the permissions of the user who initiated the conversation. For elevated privileges, you can set to System User.",
+          "actionSecureField": false,
+          "actionSelectSecureField": "",
+          "actionPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionInputs": {
+            "input-question": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.user_question}}",
+                        "displayValue": "Input Variables➛User Question"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string"
+            }
+          },
+          "actionOutputs": {
+            "output-__action_status__": [
+              {
+                "id": "0484f699f5624edd98cbbaa2b0e65fa6",
+                "mapping": "Action Status",
+                "disabled": false,
+                "type": "object",
+                "value": "Action Status",
+                "is_list_data_entry": false,
+                "variable": "Action Status",
+                "variableName": "action_status"
+              }
+            ],
+            "output-answer": [
+              {
+                "id": "3f3f7c42d33f4ce29f71b14a29a2638a",
+                "mapping": "Answer",
+                "disabled": false,
+                "type": "string",
+                "value": "Answer",
+                "is_list_data_entry": false,
+                "variable": "Answer",
+                "variableName": "answer"
+              }
+            ],
+            "output-__dont_treat_as_error__": [
+              {
+                "id": "668b87461fa34c7e816e02137f53c59f",
+                "mapping": "Don't Treat as Error",
+                "disabled": false,
+                "type": "boolean",
+                "value": "Don't Treat as Error",
+                "is_list_data_entry": false,
+                "variable": "Don't Treat As Error",
+                "variableName": "don_t_treat_as_error"
+              }
+            ]
+          },
+          "actionDefinition": {
+            "id": "183c7d4247796110984fc88bd36d4366",
+            "latest_snapshot_id": "183c7d4247796110984fc88bd36d4366",
+            "type": "action",
+            "name": "askchatgpt",
+            "label": "AskChatGPT",
+            "scope_id": "63ca6cc447b12110984fc88bd36d43b2",
+            "description": "",
+            "category": "",
+            "parameters_have_loaded": true,
+            "input_parameters": [
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "question",
+                "label": "Question",
+                "type": "string",
+                "order": 1,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              }
+            ],
+            "output_parameters": [
+              {
+                "name": "__action_status__",
+                "label": "Action Status",
+                "type": "object",
+                "order": 1,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              },
+              {
+                "name": "answer",
+                "label": "Answer",
+                "type": "string",
+                "order": 2,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              },
+              {
+                "name": "__dont_treat_as_error__",
+                "label": "Don't Treat as Error",
+                "type": "boolean",
+                "order": 3,
+                "required": false,
+                "value": [],
+                "is_list_data_entry": false
+              }
+            ]
+          },
+          "subflowSecureField": false,
+          "subflowSelectSecureField": "",
+          "subflowPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": "This action is not supported on this channel."
+          },
+          "variableIds": [
+            "0484f699f5624edd98cbbaa2b0e65fa6",
+            "3f3f7c42d33f4ce29f71b14a29a2638a",
+            "668b87461fa34c7e816e02137f53c59f"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "5d1eb9296c244ec795c91e3c67e9a292": {
+          "id": "5d1eb9296c244ec795c91e3c67e9a292",
+          "stepType": "TextOutput",
+          "name": "Bot Response",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.answer}}",
+                        "displayValue": "Input Variables➛Answer"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "a4360f8870d444eeacdc41581ddcf345"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "12d0553c261941888de31610585ffca7",
+          "edgeType": "Edge",
+          "source": "68054d93754b4f2f816ea6dd56b77cef",
+          "target": "10342d39137a4c9eb973a6cf39c81465",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "bfa5085fca354c1c8c25bd553e41a084",
+          "edgeType": "Edge",
+          "source": "10342d39137a4c9eb973a6cf39c81465",
+          "target": "2ce25762bac040858ddacda3bc8cb2e6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cc374387d4fc4374aa4cc5fe1d54c375",
+          "edgeType": "Branch",
+          "source": "2ce25762bac040858ddacda3bc8cb2e6",
+          "target": "ab6e19282114423da79274e111e2f4fd",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.user_questionCONTAINShanks^ORvaInputs.user_questionCONTAINSend chat^ORvaInputs.user_questionCONTAINSgoodbye",
+            "mode": "query"
+          },
+          "label": "End Conversation"
+        },
+        {
+          "id": "d6a837540e6f4e67bff169d359c2f23f",
+          "edgeType": "Branch",
+          "source": "2ce25762bac040858ddacda3bc8cb2e6",
+          "target": "ad3f96ad9c334e3caf3db06af46e5bc7",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "Valid Question"
+        },
+        {
+          "id": "e4ec16798f84435791793671a90bb6ea",
+          "edgeType": "Edge",
+          "source": "ad3f96ad9c334e3caf3db06af46e5bc7",
+          "target": "5d1eb9296c244ec795c91e3c67e9a292",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cf8750045ef2410198e043dc6159e97b",
+          "edgeType": "Edge",
+          "source": "5d1eb9296c244ec795c91e3c67e9a292",
+          "target": "10342d39137a4c9eb973a6cf39c81465",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "ae04d82ebc7149b1a1be3f02837aab08": {
+      "id": "ae04d82ebc7149b1a1be3f02837aab08",
+      "name": "user_question",
+      "label": "User Question",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTY4Mjg3MDAyNTcxOCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "10342d39137a4c9eb973a6cf39c81465",
+      "isHidden": false
+    },
+    "0484f699f5624edd98cbbaa2b0e65fa6": {
+      "id": "0484f699f5624edd98cbbaa2b0e65fa6",
+      "name": "action_status",
+      "label": "Action Status",
+      "defaultValue": "Action Status",
+      "varType": "object",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "ad3f96ad9c334e3caf3db06af46e5bc7",
+      "isHidden": false
+    },
+    "3f3f7c42d33f4ce29f71b14a29a2638a": {
+      "id": "3f3f7c42d33f4ce29f71b14a29a2638a",
+      "name": "answer",
+      "label": "Answer",
+      "defaultValue": "Answer",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "ad3f96ad9c334e3caf3db06af46e5bc7",
+      "isHidden": false
+    },
+    "668b87461fa34c7e816e02137f53c59f": {
+      "id": "668b87461fa34c7e816e02137f53c59f",
+      "name": "don_t_treat_as_error",
+      "label": "Don't Treat As Error",
+      "defaultValue": "Don't Treat as Error",
+      "varType": "boolean",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "is_list_data_entry": false,
+      "nodeId": "ad3f96ad9c334e3caf3db06af46e5bc7",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <name>_PRVW__5578006436d6f1107e9359cb2471ce88</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 18:31:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ad78006447d6f110984fc88bd36d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="911 Operators Workspace" source="x_snc_911_operat_0">72c87f9547a9b510dca24587746d431d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="911 Operators Workspace">72c87f9547a9b510dca24587746d431d</sys_scope>
+        <sys_update_name>sys_cb_design_topic_ad78006447d6f110984fc88bd36d43cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 18:31:44</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
